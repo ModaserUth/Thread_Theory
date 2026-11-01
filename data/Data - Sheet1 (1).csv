@@ -1,0 +1,2001 @@
+Timestamp,Service Type,Channel,Revenue,Ad Spend,Conversions,Customer Type,Category
+2023-06-14 21:00:00,Product,Instagram,128.82,27.67,0,New,Discounted
+2023-07-10 11:00:00,Product,Google Ads,125.35,6.18,0,Returning,Discounted
+2023-07-21 08:00:00,Service,Instagram,148.02,9.55,0,Returning,Premium
+2023-06-11 09:00:00,Product,In-Store,17.44,0,0,Returning,Basic
+2023-07-22 21:00:00,Product,Google Ads,42.51,21.19,1,Returning,Discounted
+2023-03-08 08:00:00,Product,Google Ads,198.42,21.52,3,Returning,Premium
+2023-03-19 14:00:00,Service,Google Ads,162.2,2.36,3,Returning,Premium
+2023-04-23 07:00:00,Service,In-Store,179.5,0,0,Returning,Premium
+2023-08-23 18:00:00,Product,In-Store,18.66,0,0,New,Premium
+2023-09-03 13:00:00,Service,Facebook,86.32,27.5,0,Returning,Premium
+2023-09-12 21:00:00,Product,Google Ads,35.85,28.5,0,Returning,Premium
+2023-11-21 15:00:00,Service,In-Store,158.05,0,0,Returning,Premium
+2023-11-24 10:00:00,Service,Instagram,188.81,21.92,1,New,Premium
+2023-01-23 20:00:00,Product,Online,197.94,0,0,New,Discounted
+2023-07-24 12:00:00,Service,Google Ads,43.85,28.99,1,New,Premium
+2023-05-22 20:00:00,Product,In-Store,113.8,0,0,Returning,Basic
+2023-01-29 18:00:00,Service,In-Store,27.56,0,0,New,Basic
+2023-05-31 16:00:00,Product,Google Ads,92.2,13.75,3,Returning,Basic
+2023-12-18 14:00:00,Product,Online,174.13,0,0,New,Basic
+2023-12-30 19:00:00,Service,Online,19.63,0,0,Returning,Discounted
+2023-08-02 19:00:00,Service,Instagram,153.47,0.9,2,New,Basic
+2023-01-30 15:00:00,Product,In-Store,70.52,0,0,Returning,Premium
+2023-03-08 16:00:00,Product,Facebook,24.28,8.33,2,Returning,Basic
+2023-05-23 07:00:00,Product,Facebook,115.93,15.51,1,New,Discounted
+2023-01-02 08:00:00,Service,In-Store,41.69,0,0,Returning,Premium
+2023-03-29 09:00:00,Product,Online,164.31,0,0,New,Premium
+2023-03-01 10:00:00,Service,Google Ads,196.92,0.56,0,Returning,Premium
+2023-06-15 19:00:00,Product,In-Store,165.13,0,0,New,Premium
+2023-04-14 13:00:00,Service,Instagram,194,19.86,2,New,Premium
+2023-07-16 07:00:00,Service,In-Store,142.46,0,0,New,Discounted
+2023-04-13 16:00:00,Product,In-Store,187.43,0,0,Returning,Premium
+2023-02-11 07:00:00,Service,Instagram,29.31,8.47,0,Returning,Premium
+2023-01-14 07:00:00,Service,In-Store,152.36,0,0,Returning,Premium
+2023-03-04 17:00:00,Product,Facebook,89.91,15.83,3,Returning,Premium
+2023-12-15 20:00:00,Product,In-Store,167.01,0,0,New,Basic
+2023-11-07 13:00:00,Service,Instagram,132.84,25.09,2,New,Premium
+2023-01-06 17:00:00,Product,Instagram,19.94,1.49,2,New,Premium
+2023-07-18 19:00:00,Service,Instagram,25.47,27.48,1,New,Discounted
+2023-05-25 16:00:00,Product,Google Ads,83.31,17.58,0,New,Basic
+2023-06-17 20:00:00,Product,Online,91.58,0,0,Returning,Basic
+2023-03-26 07:00:00,Product,In-Store,154.79,0,0,New,Basic
+2023-02-09 18:00:00,Product,Google Ads,50.55,20.33,0,Returning,Discounted
+2023-01-08 07:00:00,Product,Facebook,83.81,14.52,0,New,Basic
+2023-11-12 19:00:00,Product,Google Ads,83.95,11.83,1,Returning,Discounted
+2023-06-10 08:00:00,Product,In-Store,30.05,0,0,New,Premium
+2023-07-13 20:00:00,Service,Online,91.04,0,0,Returning,Basic
+2023-01-17 20:00:00,Service,In-Store,79.55,0,0,Returning,Discounted
+2023-02-13 12:00:00,Product,Google Ads,153.92,29.03,1,Returning,Premium
+2023-04-16 08:00:00,Service,Google Ads,135.24,13.15,1,New,Premium
+2023-07-26 18:00:00,Product,Online,90.57,0,0,Returning,Discounted
+2023-03-29 11:00:00,Product,Facebook,107.12,26.56,2,New,Premium
+2023-05-05 20:00:00,Product,Online,117.04,0,0,Returning,Basic
+2023-12-29 13:00:00,Service,Online,49.34,0,0,Returning,Discounted
+2023-06-24 09:00:00,Product,Facebook,29.42,12.63,3,New,Basic
+2023-12-07 13:00:00,Product,Instagram,160.88,19.65,1,Returning,Discounted
+2023-04-18 08:00:00,Service,In-Store,57.27,0,0,New,Premium
+2023-04-17 10:00:00,Product,Online,91.54,0,0,New,Premium
+2023-10-29 17:00:00,Product,Instagram,186.5,14.45,0,Returning,Premium
+2023-12-22 15:00:00,Product,Instagram,48.55,19.41,1,New,Premium
+2023-01-14 16:00:00,Service,In-Store,37.44,0,0,New,Basic
+2023-02-20 13:00:00,Service,In-Store,142.06,0,0,New,Discounted
+2023-03-27 10:00:00,Product,Instagram,30.77,11.79,3,Returning,Discounted
+2023-05-01 18:00:00,Service,Instagram,107.18,8.72,1,New,Premium
+2023-01-01 09:00:00,Product,Google Ads,137.88,26.35,0,New,Basic
+2023-05-03 10:00:00,Product,Facebook,74.1,21.68,1,Returning,Premium
+2023-04-12 13:00:00,Service,Online,35.39,0,0,New,Premium
+2023-01-19 16:00:00,Service,In-Store,65.66,0,0,Returning,Premium
+2023-08-15 19:00:00,Service,Instagram,80.12,2.07,0,Returning,Premium
+2023-06-18 13:00:00,Product,In-Store,138.65,0,0,Returning,Premium
+2023-12-28 09:00:00,Service,In-Store,78.92,0,0,Returning,Premium
+2023-10-03 15:00:00,Product,Facebook,186.98,7.14,2,New,Premium
+2023-01-18 17:00:00,Service,In-Store,89.67,0,0,Returning,Discounted
+2023-10-14 17:00:00,Product,Instagram,62.83,0.61,1,New,Premium
+2023-03-08 08:00:00,Product,Google Ads,134.56,23.49,3,Returning,Premium
+2023-10-29 12:00:00,Service,Instagram,17.53,0.1,0,New,Discounted
+2023-06-09 11:00:00,Product,Facebook,90.99,23.36,2,New,Discounted
+2023-05-14 07:00:00,Product,Instagram,79.66,6.62,3,Returning,Premium
+2023-04-07 13:00:00,Service,Google Ads,35.11,14.95,1,Returning,Premium
+2023-07-22 10:00:00,Product,Facebook,44.82,14.88,1,Returning,Discounted
+2023-06-04 09:00:00,Service,Online,36.04,0,0,Returning,Basic
+2023-01-12 11:00:00,Service,Google Ads,11.99,20.92,3,Returning,Basic
+2023-10-02 16:00:00,Service,Instagram,137.56,6.74,2,Returning,Premium
+2023-11-17 15:00:00,Service,Online,62.46,0,0,New,Basic
+2023-09-11 10:00:00,Service,Online,12.3,0,0,New,Basic
+2023-12-27 12:00:00,Service,Google Ads,154.53,6.48,1,Returning,Basic
+2023-02-27 10:00:00,Service,Online,99.13,0,0,Returning,Premium
+2023-07-03 13:00:00,Service,Facebook,123.33,25.74,3,New,Premium
+2023-09-16 21:00:00,Product,Instagram,69.04,28.97,2,Returning,Discounted
+2023-08-08 07:00:00,Product,In-Store,108.77,0,0,Returning,Discounted
+2023-12-20 09:00:00,Product,Instagram,146.76,12.11,3,New,Discounted
+2023-07-19 08:00:00,Product,Google Ads,67.42,12.92,0,New,Premium
+2023-02-08 18:00:00,Service,Instagram,197.03,13.21,0,New,Premium
+2023-09-08 21:00:00,Product,Google Ads,191.1,24.81,2,Returning,Basic
+2023-10-24 18:00:00,Service,Online,138.99,0,0,Returning,Premium
+2023-08-09 20:00:00,Product,In-Store,134.2,0,0,Returning,Discounted
+2023-04-28 20:00:00,Product,Google Ads,13.62,24.78,3,Returning,Discounted
+2023-06-22 17:00:00,Service,In-Store,27.29,0,0,New,Basic
+2023-02-24 12:00:00,Service,Facebook,113.83,1.36,1,New,Basic
+2023-12-19 17:00:00,Service,Google Ads,77.67,21.41,2,Returning,Premium
+2023-03-21 16:00:00,Service,Online,101.6,0,0,New,Premium
+2023-08-06 19:00:00,Service,Online,182.53,0,0,Returning,Discounted
+2023-05-14 12:00:00,Product,Facebook,131.16,19.75,2,Returning,Discounted
+2023-08-11 20:00:00,Product,Facebook,198.81,29.38,3,Returning,Premium
+2023-07-20 21:00:00,Service,Google Ads,54.74,20.55,2,Returning,Discounted
+2023-06-29 07:00:00,Service,Google Ads,199.06,27.94,0,New,Basic
+2023-11-19 09:00:00,Product,Facebook,86.07,3.06,3,New,Premium
+2023-03-07 18:00:00,Service,Online,174.46,0,0,New,Basic
+2023-04-12 18:00:00,Product,Online,177.06,0,0,Returning,Premium
+2023-08-11 14:00:00,Service,Instagram,107.77,27.77,2,Returning,Basic
+2023-03-21 20:00:00,Product,Instagram,81.7,5.54,1,Returning,Discounted
+2023-12-03 20:00:00,Service,Instagram,79.81,9.77,0,New,Basic
+2023-07-15 11:00:00,Product,Facebook,134.99,8.28,3,Returning,Discounted
+2023-11-20 17:00:00,Service,Facebook,157.38,3.4,1,New,Premium
+2023-02-13 13:00:00,Product,Facebook,195.23,1.1,2,Returning,Discounted
+2023-08-25 15:00:00,Product,Google Ads,144.12,4.26,3,Returning,Basic
+2023-06-16 09:00:00,Service,Online,187.77,0,0,Returning,Discounted
+2023-12-01 12:00:00,Service,Instagram,99.23,25.95,0,Returning,Discounted
+2023-12-03 20:00:00,Service,Google Ads,48.68,28.19,0,Returning,Discounted
+2023-05-26 14:00:00,Product,In-Store,81.9,0,0,Returning,Discounted
+2023-08-22 10:00:00,Service,Online,172.9,0,0,Returning,Discounted
+2023-09-14 18:00:00,Service,Instagram,35.11,11.53,3,New,Discounted
+2023-09-11 11:00:00,Service,Online,26.97,0,0,Returning,Discounted
+2023-05-13 13:00:00,Product,Online,53.36,0,0,Returning,Basic
+2023-07-17 17:00:00,Product,Instagram,191.22,7.55,1,New,Premium
+2023-09-20 13:00:00,Service,In-Store,36.62,0,0,Returning,Basic
+2023-04-25 17:00:00,Service,Google Ads,36.93,14.2,2,New,Discounted
+2023-12-14 13:00:00,Product,Instagram,169.77,9.54,2,New,Discounted
+2023-08-21 21:00:00,Product,Instagram,158.49,16.71,0,New,Premium
+2023-11-19 20:00:00,Service,Online,104.98,0,0,Returning,Premium
+2023-02-23 16:00:00,Product,In-Store,164.44,0,0,New,Discounted
+2023-05-19 12:00:00,Service,In-Store,54.97,0,0,Returning,Discounted
+2023-02-12 15:00:00,Service,Instagram,155.84,26.98,1,Returning,Discounted
+2023-07-27 10:00:00,Product,Google Ads,11.95,13.9,1,Returning,Basic
+2023-04-11 17:00:00,Service,In-Store,156.94,0,0,Returning,Discounted
+2023-11-21 15:00:00,Product,Instagram,41.65,0.01,3,Returning,Premium
+2023-05-22 21:00:00,Service,Google Ads,133.73,28.24,3,Returning,Premium
+2023-12-26 10:00:00,Product,In-Store,197.81,0,0,Returning,Basic
+2023-01-06 17:00:00,Product,In-Store,183.1,0,0,Returning,Discounted
+2023-06-10 18:00:00,Service,In-Store,139.2,0,0,New,Premium
+2023-04-25 13:00:00,Product,Instagram,185.9,23.47,1,Returning,Premium
+2023-05-23 18:00:00,Service,Instagram,88.66,11.23,3,Returning,Premium
+2023-04-16 10:00:00,Product,Instagram,114.09,13.33,1,Returning,Premium
+2023-01-16 19:00:00,Service,Google Ads,179.97,29.39,3,New,Discounted
+2023-06-07 07:00:00,Service,In-Store,148.87,0,0,Returning,Basic
+2023-10-11 15:00:00,Product,Google Ads,182.69,10.74,3,New,Basic
+2023-01-09 07:00:00,Service,Instagram,43.35,29.28,2,Returning,Basic
+2023-02-10 20:00:00,Service,Google Ads,154.88,15.52,3,New,Basic
+2023-08-11 16:00:00,Service,In-Store,87.13,0,0,New,Discounted
+2023-12-14 17:00:00,Product,In-Store,111.1,0,0,Returning,Basic
+2023-05-29 16:00:00,Service,Instagram,179.99,12.84,2,Returning,Discounted
+2023-02-17 12:00:00,Product,In-Store,144.89,0,0,New,Discounted
+2023-06-07 08:00:00,Product,In-Store,118.82,0,0,Returning,Premium
+2023-09-19 21:00:00,Product,Google Ads,125.52,1.68,3,Returning,Basic
+2023-07-11 11:00:00,Service,Instagram,47.95,10.15,0,New,Basic
+2023-03-06 07:00:00,Product,Facebook,152.12,26.98,2,Returning,Basic
+2023-09-21 15:00:00,Product,Online,122.33,0,0,Returning,Premium
+2023-12-16 08:00:00,Product,Online,179.14,0,0,New,Discounted
+2023-06-19 15:00:00,Service,Instagram,18.12,16.03,2,Returning,Discounted
+2023-12-17 16:00:00,Product,Online,164.89,0,0,Returning,Premium
+2023-02-25 18:00:00,Product,Online,28.9,0,0,New,Premium
+2023-05-25 18:00:00,Product,Instagram,74.45,0.16,0,Returning,Discounted
+2023-04-03 11:00:00,Product,In-Store,173.46,0,0,New,Discounted
+2023-07-28 20:00:00,Product,Online,19.87,0,0,Returning,Premium
+2023-03-17 17:00:00,Service,Facebook,177.53,1.74,0,New,Basic
+2023-12-29 08:00:00,Product,In-Store,184.49,0,0,Returning,Premium
+2023-12-24 08:00:00,Product,Instagram,147.65,18.52,0,Returning,Basic
+2023-06-18 16:00:00,Service,Google Ads,186.18,10.55,0,New,Premium
+2023-09-12 19:00:00,Product,Instagram,70.79,1.89,1,Returning,Basic
+2023-02-05 21:00:00,Product,Facebook,48.07,13.29,2,Returning,Basic
+2023-08-20 18:00:00,Product,Google Ads,158.98,17.92,3,New,Discounted
+2023-09-13 08:00:00,Product,In-Store,97.41,0,0,Returning,Basic
+2023-02-26 18:00:00,Product,In-Store,127.57,0,0,New,Premium
+2023-06-24 21:00:00,Product,In-Store,26.95,0,0,Returning,Premium
+2023-06-22 20:00:00,Service,Online,127.6,0,0,New,Discounted
+2023-10-24 12:00:00,Product,In-Store,98.56,0,0,Returning,Basic
+2023-02-08 17:00:00,Service,Facebook,159.72,22.57,2,Returning,Basic
+2023-05-18 12:00:00,Product,Google Ads,141.1,15.7,2,New,Basic
+2023-04-25 08:00:00,Service,Instagram,119.23,16.54,1,New,Premium
+2023-02-10 11:00:00,Product,In-Store,106.83,0,0,Returning,Basic
+2023-08-15 17:00:00,Product,In-Store,39.36,0,0,New,Discounted
+2023-05-20 17:00:00,Product,Facebook,142.24,27.32,1,Returning,Premium
+2023-06-02 11:00:00,Product,Facebook,20.03,15.92,0,New,Basic
+2023-01-15 20:00:00,Product,Instagram,160.2,10.24,1,New,Premium
+2023-05-09 14:00:00,Product,Online,140.04,0,0,Returning,Basic
+2023-02-10 14:00:00,Service,Google Ads,107.84,16.18,2,New,Premium
+2023-06-13 18:00:00,Service,Google Ads,18.14,25.37,2,Returning,Discounted
+2023-06-09 21:00:00,Service,In-Store,82.85,0,0,New,Discounted
+2023-02-02 16:00:00,Service,Facebook,181.8,24.95,3,Returning,Basic
+2023-01-17 13:00:00,Service,Google Ads,120.38,2.76,0,New,Premium
+2023-04-03 12:00:00,Product,In-Store,181.5,0,0,Returning,Discounted
+2023-05-03 12:00:00,Product,Instagram,144.35,27.62,3,Returning,Basic
+2023-03-26 07:00:00,Service,Online,188.04,0,0,New,Basic
+2023-11-25 10:00:00,Service,Facebook,65.18,7.45,3,Returning,Basic
+2023-05-16 12:00:00,Product,Google Ads,31.99,21.66,2,New,Basic
+2023-01-21 10:00:00,Service,In-Store,12.84,0,0,Returning,Premium
+2023-04-27 11:00:00,Service,Google Ads,97.41,7.9,3,New,Discounted
+2023-09-24 14:00:00,Product,Instagram,112.71,3.23,3,Returning,Premium
+2023-06-05 12:00:00,Product,In-Store,98.92,0,0,New,Basic
+2023-05-23 08:00:00,Service,Facebook,76.35,19.8,0,New,Premium
+2023-11-10 15:00:00,Product,Online,185.32,0,0,New,Discounted
+2023-06-07 12:00:00,Service,Online,44.18,0,0,Returning,Basic
+2023-03-02 21:00:00,Product,Instagram,139.75,6.53,0,New,Basic
+2023-11-11 13:00:00,Service,Online,97.33,0,0,Returning,Discounted
+2023-11-05 07:00:00,Service,In-Store,31.74,0,0,New,Basic
+2023-05-28 09:00:00,Product,Google Ads,122.36,19.19,1,New,Basic
+2023-01-22 14:00:00,Product,Online,170.72,0,0,Returning,Discounted
+2023-06-01 18:00:00,Service,Instagram,68.71,19.95,0,New,Premium
+2023-08-30 08:00:00,Product,Facebook,62.12,16.08,3,Returning,Premium
+2023-08-15 11:00:00,Product,Instagram,166,0.18,0,New,Basic
+2023-01-30 09:00:00,Product,Facebook,172.12,1.59,0,New,Premium
+2023-09-20 11:00:00,Product,Instagram,58.69,1.93,1,Returning,Premium
+2023-12-13 21:00:00,Product,Facebook,27.92,16.76,2,Returning,Discounted
+2023-10-17 07:00:00,Service,Online,40.34,0,0,New,Discounted
+2023-07-27 21:00:00,Service,Instagram,131.51,19.13,2,New,Premium
+2023-06-24 07:00:00,Service,In-Store,13.77,0,0,New,Basic
+2023-09-29 10:00:00,Product,In-Store,91.09,0,0,New,Discounted
+2023-03-27 16:00:00,Service,Google Ads,126.02,27.86,2,Returning,Premium
+2023-03-06 10:00:00,Service,Online,197.68,0,0,Returning,Basic
+2023-10-15 10:00:00,Product,Instagram,40.39,26.68,3,Returning,Basic
+2023-09-16 14:00:00,Product,Facebook,149.62,0.46,1,Returning,Premium
+2023-11-24 19:00:00,Service,Online,148.13,0,0,New,Premium
+2023-06-25 19:00:00,Product,Facebook,112.62,10.34,2,Returning,Basic
+2023-11-03 10:00:00,Service,Instagram,81.3,28.66,2,Returning,Discounted
+2023-11-12 09:00:00,Service,Online,183.61,0,0,Returning,Basic
+2023-09-19 16:00:00,Service,Facebook,194.91,14.74,0,New,Premium
+2023-11-20 09:00:00,Service,Google Ads,177.88,15.69,1,New,Premium
+2023-05-12 18:00:00,Product,Facebook,125.24,10.62,2,New,Basic
+2023-03-27 16:00:00,Product,Online,73.96,0,0,New,Discounted
+2023-02-12 18:00:00,Product,Online,65.99,0,0,New,Premium
+2023-02-13 15:00:00,Service,Online,159.18,0,0,Returning,Premium
+2023-08-02 21:00:00,Product,In-Store,22.22,0,0,New,Discounted
+2023-10-24 07:00:00,Service,Online,101.28,0,0,New,Premium
+2023-04-25 10:00:00,Service,In-Store,83.57,0,0,New,Discounted
+2023-03-18 19:00:00,Product,Online,60.1,0,0,Returning,Basic
+2023-07-31 18:00:00,Service,Google Ads,27.88,11.88,0,New,Basic
+2023-04-04 16:00:00,Service,In-Store,175.91,0,0,New,Discounted
+2023-02-01 11:00:00,Service,Facebook,52.56,7.68,1,New,Discounted
+2023-08-21 15:00:00,Service,Google Ads,52.31,5.62,2,New,Premium
+2023-08-08 11:00:00,Product,Online,156.59,0,0,Returning,Discounted
+2023-10-23 19:00:00,Service,Online,46.11,0,0,Returning,Discounted
+2023-03-20 20:00:00,Product,Online,58.31,0,0,Returning,Premium
+2023-10-28 11:00:00,Service,Facebook,99.37,16.69,1,Returning,Basic
+2023-05-21 15:00:00,Service,Google Ads,34.27,29.04,2,Returning,Premium
+2023-04-12 19:00:00,Product,Instagram,44.19,3.98,1,New,Discounted
+2023-10-10 14:00:00,Product,Instagram,159.28,1.6,3,Returning,Basic
+2023-05-23 20:00:00,Service,In-Store,19.14,0,0,New,Premium
+2023-12-04 14:00:00,Product,Google Ads,130.83,17.33,3,Returning,Discounted
+2023-01-20 13:00:00,Service,Instagram,118.31,17.46,0,New,Basic
+2023-03-03 10:00:00,Product,Facebook,54.24,12.68,1,Returning,Premium
+2023-08-08 21:00:00,Service,In-Store,16.22,0,0,New,Basic
+2023-05-07 16:00:00,Service,Google Ads,171.22,10.21,0,Returning,Discounted
+2023-09-05 08:00:00,Service,Online,153.33,0,0,New,Basic
+2023-12-30 09:00:00,Service,In-Store,22.03,0,0,New,Premium
+2023-03-17 14:00:00,Product,Online,121.01,0,0,New,Basic
+2023-10-23 21:00:00,Product,Online,137.78,0,0,New,Premium
+2023-07-01 18:00:00,Product,Instagram,194.62,8.63,1,Returning,Basic
+2023-11-25 19:00:00,Product,Online,123.46,0,0,New,Discounted
+2023-05-29 12:00:00,Service,In-Store,77.66,0,0,New,Discounted
+2023-09-05 18:00:00,Service,Facebook,85.13,28.64,3,Returning,Premium
+2023-12-25 17:00:00,Product,Instagram,85.1,7.25,3,New,Basic
+2023-05-26 13:00:00,Service,Google Ads,156.24,3.95,0,Returning,Discounted
+2023-08-25 18:00:00,Service,Facebook,113.77,24.19,1,New,Discounted
+2023-05-07 17:00:00,Service,Facebook,43.7,24.91,1,Returning,Basic
+2023-02-20 21:00:00,Service,In-Store,185.64,0,0,Returning,Basic
+2023-11-30 07:00:00,Product,Instagram,157.08,11.68,3,New,Basic
+2023-08-30 15:00:00,Product,Google Ads,61.4,6.16,2,New,Discounted
+2023-09-02 15:00:00,Service,Google Ads,103.18,12.94,0,New,Discounted
+2023-12-24 08:00:00,Product,Facebook,159.54,3.17,2,Returning,Basic
+2023-12-30 11:00:00,Product,Instagram,199.53,15,1,Returning,Premium
+2023-09-26 13:00:00,Product,Instagram,37.6,19.65,0,Returning,Discounted
+2023-04-05 19:00:00,Service,In-Store,13.73,0,0,Returning,Discounted
+2023-04-19 15:00:00,Product,Google Ads,108.34,5.5,1,Returning,Premium
+2023-07-28 16:00:00,Service,Google Ads,55.78,1.62,2,New,Premium
+2023-11-19 07:00:00,Product,Google Ads,158.17,21.49,2,Returning,Basic
+2023-02-26 08:00:00,Service,Google Ads,48.78,25.45,1,Returning,Discounted
+2023-05-09 16:00:00,Product,Google Ads,186.31,10.47,0,New,Discounted
+2023-03-21 18:00:00,Product,In-Store,67.1,0,0,Returning,Premium
+2023-12-15 13:00:00,Service,Google Ads,99.42,15.7,2,New,Premium
+2023-10-27 09:00:00,Product,Facebook,60.59,23.78,2,Returning,Discounted
+2023-09-23 18:00:00,Product,In-Store,134.14,0,0,New,Premium
+2023-04-11 09:00:00,Service,Facebook,53.52,5.24,2,New,Basic
+2023-03-24 18:00:00,Product,Google Ads,144.14,0.74,1,Returning,Premium
+2023-06-09 15:00:00,Product,Online,10.96,0,0,New,Premium
+2023-07-24 10:00:00,Product,In-Store,61.7,0,0,Returning,Basic
+2023-11-22 18:00:00,Product,Facebook,85.32,22.52,3,New,Discounted
+2023-04-08 20:00:00,Service,Instagram,144.48,3.49,1,Returning,Basic
+2023-02-04 19:00:00,Service,In-Store,141.54,0,0,Returning,Premium
+2023-04-10 11:00:00,Product,Online,57.6,0,0,New,Premium
+2023-04-11 19:00:00,Product,Instagram,70.08,19.98,1,Returning,Basic
+2023-01-04 21:00:00,Service,In-Store,193.9,0,0,New,Premium
+2023-10-18 07:00:00,Service,Facebook,199.82,10.63,0,Returning,Premium
+2023-01-22 20:00:00,Product,Online,196.23,0,0,Returning,Discounted
+2023-04-02 14:00:00,Product,Facebook,82.24,16.48,1,New,Basic
+2023-01-09 15:00:00,Service,In-Store,84.82,0,0,New,Discounted
+2023-02-02 13:00:00,Service,Instagram,109.1,27.83,1,Returning,Basic
+2023-09-13 10:00:00,Service,Facebook,180,1.49,2,Returning,Discounted
+2023-01-15 08:00:00,Product,Instagram,95.05,10.64,0,Returning,Premium
+2023-05-28 12:00:00,Service,Online,108.58,0,0,New,Premium
+2023-08-17 17:00:00,Product,In-Store,101.1,0,0,New,Basic
+2023-05-03 10:00:00,Service,Instagram,31.8,19.42,0,New,Premium
+2023-02-02 11:00:00,Product,Google Ads,51.75,18.43,3,Returning,Basic
+2023-01-08 09:00:00,Service,Facebook,72.12,17.27,1,New,Basic
+2023-09-29 20:00:00,Service,Facebook,84.57,10.36,3,New,Premium
+2023-08-09 12:00:00,Product,Google Ads,189.6,18.05,3,New,Discounted
+2023-07-24 19:00:00,Service,Facebook,63.18,26.23,2,Returning,Basic
+2023-08-05 14:00:00,Product,Google Ads,17.64,28.67,1,New,Discounted
+2023-04-12 16:00:00,Service,Online,26.4,0,0,Returning,Premium
+2023-07-12 11:00:00,Product,Facebook,194.23,23.33,3,New,Discounted
+2023-03-01 20:00:00,Service,Facebook,125.13,29.88,1,New,Discounted
+2023-12-30 13:00:00,Service,In-Store,107.67,0,0,New,Premium
+2023-11-12 16:00:00,Service,Online,110.02,0,0,Returning,Basic
+2023-04-09 11:00:00,Product,In-Store,89.62,0,0,New,Premium
+2023-08-16 07:00:00,Service,Online,50.35,0,0,Returning,Basic
+2023-10-26 13:00:00,Product,Facebook,122.6,29.39,2,New,Premium
+2023-05-20 19:00:00,Service,In-Store,101.67,0,0,Returning,Discounted
+2023-08-25 11:00:00,Product,Facebook,83.7,2.27,2,New,Discounted
+2023-12-06 10:00:00,Service,Google Ads,74.89,27.42,0,Returning,Basic
+2023-08-02 11:00:00,Product,Facebook,42.75,11.7,2,New,Basic
+2023-10-27 09:00:00,Service,Online,96.96,0,0,Returning,Premium
+2023-03-25 18:00:00,Product,Online,35.33,0,0,Returning,Basic
+2023-04-13 18:00:00,Product,Online,150.16,0,0,Returning,Discounted
+2023-01-08 13:00:00,Service,Google Ads,133,8.27,1,Returning,Premium
+2023-06-20 14:00:00,Service,In-Store,79.07,0,0,Returning,Basic
+2023-06-13 10:00:00,Product,Facebook,142.9,18.81,0,New,Basic
+2023-02-08 19:00:00,Service,Google Ads,20.8,17.7,3,Returning,Basic
+2023-11-21 14:00:00,Service,Google Ads,156.29,0.75,1,Returning,Basic
+2023-02-16 08:00:00,Product,In-Store,30.95,0,0,New,Discounted
+2023-09-29 15:00:00,Service,Facebook,33.64,15.31,2,Returning,Discounted
+2023-08-13 15:00:00,Product,Instagram,196.12,26.02,3,Returning,Premium
+2023-10-03 11:00:00,Product,Online,83.12,0,0,New,Basic
+2023-04-15 17:00:00,Service,Facebook,11.7,23.41,2,New,Discounted
+2023-07-05 11:00:00,Product,Online,193.39,0,0,New,Premium
+2023-12-16 16:00:00,Product,Online,144.82,0,0,Returning,Premium
+2023-03-01 16:00:00,Service,Facebook,122.31,9.28,1,Returning,Discounted
+2023-08-18 19:00:00,Service,In-Store,65.72,0,0,Returning,Basic
+2023-01-21 14:00:00,Service,Online,114.67,0,0,Returning,Basic
+2023-06-15 21:00:00,Product,Online,75.2,0,0,New,Premium
+2023-10-09 07:00:00,Service,Online,149.24,0,0,Returning,Premium
+2023-01-29 15:00:00,Service,Facebook,27.34,10.62,0,New,Basic
+2023-08-18 15:00:00,Service,Google Ads,147.34,20.95,1,Returning,Discounted
+2023-11-09 17:00:00,Product,Online,42.85,0,0,Returning,Premium
+2023-12-12 09:00:00,Product,Instagram,11.9,2.72,3,Returning,Discounted
+2023-10-20 14:00:00,Product,Facebook,159.47,3.72,2,New,Basic
+2023-06-10 15:00:00,Product,Facebook,51.16,23.09,1,New,Discounted
+2023-10-27 17:00:00,Product,In-Store,181,0,0,New,Basic
+2023-08-04 18:00:00,Product,In-Store,41.7,0,0,New,Premium
+2023-05-29 19:00:00,Service,Facebook,91.09,18.01,2,Returning,Discounted
+2023-07-18 16:00:00,Product,Google Ads,195.26,16.01,1,New,Premium
+2023-11-16 16:00:00,Service,In-Store,117.29,0,0,New,Basic
+2023-01-10 13:00:00,Service,Google Ads,186.92,26.64,2,New,Discounted
+2023-12-31 08:00:00,Service,Google Ads,103.48,28.98,1,Returning,Premium
+2023-10-17 13:00:00,Service,Online,11.05,0,0,New,Discounted
+2023-06-20 19:00:00,Service,Google Ads,155.9,22.07,0,Returning,Premium
+2023-05-02 15:00:00,Service,Google Ads,52.44,29.44,3,New,Discounted
+2023-03-21 10:00:00,Service,Online,196.86,0,0,New,Basic
+2023-12-08 12:00:00,Product,Instagram,61.64,15.67,2,New,Basic
+2023-04-08 21:00:00,Service,Google Ads,56.84,29.07,1,New,Basic
+2023-10-11 21:00:00,Product,Facebook,98.35,20.16,3,Returning,Discounted
+2023-02-28 12:00:00,Product,Google Ads,93.7,15.24,2,New,Premium
+2023-03-21 17:00:00,Service,In-Store,65.57,0,0,New,Discounted
+2023-11-05 20:00:00,Product,Online,24.58,0,0,New,Basic
+2023-10-06 21:00:00,Service,Online,139.02,0,0,Returning,Discounted
+2023-05-18 18:00:00,Product,Online,72.02,0,0,Returning,Discounted
+2023-08-04 08:00:00,Product,Online,140.65,0,0,New,Discounted
+2023-10-13 08:00:00,Service,In-Store,120.33,0,0,Returning,Basic
+2023-02-28 11:00:00,Service,Instagram,169.85,13.81,2,New,Discounted
+2023-10-27 12:00:00,Product,Online,140.99,0,0,New,Premium
+2023-09-30 17:00:00,Service,Online,111.6,0,0,New,Premium
+2023-01-12 20:00:00,Product,Google Ads,121.02,18.07,1,New,Premium
+2023-03-11 16:00:00,Product,In-Store,162.6,0,0,Returning,Premium
+2023-11-10 17:00:00,Product,Google Ads,16.74,8.27,0,New,Basic
+2023-12-07 13:00:00,Product,Google Ads,179.97,8.56,0,New,Premium
+2023-01-24 10:00:00,Service,In-Store,48.84,0,0,Returning,Discounted
+2023-01-26 16:00:00,Service,In-Store,193.75,0,0,New,Premium
+2023-01-21 13:00:00,Product,Google Ads,78.12,15.3,2,Returning,Basic
+2023-02-06 08:00:00,Product,Instagram,42.52,4.46,1,Returning,Discounted
+2023-07-09 10:00:00,Product,Instagram,87.47,2,3,New,Premium
+2023-08-15 17:00:00,Product,Online,20.58,0,0,Returning,Discounted
+2023-09-17 16:00:00,Service,In-Store,66.55,0,0,Returning,Discounted
+2023-04-02 12:00:00,Service,Instagram,98.13,10.4,3,New,Discounted
+2023-05-24 09:00:00,Service,In-Store,167.7,0,0,New,Premium
+2023-07-27 19:00:00,Service,Online,153.89,0,0,Returning,Discounted
+2023-06-16 09:00:00,Product,In-Store,168.37,0,0,Returning,Basic
+2023-04-30 14:00:00,Product,Google Ads,44.41,24.57,2,New,Discounted
+2023-07-23 09:00:00,Service,Instagram,183.36,12.69,0,New,Basic
+2023-06-19 13:00:00,Service,In-Store,191.62,0,0,Returning,Premium
+2023-09-25 14:00:00,Service,Facebook,39.94,6.28,0,New,Basic
+2023-06-27 16:00:00,Product,In-Store,35.42,0,0,Returning,Basic
+2023-11-13 07:00:00,Product,Instagram,179.36,24.93,1,Returning,Basic
+2023-03-28 15:00:00,Service,Online,16.6,0,0,Returning,Premium
+2023-12-20 10:00:00,Service,Facebook,68.04,12.02,0,New,Basic
+2023-04-18 14:00:00,Service,Google Ads,90.23,19.14,2,Returning,Premium
+2023-08-29 10:00:00,Service,Facebook,68.61,12.81,1,New,Premium
+2023-04-16 18:00:00,Product,Online,119.83,0,0,New,Basic
+2023-03-25 10:00:00,Service,Online,151.33,0,0,New,Discounted
+2023-04-02 17:00:00,Product,In-Store,105.56,0,0,Returning,Basic
+2023-01-09 20:00:00,Service,In-Store,54.48,0,0,Returning,Discounted
+2023-07-09 12:00:00,Product,Google Ads,185.06,1.18,1,Returning,Discounted
+2023-09-27 12:00:00,Product,In-Store,130.46,0,0,New,Discounted
+2023-10-05 13:00:00,Service,Instagram,126.35,18.67,1,New,Basic
+2023-07-29 10:00:00,Product,Instagram,153.42,21.09,3,Returning,Discounted
+2023-08-09 20:00:00,Service,Facebook,194.82,8.27,2,New,Premium
+2023-02-14 17:00:00,Product,Facebook,131.65,23.77,3,Returning,Basic
+2023-07-13 21:00:00,Service,In-Store,35.11,0,0,Returning,Premium
+2023-10-08 12:00:00,Service,Google Ads,134.63,23.62,3,Returning,Premium
+2023-04-28 07:00:00,Product,Google Ads,164.72,24.87,1,Returning,Discounted
+2023-02-15 07:00:00,Product,Instagram,148.27,11.94,1,New,Basic
+2023-06-19 16:00:00,Service,Instagram,14.59,12.51,3,Returning,Premium
+2023-08-12 12:00:00,Product,In-Store,133.13,0,0,Returning,Basic
+2023-09-21 17:00:00,Service,Instagram,134.08,13.82,2,New,Premium
+2023-06-21 19:00:00,Product,Google Ads,99.01,6.7,1,Returning,Premium
+2023-04-28 11:00:00,Product,Facebook,152.74,27.2,2,Returning,Discounted
+2023-04-12 15:00:00,Service,Instagram,119.78,16.6,2,Returning,Basic
+2023-10-14 20:00:00,Service,Online,61.93,0,0,New,Premium
+2023-04-18 16:00:00,Product,Facebook,76.89,14.66,3,New,Discounted
+2023-11-17 19:00:00,Service,Instagram,34.79,25.52,0,Returning,Basic
+2023-08-13 20:00:00,Service,Online,28.68,0,0,Returning,Premium
+2023-06-30 20:00:00,Service,Online,147.01,0,0,New,Premium
+2023-05-01 12:00:00,Product,Google Ads,105.54,5.53,2,New,Premium
+2023-04-02 16:00:00,Product,Google Ads,81.4,3.23,3,Returning,Basic
+2023-07-04 21:00:00,Product,Facebook,137.82,6.13,3,Returning,Discounted
+2023-12-01 14:00:00,Product,Google Ads,39.57,10.77,1,Returning,Premium
+2023-10-17 10:00:00,Service,In-Store,99.22,0,0,Returning,Discounted
+2023-09-26 21:00:00,Product,Google Ads,170.78,27.56,2,Returning,Basic
+2023-04-13 12:00:00,Product,Instagram,183.42,19.2,2,Returning,Basic
+2023-07-10 18:00:00,Service,Facebook,77.12,19.91,0,Returning,Discounted
+2023-03-16 13:00:00,Service,Facebook,101.12,24.35,2,Returning,Premium
+2023-03-29 15:00:00,Product,Google Ads,154.87,3.39,0,Returning,Basic
+2023-07-27 07:00:00,Product,In-Store,12.48,0,0,Returning,Discounted
+2023-01-11 16:00:00,Service,Google Ads,87.79,25.43,2,New,Premium
+2023-12-01 10:00:00,Service,Instagram,65.27,5,3,New,Premium
+2023-07-11 19:00:00,Product,Instagram,36.46,25.84,1,Returning,Basic
+2023-12-21 20:00:00,Service,Facebook,27.56,21.25,3,New,Discounted
+2023-11-08 09:00:00,Product,In-Store,110.75,0,0,New,Discounted
+2023-12-05 10:00:00,Product,Online,100.26,0,0,New,Discounted
+2023-07-01 16:00:00,Product,In-Store,53.99,0,0,Returning,Discounted
+2023-05-11 10:00:00,Product,Google Ads,169.52,0.25,3,Returning,Premium
+2023-10-21 16:00:00,Service,Google Ads,75.56,5.3,0,New,Premium
+2023-03-12 10:00:00,Service,Google Ads,18.69,3.89,0,New,Premium
+2023-05-13 14:00:00,Product,In-Store,20.47,0,0,Returning,Discounted
+2023-11-02 18:00:00,Product,Online,189.66,0,0,New,Premium
+2023-01-16 21:00:00,Product,Facebook,122.47,21.21,0,Returning,Premium
+2023-06-03 08:00:00,Service,Instagram,105.55,11.88,3,Returning,Basic
+2023-04-17 19:00:00,Service,Facebook,38.72,17.88,0,Returning,Discounted
+2023-04-20 14:00:00,Service,Instagram,74.47,24.67,3,Returning,Discounted
+2023-12-02 14:00:00,Service,In-Store,73.24,0,0,Returning,Premium
+2023-04-20 10:00:00,Service,Online,171.59,0,0,New,Premium
+2023-05-02 14:00:00,Service,In-Store,45.91,0,0,New,Basic
+2023-11-05 07:00:00,Product,In-Store,103.23,0,0,New,Premium
+2023-12-05 17:00:00,Service,Facebook,172.29,14.99,3,New,Discounted
+2023-06-27 16:00:00,Service,Facebook,12.67,9.44,1,Returning,Basic
+2023-08-28 20:00:00,Service,In-Store,114.23,0,0,Returning,Premium
+2023-12-16 18:00:00,Product,Google Ads,74.2,10.34,0,Returning,Discounted
+2023-12-30 21:00:00,Product,Instagram,17.11,24.02,2,Returning,Basic
+2023-05-03 19:00:00,Service,In-Store,69.61,0,0,New,Premium
+2023-09-11 13:00:00,Product,Online,64.76,0,0,New,Basic
+2023-11-17 13:00:00,Product,Facebook,181.25,6.4,3,Returning,Discounted
+2023-07-23 09:00:00,Service,Facebook,130.16,8.81,2,Returning,Discounted
+2023-09-02 14:00:00,Service,Google Ads,28.03,26.86,3,Returning,Discounted
+2023-08-21 19:00:00,Service,Instagram,155.51,22.67,3,Returning,Premium
+2023-04-11 17:00:00,Service,Google Ads,69.22,19.66,3,New,Discounted
+2023-05-27 11:00:00,Product,Online,38.34,0,0,New,Discounted
+2023-07-19 15:00:00,Product,Instagram,104.63,0.29,3,Returning,Premium
+2023-05-09 08:00:00,Service,Google Ads,66.76,18.38,0,New,Premium
+2023-08-14 16:00:00,Product,In-Store,133.83,0,0,New,Basic
+2023-08-15 16:00:00,Product,In-Store,186.24,0,0,Returning,Discounted
+2023-03-28 17:00:00,Service,Instagram,166.27,1.99,1,Returning,Basic
+2023-03-02 10:00:00,Product,Facebook,180.07,6.2,0,Returning,Discounted
+2023-12-05 13:00:00,Service,Instagram,125.77,26.8,1,Returning,Basic
+2023-03-27 19:00:00,Product,In-Store,68.21,0,0,New,Discounted
+2023-02-07 16:00:00,Service,Facebook,16.17,17.49,2,New,Premium
+2023-10-25 18:00:00,Service,Google Ads,54.87,4.87,3,Returning,Premium
+2023-05-23 10:00:00,Service,Google Ads,70.79,22.71,0,Returning,Premium
+2023-07-17 11:00:00,Product,Google Ads,58.66,22.69,3,New,Discounted
+2023-06-22 13:00:00,Service,Google Ads,43.15,17.24,0,Returning,Premium
+2023-10-16 14:00:00,Product,Facebook,65.27,10.53,0,Returning,Basic
+2023-11-19 10:00:00,Service,Google Ads,160.29,5.21,0,New,Discounted
+2023-05-06 17:00:00,Service,Google Ads,68.17,16.52,0,New,Basic
+2023-11-21 16:00:00,Service,In-Store,94.5,0,0,Returning,Premium
+2023-04-10 21:00:00,Product,Facebook,140.5,4.2,1,Returning,Premium
+2023-04-21 09:00:00,Service,Google Ads,13.14,12.21,3,Returning,Premium
+2023-09-07 07:00:00,Product,In-Store,13.52,0,0,Returning,Discounted
+2023-11-02 16:00:00,Service,In-Store,176.22,0,0,Returning,Premium
+2023-04-17 07:00:00,Service,Instagram,158.32,29.11,2,New,Discounted
+2023-11-14 19:00:00,Service,In-Store,124.86,0,0,Returning,Basic
+2023-07-30 12:00:00,Service,Instagram,132.05,8.17,3,Returning,Basic
+2023-06-19 18:00:00,Service,In-Store,132.12,0,0,Returning,Discounted
+2023-09-02 18:00:00,Product,Online,111.92,0,0,Returning,Discounted
+2023-09-20 20:00:00,Product,In-Store,78.97,0,0,Returning,Discounted
+2023-11-03 20:00:00,Product,Instagram,195.05,16.62,2,Returning,Basic
+2023-10-24 15:00:00,Service,In-Store,104.15,0,0,Returning,Basic
+2023-10-21 19:00:00,Product,In-Store,115.18,0,0,Returning,Basic
+2023-05-14 11:00:00,Service,Facebook,68.22,26.23,2,Returning,Discounted
+2023-04-14 20:00:00,Product,Online,156.09,0,0,New,Basic
+2023-09-21 20:00:00,Service,In-Store,188.64,0,0,Returning,Basic
+2023-12-23 13:00:00,Service,Instagram,141.73,1.84,1,Returning,Premium
+2023-09-18 16:00:00,Service,Online,82.97,0,0,New,Premium
+2023-01-23 11:00:00,Product,Online,15.97,0,0,New,Discounted
+2023-04-03 09:00:00,Service,Instagram,132.98,17.81,1,Returning,Basic
+2023-02-09 17:00:00,Product,In-Store,73.2,0,0,New,Premium
+2023-01-17 09:00:00,Product,Online,197.33,0,0,New,Basic
+2023-02-28 17:00:00,Service,Google Ads,190.65,20.44,3,New,Discounted
+2023-01-24 13:00:00,Product,Online,96.22,0,0,Returning,Basic
+2023-05-09 11:00:00,Product,Facebook,46.56,22.42,1,Returning,Discounted
+2023-10-26 12:00:00,Product,Instagram,195.87,7.02,0,Returning,Premium
+2023-10-23 09:00:00,Product,Online,73.92,0,0,New,Discounted
+2023-06-10 19:00:00,Product,Instagram,41.01,1.79,3,Returning,Premium
+2023-03-22 21:00:00,Product,Facebook,172.44,3.82,2,Returning,Discounted
+2023-06-18 20:00:00,Service,In-Store,83.5,0,0,New,Basic
+2023-07-16 14:00:00,Product,In-Store,43.45,0,0,Returning,Discounted
+2023-02-26 14:00:00,Service,Online,140.74,0,0,Returning,Discounted
+2023-06-25 21:00:00,Product,Google Ads,124.47,6.82,3,New,Premium
+2023-07-28 11:00:00,Service,In-Store,95.46,0,0,Returning,Discounted
+2023-12-12 20:00:00,Service,In-Store,59.06,0,0,Returning,Discounted
+2023-02-25 19:00:00,Service,Instagram,133.39,20.69,0,Returning,Discounted
+2023-02-20 17:00:00,Service,Online,194.46,0,0,Returning,Basic
+2023-05-09 14:00:00,Product,Facebook,93.48,20.09,1,Returning,Premium
+2023-10-03 16:00:00,Product,Google Ads,149.87,6.13,1,Returning,Premium
+2023-12-14 21:00:00,Service,Google Ads,182.41,27.51,2,New,Premium
+2023-01-13 11:00:00,Product,Google Ads,37,4.05,3,Returning,Premium
+2023-03-04 10:00:00,Service,Facebook,115.86,20.42,2,Returning,Basic
+2023-04-18 15:00:00,Service,Facebook,62.5,23.92,1,New,Basic
+2023-05-06 12:00:00,Service,In-Store,92.41,0,0,Returning,Discounted
+2023-03-09 20:00:00,Product,Facebook,72.99,7.31,3,New,Basic
+2023-12-24 19:00:00,Product,Facebook,147.22,0.36,2,Returning,Discounted
+2023-10-30 10:00:00,Service,Facebook,124.91,18.93,2,Returning,Basic
+2023-01-19 10:00:00,Product,In-Store,118.3,0,0,New,Basic
+2023-08-21 19:00:00,Product,Online,33.07,0,0,New,Discounted
+2023-05-19 08:00:00,Service,Facebook,184,17.23,3,New,Premium
+2023-03-30 08:00:00,Service,Online,40.52,0,0,New,Premium
+2023-01-30 08:00:00,Product,In-Store,58.61,0,0,New,Premium
+2023-10-30 10:00:00,Service,In-Store,68.94,0,0,Returning,Discounted
+2023-08-17 17:00:00,Service,In-Store,44.36,0,0,New,Discounted
+2023-04-30 19:00:00,Service,In-Store,98.84,0,0,New,Premium
+2023-09-28 14:00:00,Service,Google Ads,92.46,19.74,1,Returning,Premium
+2023-07-18 19:00:00,Service,Facebook,161.31,28.53,2,Returning,Discounted
+2023-01-18 14:00:00,Product,Online,21.51,0,0,New,Premium
+2023-08-21 09:00:00,Product,Google Ads,199.88,14.79,3,New,Basic
+2023-08-31 09:00:00,Service,In-Store,32.89,0,0,Returning,Discounted
+2023-04-02 21:00:00,Product,Google Ads,49.15,27.25,0,Returning,Premium
+2023-07-29 07:00:00,Service,Facebook,41.81,8.6,0,New,Premium
+2023-11-10 14:00:00,Service,Google Ads,35.29,11.8,3,Returning,Basic
+2023-07-02 11:00:00,Product,Google Ads,60.76,18.92,1,Returning,Discounted
+2023-04-29 07:00:00,Product,Facebook,117.62,21.73,1,Returning,Discounted
+2023-05-16 12:00:00,Service,Instagram,21.22,13.08,0,New,Discounted
+2023-11-28 12:00:00,Service,Instagram,75.23,7.08,3,New,Discounted
+2023-12-05 13:00:00,Service,Facebook,153.93,24.8,0,New,Premium
+2023-04-14 11:00:00,Product,Instagram,88.41,19.76,3,Returning,Premium
+2023-03-04 21:00:00,Service,Facebook,29.56,11.81,2,New,Premium
+2023-09-22 21:00:00,Product,In-Store,155.55,0,0,Returning,Premium
+2023-03-22 15:00:00,Service,Online,118.89,0,0,New,Discounted
+2023-04-02 09:00:00,Service,Online,37.94,0,0,Returning,Basic
+2023-04-03 07:00:00,Service,Google Ads,98.7,9.91,0,Returning,Basic
+2023-01-25 07:00:00,Product,In-Store,53.62,0,0,Returning,Discounted
+2023-12-06 11:00:00,Service,In-Store,46.87,0,0,Returning,Discounted
+2023-06-11 21:00:00,Product,Google Ads,98.98,0.66,2,New,Basic
+2023-09-09 18:00:00,Service,Facebook,124.81,10.07,1,Returning,Premium
+2023-11-22 17:00:00,Service,Google Ads,66.07,2.39,0,New,Basic
+2023-02-25 14:00:00,Service,In-Store,112.76,0,0,New,Basic
+2023-01-14 21:00:00,Service,Facebook,29.51,21.32,1,New,Premium
+2023-03-26 09:00:00,Product,Google Ads,68.5,17.85,0,New,Basic
+2023-06-19 10:00:00,Product,In-Store,102.87,0,0,Returning,Premium
+2023-05-04 17:00:00,Service,Instagram,161.55,11.47,3,New,Discounted
+2023-09-27 20:00:00,Product,Facebook,144.67,17.03,3,New,Discounted
+2023-12-30 18:00:00,Service,Online,133.3,0,0,Returning,Premium
+2023-02-03 21:00:00,Product,Google Ads,35.76,5.46,1,New,Premium
+2023-03-25 16:00:00,Product,Facebook,160.56,19.26,0,New,Discounted
+2023-01-01 10:00:00,Service,In-Store,124.99,0,0,New,Discounted
+2023-02-11 15:00:00,Service,In-Store,173.07,0,0,New,Premium
+2023-03-12 20:00:00,Service,Instagram,89.46,2.18,3,New,Basic
+2023-01-28 12:00:00,Service,Online,185.45,0,0,Returning,Basic
+2023-08-09 21:00:00,Product,Instagram,18.74,2.98,1,New,Discounted
+2023-04-20 09:00:00,Service,Facebook,115.33,26.66,2,Returning,Basic
+2023-07-19 13:00:00,Product,Facebook,87.77,3.07,0,Returning,Basic
+2023-10-21 09:00:00,Service,Google Ads,48.66,23.37,3,Returning,Basic
+2023-07-23 08:00:00,Service,Instagram,22.51,7.15,1,Returning,Basic
+2023-06-25 10:00:00,Product,Google Ads,128.08,5.2,3,New,Discounted
+2023-10-22 12:00:00,Service,Facebook,141,26.77,1,New,Discounted
+2023-09-21 12:00:00,Product,In-Store,151.99,0,0,Returning,Discounted
+2023-07-18 11:00:00,Service,Online,76.03,0,0,New,Basic
+2023-06-02 07:00:00,Service,Online,169.47,0,0,Returning,Basic
+2023-11-07 10:00:00,Product,Google Ads,36.51,9.31,2,New,Discounted
+2023-06-21 08:00:00,Product,Instagram,114.3,21.71,0,Returning,Discounted
+2023-05-15 16:00:00,Service,Instagram,199.58,6.77,2,New,Basic
+2023-04-24 10:00:00,Product,Google Ads,109.39,18.7,3,Returning,Premium
+2023-01-25 20:00:00,Product,In-Store,122.68,0,0,Returning,Basic
+2023-06-18 19:00:00,Product,In-Store,97.79,0,0,New,Premium
+2023-03-30 09:00:00,Product,Google Ads,172.71,14.05,2,Returning,Premium
+2023-05-07 21:00:00,Service,Facebook,65.67,24.67,3,New,Basic
+2023-11-19 16:00:00,Service,Online,42.48,0,0,New,Discounted
+2023-11-14 14:00:00,Product,Online,187.59,0,0,Returning,Discounted
+2023-06-24 15:00:00,Service,Facebook,141.8,9.24,2,New,Basic
+2023-05-13 07:00:00,Service,Online,34.95,0,0,Returning,Premium
+2023-06-26 08:00:00,Service,Google Ads,98.07,9.49,2,Returning,Premium
+2023-01-30 15:00:00,Service,Instagram,29.93,21.09,0,New,Premium
+2023-03-15 10:00:00,Service,Google Ads,190.65,7.83,3,Returning,Premium
+2023-07-09 17:00:00,Service,Instagram,191.37,25.65,3,New,Discounted
+2023-10-30 21:00:00,Service,Instagram,177.55,23.07,0,New,Basic
+2023-12-19 20:00:00,Product,Online,132.04,0,0,New,Basic
+2023-04-19 17:00:00,Product,In-Store,104.39,0,0,New,Discounted
+2023-03-07 14:00:00,Product,Instagram,173.69,2.13,2,New,Premium
+2023-03-05 14:00:00,Service,Online,181.87,0,0,New,Discounted
+2023-03-07 11:00:00,Product,Google Ads,118.06,23.33,3,New,Discounted
+2023-03-11 07:00:00,Product,Online,162.41,0,0,Returning,Discounted
+2023-08-01 12:00:00,Service,Instagram,171.86,27.98,2,Returning,Basic
+2023-11-22 21:00:00,Product,Online,101.92,0,0,New,Premium
+2023-09-30 15:00:00,Product,Online,139.6,0,0,New,Basic
+2023-03-07 16:00:00,Product,In-Store,135.78,0,0,Returning,Discounted
+2023-07-25 20:00:00,Service,Online,147.48,0,0,Returning,Premium
+2023-06-29 19:00:00,Service,Instagram,112.64,4.67,2,Returning,Discounted
+2023-05-17 11:00:00,Service,Google Ads,154.48,20.73,3,New,Premium
+2023-04-08 20:00:00,Product,Online,123.41,0,0,New,Discounted
+2023-05-08 15:00:00,Product,Instagram,112.11,6.92,1,Returning,Premium
+2023-10-29 10:00:00,Product,Online,170.31,0,0,Returning,Discounted
+2023-07-06 09:00:00,Service,Google Ads,145.35,4.81,2,Returning,Discounted
+2023-11-11 15:00:00,Service,Google Ads,36.34,5.05,2,New,Discounted
+2023-06-29 14:00:00,Service,Instagram,93.36,15.28,0,New,Premium
+2023-01-18 20:00:00,Service,Instagram,105.06,26.01,2,New,Discounted
+2023-03-15 08:00:00,Product,Google Ads,137.26,19.86,3,Returning,Discounted
+2023-03-11 20:00:00,Service,In-Store,112.16,0,0,Returning,Basic
+2023-10-31 09:00:00,Service,Instagram,176.55,26.07,2,New,Discounted
+2023-04-04 16:00:00,Service,Google Ads,101.17,21.19,0,Returning,Discounted
+2023-11-08 16:00:00,Service,Instagram,93.45,16.66,3,New,Basic
+2023-06-04 07:00:00,Service,Online,10.74,0,0,New,Premium
+2023-09-16 11:00:00,Product,Google Ads,73.08,16.53,1,New,Premium
+2023-03-22 13:00:00,Product,In-Store,183.47,0,0,New,Premium
+2023-06-21 11:00:00,Product,Google Ads,25.84,20.61,1,Returning,Premium
+2023-02-19 07:00:00,Service,Online,53.1,0,0,Returning,Basic
+2023-04-23 15:00:00,Service,Instagram,59.56,3.35,1,Returning,Discounted
+2023-09-27 21:00:00,Service,Instagram,143.18,23.66,2,New,Discounted
+2023-12-29 17:00:00,Service,Facebook,11.96,24.99,2,New,Basic
+2023-10-30 21:00:00,Service,Instagram,170.75,29.42,3,New,Discounted
+2023-04-04 19:00:00,Service,Online,44.93,0,0,Returning,Discounted
+2023-10-31 21:00:00,Product,Google Ads,181.3,25.91,1,Returning,Basic
+2023-02-26 13:00:00,Product,Instagram,20.42,16.71,2,New,Premium
+2023-03-13 09:00:00,Service,Instagram,55.45,21.53,0,New,Premium
+2023-10-24 19:00:00,Product,Instagram,157.36,23.49,2,Returning,Basic
+2023-11-08 21:00:00,Product,Instagram,176.62,21.19,3,New,Premium
+2023-09-13 11:00:00,Service,Instagram,112.28,16.33,0,Returning,Discounted
+2023-07-13 08:00:00,Service,Instagram,162.28,18.64,3,Returning,Basic
+2023-06-24 13:00:00,Service,Online,157.85,0,0,New,Discounted
+2023-08-27 17:00:00,Product,Instagram,147.31,22.14,0,Returning,Discounted
+2023-03-20 15:00:00,Service,In-Store,19.95,0,0,Returning,Premium
+2023-06-14 14:00:00,Service,Facebook,76.58,4.24,3,New,Discounted
+2023-04-02 08:00:00,Product,Facebook,199.61,20.89,1,Returning,Discounted
+2024-01-01 14:00:00,Service,Online,131.54,0,0,New,Basic
+2023-07-20 08:00:00,Product,Google Ads,115.64,6.88,0,Returning,Discounted
+2023-01-24 18:00:00,Product,Google Ads,71.94,6.86,0,New,Discounted
+2023-01-21 10:00:00,Service,In-Store,40.81,0,0,New,Basic
+2023-12-20 15:00:00,Product,Instagram,80.94,8.47,3,New,Basic
+2023-06-02 09:00:00,Service,Facebook,32.03,29.7,1,New,Discounted
+2023-10-29 08:00:00,Service,Google Ads,188.92,10.39,0,Returning,Premium
+2023-06-14 08:00:00,Service,Online,161.05,0,0,New,Premium
+2023-08-17 12:00:00,Product,Facebook,58.77,5.47,3,Returning,Basic
+2023-06-15 09:00:00,Product,Instagram,51.18,26.85,3,Returning,Premium
+2023-11-10 14:00:00,Service,In-Store,78.14,0,0,New,Discounted
+2023-03-26 08:00:00,Service,Online,22.77,0,0,New,Premium
+2023-11-27 10:00:00,Product,In-Store,177.9,0,0,Returning,Premium
+2023-08-30 17:00:00,Product,Instagram,63.86,3.69,2,Returning,Premium
+2023-05-12 08:00:00,Service,Facebook,61.8,11.82,2,Returning,Discounted
+2023-12-05 13:00:00,Product,Instagram,120.72,14.83,2,Returning,Basic
+2023-04-14 16:00:00,Service,Online,41.14,0,0,Returning,Discounted
+2023-12-28 10:00:00,Product,Instagram,24.89,19.42,2,New,Discounted
+2023-06-02 09:00:00,Service,Online,163.5,0,0,New,Premium
+2023-12-12 09:00:00,Product,In-Store,16.25,0,0,Returning,Premium
+2023-11-02 10:00:00,Product,Online,172.24,0,0,Returning,Discounted
+2023-05-28 09:00:00,Service,Google Ads,136.21,29.12,0,Returning,Premium
+2023-09-20 07:00:00,Service,Instagram,136.87,1.89,1,New,Basic
+2023-04-01 17:00:00,Service,Instagram,171.58,2.36,2,Returning,Discounted
+2023-07-14 13:00:00,Service,In-Store,191.23,0,0,New,Discounted
+2023-07-31 21:00:00,Product,Google Ads,94.74,5.65,2,Returning,Basic
+2023-07-06 09:00:00,Service,In-Store,13.03,0,0,New,Basic
+2023-12-23 12:00:00,Service,Facebook,77.86,4.05,0,Returning,Discounted
+2023-07-03 21:00:00,Service,Instagram,37.29,6.56,3,New,Basic
+2023-04-13 07:00:00,Product,Online,153.72,0,0,Returning,Discounted
+2023-05-16 21:00:00,Product,Google Ads,10.21,18.96,0,New,Basic
+2023-12-30 15:00:00,Product,Instagram,185.43,27.23,1,New,Premium
+2023-02-27 15:00:00,Service,In-Store,20.28,0,0,New,Discounted
+2023-08-04 17:00:00,Service,Google Ads,184.93,23.06,1,Returning,Premium
+2023-06-08 12:00:00,Product,Google Ads,114.09,20.98,1,New,Basic
+2023-10-28 09:00:00,Product,Online,33.3,0,0,New,Discounted
+2023-11-02 19:00:00,Product,Google Ads,93.38,17.5,1,New,Discounted
+2023-03-09 08:00:00,Service,Instagram,118.42,13.94,3,New,Basic
+2023-05-30 08:00:00,Service,Facebook,181.9,9.62,3,Returning,Premium
+2023-09-21 16:00:00,Product,Online,24.82,0,0,Returning,Premium
+2023-02-10 07:00:00,Product,Facebook,157.29,29.94,1,Returning,Premium
+2023-07-25 07:00:00,Product,In-Store,37.58,0,0,Returning,Premium
+2023-07-27 10:00:00,Service,Online,181.83,0,0,Returning,Basic
+2023-12-01 18:00:00,Product,Facebook,105.24,29.66,3,New,Basic
+2023-01-06 10:00:00,Service,Facebook,60.77,3,1,Returning,Premium
+2023-12-12 18:00:00,Service,Facebook,152.81,11.02,2,New,Basic
+2023-02-26 21:00:00,Service,Online,151.02,0,0,New,Discounted
+2023-07-04 14:00:00,Service,Online,60.33,0,0,Returning,Premium
+2023-09-18 16:00:00,Product,In-Store,37.28,0,0,Returning,Discounted
+2024-01-01 19:00:00,Product,Instagram,119.68,27.53,3,New,Basic
+2023-09-22 08:00:00,Service,Online,180.73,0,0,New,Premium
+2023-01-14 12:00:00,Product,In-Store,32.57,0,0,Returning,Basic
+2023-10-12 17:00:00,Product,Instagram,107,19.28,1,Returning,Premium
+2023-08-28 09:00:00,Product,Online,58.31,0,0,Returning,Discounted
+2023-03-29 20:00:00,Service,In-Store,134.8,0,0,Returning,Premium
+2023-08-17 18:00:00,Service,In-Store,185.97,0,0,Returning,Premium
+2023-07-04 16:00:00,Product,Online,116.11,0,0,Returning,Discounted
+2023-04-28 10:00:00,Product,Online,143.76,0,0,Returning,Premium
+2023-04-30 20:00:00,Product,Google Ads,47.02,29.03,3,Returning,Discounted
+2023-11-15 07:00:00,Product,Google Ads,28.28,24.81,1,New,Premium
+2023-05-03 07:00:00,Product,Online,164.93,0,0,Returning,Premium
+2023-01-04 19:00:00,Product,Google Ads,140.97,0.8,1,New,Discounted
+2023-08-23 13:00:00,Service,Instagram,42.2,23.03,3,New,Premium
+2023-06-21 20:00:00,Product,Facebook,60.64,16.01,2,New,Discounted
+2023-02-09 07:00:00,Service,Instagram,114.88,12.32,3,New,Basic
+2023-05-26 16:00:00,Product,Google Ads,35.89,4.87,3,New,Discounted
+2023-04-18 18:00:00,Service,In-Store,137.82,0,0,Returning,Discounted
+2023-02-02 20:00:00,Service,Online,35.11,0,0,Returning,Premium
+2023-10-29 13:00:00,Product,Online,22.7,0,0,New,Premium
+2023-01-11 12:00:00,Product,Google Ads,37.65,18.9,1,Returning,Discounted
+2023-07-28 12:00:00,Service,Instagram,103.08,12.7,3,Returning,Discounted
+2023-09-26 19:00:00,Product,Online,115.36,0,0,Returning,Premium
+2023-02-21 21:00:00,Service,In-Store,65.15,0,0,New,Discounted
+2023-12-25 15:00:00,Product,Facebook,10.08,4.28,1,New,Basic
+2023-03-06 14:00:00,Service,In-Store,127.49,0,0,New,Basic
+2023-08-17 07:00:00,Service,In-Store,128.58,0,0,Returning,Basic
+2023-01-20 09:00:00,Product,Online,112.93,0,0,Returning,Discounted
+2023-05-16 14:00:00,Service,Facebook,113.32,3.13,2,New,Basic
+2023-01-19 13:00:00,Product,Facebook,82.68,8.92,0,Returning,Discounted
+2023-11-30 11:00:00,Product,Online,59.7,0,0,Returning,Basic
+2023-09-28 07:00:00,Service,Facebook,184.3,3.73,2,New,Basic
+2023-01-16 11:00:00,Product,Online,165.22,0,0,Returning,Basic
+2023-07-26 12:00:00,Service,Facebook,96.82,19.37,0,Returning,Premium
+2023-10-02 16:00:00,Product,Google Ads,182.79,10.88,1,New,Premium
+2023-11-03 15:00:00,Product,Google Ads,68.5,1.07,0,New,Discounted
+2023-09-13 18:00:00,Product,In-Store,53.75,0,0,Returning,Premium
+2023-12-23 12:00:00,Service,Google Ads,14.3,4.43,0,Returning,Basic
+2023-03-03 12:00:00,Product,Instagram,93.91,20.37,2,Returning,Premium
+2023-01-19 07:00:00,Service,In-Store,137.86,0,0,New,Premium
+2023-05-16 07:00:00,Product,Online,90.19,0,0,New,Premium
+2023-04-30 10:00:00,Product,Google Ads,29.06,16.85,1,Returning,Basic
+2023-12-26 14:00:00,Product,Instagram,44.55,24.22,1,New,Basic
+2023-10-21 14:00:00,Service,Google Ads,137.73,2.81,1,New,Basic
+2023-05-15 07:00:00,Product,Instagram,58.39,22.85,0,New,Discounted
+2023-08-14 20:00:00,Product,In-Store,138.43,0,0,Returning,Basic
+2023-12-19 11:00:00,Service,In-Store,132.44,0,0,Returning,Discounted
+2023-09-05 14:00:00,Service,In-Store,151.35,0,0,Returning,Discounted
+2023-07-19 19:00:00,Product,Online,142.96,0,0,New,Basic
+2023-12-01 12:00:00,Product,Instagram,156.99,11.4,3,New,Basic
+2023-09-06 07:00:00,Service,Facebook,116.58,0.84,0,New,Basic
+2023-05-27 10:00:00,Service,Online,12.8,0,0,New,Basic
+2023-09-11 17:00:00,Product,In-Store,192.37,0,0,New,Discounted
+2023-06-09 18:00:00,Product,Facebook,183.89,15.39,3,New,Basic
+2023-11-25 07:00:00,Product,Online,198.82,0,0,New,Basic
+2023-12-17 18:00:00,Service,Online,147.14,0,0,New,Premium
+2023-07-16 08:00:00,Service,Facebook,75.04,9.97,0,New,Basic
+2023-09-17 18:00:00,Service,In-Store,123.92,0,0,Returning,Premium
+2023-01-23 11:00:00,Product,Instagram,16.68,17.77,1,New,Discounted
+2023-10-02 18:00:00,Product,Facebook,132.28,10.66,2,New,Basic
+2023-08-16 19:00:00,Product,In-Store,16.14,0,0,New,Discounted
+2023-12-11 17:00:00,Product,In-Store,159.2,0,0,Returning,Basic
+2023-10-12 09:00:00,Product,In-Store,28.43,0,0,Returning,Basic
+2023-09-17 07:00:00,Service,Online,123.59,0,0,New,Discounted
+2023-01-05 12:00:00,Service,Instagram,18.45,29.88,1,New,Basic
+2023-09-06 08:00:00,Service,In-Store,129.25,0,0,New,Premium
+2023-03-26 16:00:00,Product,Online,125.87,0,0,Returning,Premium
+2023-12-01 19:00:00,Product,Online,134.58,0,0,Returning,Discounted
+2023-04-15 07:00:00,Product,Facebook,105.61,11.07,3,New,Premium
+2023-01-06 17:00:00,Product,Google Ads,186.69,27.36,1,Returning,Discounted
+2023-06-12 08:00:00,Product,In-Store,96.26,0,0,Returning,Discounted
+2023-04-14 21:00:00,Product,Google Ads,165.32,22.35,0,New,Premium
+2023-08-16 08:00:00,Service,Google Ads,150.16,12.41,0,New,Premium
+2023-08-03 07:00:00,Service,Online,194.41,0,0,Returning,Discounted
+2023-07-10 09:00:00,Product,Online,87.36,0,0,Returning,Discounted
+2023-08-07 11:00:00,Service,In-Store,165.01,0,0,Returning,Basic
+2023-05-18 15:00:00,Service,Online,23.83,0,0,Returning,Basic
+2023-05-23 20:00:00,Product,In-Store,33.75,0,0,New,Basic
+2023-06-17 08:00:00,Product,Google Ads,96.45,28.74,1,Returning,Discounted
+2023-09-29 19:00:00,Product,In-Store,105.72,0,0,Returning,Basic
+2023-04-15 07:00:00,Service,Instagram,22.58,22.04,1,New,Premium
+2023-07-20 21:00:00,Product,Google Ads,162.83,19.51,1,Returning,Discounted
+2023-11-14 16:00:00,Product,Online,117.08,0,0,New,Discounted
+2023-12-22 16:00:00,Product,Online,161.58,0,0,Returning,Discounted
+2023-11-26 09:00:00,Product,In-Store,13.87,0,0,Returning,Discounted
+2023-09-27 21:00:00,Service,Instagram,137.14,9.98,0,Returning,Premium
+2023-05-04 12:00:00,Service,Instagram,57.82,23.4,2,New,Basic
+2023-11-22 20:00:00,Service,In-Store,30.98,0,0,Returning,Basic
+2023-05-12 08:00:00,Product,Online,99.05,0,0,Returning,Basic
+2023-07-12 20:00:00,Product,Online,112.68,0,0,New,Discounted
+2023-12-17 15:00:00,Product,Google Ads,193.43,20.94,2,Returning,Discounted
+2023-03-15 20:00:00,Service,Online,104.92,0,0,Returning,Premium
+2023-08-24 17:00:00,Service,Instagram,164.36,24.41,2,New,Premium
+2023-12-12 20:00:00,Product,Google Ads,166.79,11.73,3,New,Discounted
+2023-02-25 19:00:00,Service,Facebook,86.14,19.57,2,Returning,Basic
+2023-08-29 07:00:00,Service,Online,124.23,0,0,Returning,Premium
+2023-11-27 20:00:00,Product,Facebook,176.02,1.24,3,Returning,Discounted
+2023-11-14 17:00:00,Service,Facebook,14.75,12.42,0,Returning,Discounted
+2023-03-29 11:00:00,Product,Facebook,105.73,10.11,3,Returning,Premium
+2023-03-13 13:00:00,Product,Google Ads,94.63,11.53,2,Returning,Discounted
+2023-06-03 20:00:00,Service,Instagram,29.56,0,0,New,Basic
+2023-11-19 13:00:00,Product,In-Store,76.69,0,0,New,Premium
+2023-11-04 19:00:00,Service,Facebook,69.22,20.65,0,New,Basic
+2023-07-08 16:00:00,Service,Google Ads,11.12,22.63,0,Returning,Basic
+2023-07-11 09:00:00,Product,Online,165.58,0,0,Returning,Premium
+2023-01-01 11:00:00,Product,Facebook,162.85,7.38,3,Returning,Premium
+2023-03-18 09:00:00,Service,In-Store,146.81,0,0,Returning,Basic
+2023-05-07 09:00:00,Product,Facebook,61.11,4.82,1,New,Discounted
+2023-09-07 18:00:00,Product,Google Ads,68.63,6.54,0,New,Premium
+2023-02-20 14:00:00,Service,Facebook,16.38,8.86,3,Returning,Basic
+2023-10-22 07:00:00,Service,Facebook,163.47,25.65,3,New,Premium
+2023-08-09 07:00:00,Service,Instagram,109.82,26.42,1,Returning,Premium
+2023-04-13 15:00:00,Product,Online,96.75,0,0,New,Basic
+2023-03-29 21:00:00,Service,Google Ads,73.64,29.84,2,Returning,Basic
+2023-12-04 20:00:00,Product,Facebook,69.62,13.92,3,New,Premium
+2023-06-17 11:00:00,Service,Google Ads,178.7,28.55,2,New,Basic
+2023-06-12 20:00:00,Service,Online,119.81,0,0,Returning,Discounted
+2023-01-12 13:00:00,Service,Google Ads,162.87,13.42,3,New,Premium
+2023-11-10 12:00:00,Product,Instagram,108.95,9.9,1,Returning,Basic
+2023-09-13 09:00:00,Product,Facebook,177.78,11.13,2,New,Premium
+2023-05-18 14:00:00,Product,Facebook,75.95,8.23,2,Returning,Discounted
+2023-02-07 10:00:00,Product,Google Ads,68.63,26.17,3,New,Basic
+2023-11-17 11:00:00,Product,Facebook,182.58,4.89,3,New,Basic
+2023-12-28 13:00:00,Service,Instagram,79.77,8.21,2,Returning,Premium
+2023-02-15 11:00:00,Product,In-Store,16.55,0,0,Returning,Discounted
+2023-05-11 16:00:00,Service,Online,194.21,0,0,Returning,Premium
+2023-04-03 10:00:00,Service,Facebook,31.3,1.72,2,New,Discounted
+2023-11-02 14:00:00,Product,Google Ads,179.79,4.62,3,Returning,Premium
+2023-10-26 15:00:00,Product,Facebook,138.85,16.37,2,New,Premium
+2023-02-15 18:00:00,Service,Facebook,105.2,7.71,0,New,Premium
+2023-06-26 10:00:00,Service,Instagram,95.11,17.47,3,New,Premium
+2023-02-16 16:00:00,Product,Google Ads,184.4,8.64,0,Returning,Premium
+2023-03-27 08:00:00,Product,Facebook,95.11,24.32,1,Returning,Premium
+2023-07-07 15:00:00,Product,Facebook,58.75,7.49,1,Returning,Premium
+2023-10-28 10:00:00,Service,In-Store,14.15,0,0,Returning,Premium
+2023-12-24 13:00:00,Product,Facebook,86.13,29.55,2,Returning,Premium
+2023-06-09 11:00:00,Product,In-Store,40.8,0,0,New,Basic
+2023-10-27 14:00:00,Product,Online,112.66,0,0,New,Basic
+2023-07-09 08:00:00,Product,Instagram,148.25,15.13,2,New,Basic
+2023-01-15 09:00:00,Product,Online,176.37,0,0,Returning,Basic
+2023-08-22 14:00:00,Service,Facebook,188.87,5.44,3,New,Basic
+2023-10-09 15:00:00,Service,Facebook,59.21,0.75,0,Returning,Basic
+2023-11-28 12:00:00,Service,In-Store,83.62,0,0,Returning,Premium
+2023-08-06 07:00:00,Product,In-Store,172.74,0,0,New,Premium
+2023-08-15 11:00:00,Service,In-Store,63.67,0,0,Returning,Basic
+2023-02-20 16:00:00,Service,Google Ads,196.35,18.35,3,Returning,Basic
+2023-11-29 10:00:00,Product,In-Store,10.27,0,0,Returning,Discounted
+2023-11-04 16:00:00,Product,Google Ads,73.61,10.07,3,Returning,Basic
+2023-09-20 09:00:00,Service,Instagram,73.52,2.97,3,New,Premium
+2023-12-25 13:00:00,Service,Online,42.82,0,0,New,Discounted
+2023-06-14 11:00:00,Service,Google Ads,106.41,16.47,0,Returning,Basic
+2023-11-10 15:00:00,Service,In-Store,140.17,0,0,Returning,Discounted
+2023-07-19 21:00:00,Product,Online,52.09,0,0,Returning,Premium
+2023-11-07 13:00:00,Product,Google Ads,197.49,23.54,2,New,Discounted
+2023-10-09 07:00:00,Service,In-Store,180.57,0,0,New,Basic
+2023-07-04 09:00:00,Service,In-Store,193.5,0,0,Returning,Discounted
+2023-02-28 17:00:00,Product,Facebook,147.34,25.98,0,Returning,Basic
+2023-08-07 14:00:00,Service,Facebook,118.12,19.23,0,New,Premium
+2023-05-13 14:00:00,Product,Online,102.8,0,0,Returning,Discounted
+2023-07-11 17:00:00,Product,Facebook,12.52,20.69,0,New,Discounted
+2023-10-20 15:00:00,Service,Google Ads,121.33,17.36,3,New,Discounted
+2023-05-19 21:00:00,Service,In-Store,160.01,0,0,Returning,Premium
+2023-05-24 10:00:00,Service,In-Store,31.68,0,0,New,Premium
+2023-09-02 20:00:00,Service,Google Ads,177.45,5.2,2,New,Basic
+2023-09-21 19:00:00,Service,Google Ads,169.81,3.67,1,Returning,Premium
+2023-10-13 18:00:00,Service,Online,112.87,0,0,Returning,Discounted
+2023-12-10 15:00:00,Product,In-Store,170.89,0,0,Returning,Premium
+2023-05-25 18:00:00,Service,Instagram,197.21,29.08,1,Returning,Premium
+2023-05-17 15:00:00,Product,In-Store,116.05,0,0,Returning,Discounted
+2023-05-06 21:00:00,Product,Google Ads,102.35,23.84,0,Returning,Basic
+2023-04-27 14:00:00,Service,Facebook,151.54,6.46,0,New,Basic
+2023-01-08 11:00:00,Service,Instagram,188.91,29.01,3,New,Discounted
+2023-05-06 19:00:00,Service,Google Ads,114.44,26.01,1,Returning,Basic
+2023-04-20 07:00:00,Product,Facebook,136.3,4.05,1,New,Premium
+2023-12-05 08:00:00,Service,Instagram,194.28,26.26,3,Returning,Premium
+2023-08-26 07:00:00,Service,Instagram,160.47,24.04,0,Returning,Discounted
+2023-04-25 21:00:00,Product,Facebook,184.1,17.12,1,New,Discounted
+2023-09-02 17:00:00,Service,Google Ads,106.47,5.96,2,Returning,Discounted
+2023-04-25 07:00:00,Product,Facebook,31.27,2.87,2,Returning,Discounted
+2023-02-18 18:00:00,Product,Online,135.87,0,0,Returning,Premium
+2023-06-11 15:00:00,Product,Google Ads,161.76,7.51,3,New,Premium
+2023-02-12 13:00:00,Service,Google Ads,80.78,26.67,1,Returning,Premium
+2023-05-30 14:00:00,Product,Facebook,82.7,1.21,2,Returning,Discounted
+2023-03-02 08:00:00,Service,Online,52.09,0,0,Returning,Premium
+2023-09-15 12:00:00,Product,Facebook,32.85,1.38,1,Returning,Premium
+2023-09-13 21:00:00,Service,Google Ads,66.49,8.66,2,New,Premium
+2023-10-30 10:00:00,Service,Instagram,54.45,12.24,1,Returning,Discounted
+2023-07-01 15:00:00,Service,Online,101.03,0,0,New,Basic
+2023-03-22 16:00:00,Product,Online,39.92,0,0,New,Basic
+2023-05-01 10:00:00,Product,In-Store,37,0,0,Returning,Premium
+2023-11-10 17:00:00,Product,In-Store,15.06,0,0,Returning,Premium
+2023-04-26 08:00:00,Service,Google Ads,108.36,11.93,2,Returning,Premium
+2023-11-26 11:00:00,Product,Online,41.31,0,0,New,Discounted
+2023-01-24 17:00:00,Service,Online,65.64,0,0,Returning,Discounted
+2023-04-23 14:00:00,Product,Online,116.71,0,0,New,Premium
+2023-08-01 12:00:00,Service,Google Ads,179.12,18.45,0,New,Premium
+2023-03-02 19:00:00,Service,In-Store,182.04,0,0,Returning,Premium
+2023-02-26 11:00:00,Product,Online,117.35,0,0,Returning,Premium
+2023-12-22 20:00:00,Product,Google Ads,29.04,11.83,2,Returning,Premium
+2023-12-08 19:00:00,Service,Google Ads,118.25,8.81,3,New,Discounted
+2023-10-23 19:00:00,Product,Instagram,47.74,16.94,3,Returning,Discounted
+2023-03-11 11:00:00,Service,Google Ads,165.43,2.51,1,Returning,Discounted
+2023-01-05 19:00:00,Product,Facebook,168.97,10.04,3,Returning,Discounted
+2023-08-17 09:00:00,Product,Instagram,104.39,8.66,1,New,Premium
+2023-05-29 09:00:00,Product,Instagram,112.58,18.87,1,New,Basic
+2023-07-24 19:00:00,Product,Google Ads,93.96,18.44,2,New,Premium
+2023-07-12 14:00:00,Product,Instagram,78.86,28.75,2,Returning,Basic
+2023-04-20 12:00:00,Service,Instagram,137.59,9.95,2,Returning,Premium
+2023-08-05 07:00:00,Product,Facebook,162.52,20.41,1,Returning,Premium
+2023-12-01 10:00:00,Service,Online,98.22,0,0,New,Discounted
+2023-06-06 20:00:00,Service,In-Store,41.11,0,0,Returning,Basic
+2023-02-16 10:00:00,Product,Online,24.33,0,0,New,Discounted
+2023-10-04 17:00:00,Service,Google Ads,183.02,8.63,2,Returning,Discounted
+2023-05-16 14:00:00,Product,Facebook,58.55,6.92,2,Returning,Discounted
+2023-08-17 18:00:00,Product,Google Ads,61.36,16.47,2,New,Basic
+2023-08-25 14:00:00,Service,In-Store,146.74,0,0,New,Basic
+2023-10-08 19:00:00,Service,Google Ads,65.89,5.43,1,New,Discounted
+2023-03-23 15:00:00,Service,In-Store,180.9,0,0,Returning,Discounted
+2023-09-12 16:00:00,Service,Facebook,159.92,27.81,2,Returning,Premium
+2023-12-12 12:00:00,Service,Instagram,65.57,23.47,1,New,Discounted
+2023-12-19 08:00:00,Product,Google Ads,98.49,5.13,2,Returning,Premium
+2023-06-02 12:00:00,Service,Facebook,12,2.87,0,New,Premium
+2023-06-05 07:00:00,Service,In-Store,179.22,0,0,New,Premium
+2023-10-21 19:00:00,Service,Online,47.02,0,0,Returning,Basic
+2023-11-13 18:00:00,Product,Instagram,65.24,5.92,0,New,Discounted
+2023-08-03 18:00:00,Product,Online,96.8,0,0,Returning,Discounted
+2023-05-21 09:00:00,Product,Google Ads,25.84,16.17,2,Returning,Premium
+2023-12-24 17:00:00,Service,Facebook,126.56,19.07,2,Returning,Basic
+2023-03-30 21:00:00,Service,Facebook,104.4,27.12,3,New,Premium
+2023-10-27 16:00:00,Product,Instagram,27.43,17.33,2,Returning,Basic
+2023-10-20 12:00:00,Service,Facebook,192.1,23.3,1,Returning,Discounted
+2023-07-08 08:00:00,Service,Online,184.85,0,0,Returning,Basic
+2023-06-10 07:00:00,Service,In-Store,59.61,0,0,New,Premium
+2023-09-09 11:00:00,Service,In-Store,173.59,0,0,Returning,Basic
+2023-02-14 13:00:00,Product,Instagram,98.21,16.07,0,New,Discounted
+2023-05-15 15:00:00,Service,Online,115.54,0,0,New,Basic
+2023-01-11 09:00:00,Service,Google Ads,173.82,15,2,Returning,Discounted
+2023-02-13 19:00:00,Service,Online,114.24,0,0,Returning,Discounted
+2023-05-20 11:00:00,Service,Facebook,90.19,22.89,1,New,Basic
+2023-07-28 07:00:00,Service,Facebook,134.46,4.56,2,Returning,Discounted
+2023-03-19 17:00:00,Product,Facebook,127.04,3.11,0,Returning,Basic
+2023-08-15 16:00:00,Service,Facebook,130.58,13.14,1,New,Basic
+2023-01-03 21:00:00,Product,Instagram,161.24,21.97,1,New,Discounted
+2023-05-22 13:00:00,Product,Online,199.79,0,0,New,Basic
+2023-12-26 07:00:00,Service,Google Ads,88.79,17.05,2,Returning,Premium
+2023-02-10 12:00:00,Service,Google Ads,133.19,4.87,0,Returning,Basic
+2023-10-05 10:00:00,Product,Instagram,94.97,1.69,0,Returning,Basic
+2023-05-01 14:00:00,Product,Google Ads,167.91,28.61,1,New,Premium
+2023-03-28 14:00:00,Service,Online,89.67,0,0,Returning,Discounted
+2023-03-10 21:00:00,Service,Instagram,74.13,21.82,2,Returning,Basic
+2023-08-13 07:00:00,Product,Facebook,34.66,15.36,0,New,Basic
+2023-06-04 16:00:00,Product,Online,181.33,0,0,Returning,Basic
+2023-04-20 07:00:00,Product,Google Ads,62.04,26.22,1,New,Premium
+2023-03-31 14:00:00,Service,In-Store,32.9,0,0,Returning,Discounted
+2023-12-02 18:00:00,Service,Facebook,179.76,28.32,1,New,Premium
+2023-05-26 19:00:00,Product,Facebook,167.58,17.85,2,Returning,Basic
+2023-09-03 13:00:00,Product,Instagram,46.29,24.65,2,New,Discounted
+2023-01-10 09:00:00,Product,Instagram,109.07,25.3,1,Returning,Discounted
+2023-11-07 08:00:00,Service,Google Ads,89.86,17.36,0,Returning,Basic
+2023-10-26 20:00:00,Product,Online,194.43,0,0,Returning,Discounted
+2023-04-02 18:00:00,Product,In-Store,161.04,0,0,New,Premium
+2023-06-29 11:00:00,Service,Facebook,197.85,4.25,3,New,Premium
+2023-03-09 17:00:00,Service,Instagram,154.11,16.09,2,New,Premium
+2023-11-13 08:00:00,Product,Online,59.73,0,0,Returning,Basic
+2023-03-03 07:00:00,Service,Instagram,42.98,8.78,1,New,Discounted
+2023-04-02 13:00:00,Product,Facebook,162,8.37,2,Returning,Premium
+2023-06-09 09:00:00,Service,Facebook,101.16,16.73,2,New,Basic
+2023-12-27 17:00:00,Service,Instagram,45.58,15.56,0,Returning,Discounted
+2023-02-01 19:00:00,Service,Google Ads,172.19,3.93,1,Returning,Discounted
+2023-07-15 12:00:00,Product,Instagram,39.48,20.97,2,New,Basic
+2023-02-04 12:00:00,Product,Instagram,91.22,27.87,1,Returning,Basic
+2023-01-31 09:00:00,Product,In-Store,52.52,0,0,Returning,Premium
+2023-11-19 10:00:00,Product,Google Ads,110.68,13.13,2,Returning,Basic
+2023-11-06 10:00:00,Product,Instagram,186.68,19.18,2,Returning,Premium
+2023-03-12 09:00:00,Service,Facebook,172.16,8.6,3,Returning,Basic
+2023-11-06 10:00:00,Product,In-Store,125.15,0,0,New,Discounted
+2023-02-23 15:00:00,Product,In-Store,14.97,0,0,New,Basic
+2023-02-04 14:00:00,Product,Online,52.9,0,0,New,Basic
+2023-04-28 14:00:00,Product,Online,137.57,0,0,New,Basic
+2023-04-16 13:00:00,Product,Online,141.3,0,0,Returning,Discounted
+2023-01-18 19:00:00,Product,Facebook,151.62,27.47,3,Returning,Basic
+2023-10-19 11:00:00,Service,Instagram,147.56,21.42,3,Returning,Basic
+2023-05-23 18:00:00,Service,Facebook,148.92,12.89,1,Returning,Premium
+2023-05-27 13:00:00,Product,Facebook,183.97,14.91,2,New,Discounted
+2023-02-11 07:00:00,Product,Facebook,116.76,14.67,1,New,Premium
+2023-11-26 20:00:00,Product,In-Store,131.14,0,0,New,Discounted
+2023-03-03 11:00:00,Product,Google Ads,124.22,11.12,2,Returning,Discounted
+2023-12-02 09:00:00,Service,In-Store,194.88,0,0,Returning,Premium
+2023-06-03 17:00:00,Service,Instagram,189.67,8.58,0,Returning,Basic
+2023-08-13 19:00:00,Service,Google Ads,67.32,3.85,0,New,Basic
+2023-09-11 14:00:00,Product,Online,33.12,0,0,New,Premium
+2023-05-07 10:00:00,Service,In-Store,74,0,0,Returning,Basic
+2023-02-04 17:00:00,Service,In-Store,73.64,0,0,New,Premium
+2023-10-09 11:00:00,Service,Google Ads,116.23,26.91,2,New,Discounted
+2023-08-08 07:00:00,Product,Google Ads,10,9.99,2,Returning,Discounted
+2023-12-14 16:00:00,Service,Google Ads,150.7,21.59,0,New,Basic
+2023-10-27 15:00:00,Product,Online,143.01,0,0,Returning,Premium
+2023-02-04 08:00:00,Product,Instagram,126.27,12.64,3,New,Discounted
+2023-11-01 08:00:00,Service,Facebook,199.53,3.79,3,New,Discounted
+2023-06-08 11:00:00,Product,Facebook,75.75,10.75,2,Returning,Basic
+2023-10-16 14:00:00,Service,Instagram,183.64,22.05,2,New,Basic
+2023-11-11 19:00:00,Product,Facebook,35.49,7.43,2,New,Discounted
+2023-06-30 10:00:00,Product,In-Store,103.24,0,0,Returning,Discounted
+2023-08-14 10:00:00,Service,Online,112,0,0,Returning,Discounted
+2023-02-21 14:00:00,Service,Instagram,86.74,29.08,1,New,Discounted
+2023-08-07 09:00:00,Product,In-Store,109.6,0,0,New,Discounted
+2023-11-24 08:00:00,Service,Online,114.16,0,0,Returning,Premium
+2023-03-29 08:00:00,Service,In-Store,44.76,0,0,New,Discounted
+2023-02-15 21:00:00,Product,Instagram,127.57,29.3,0,New,Discounted
+2023-09-06 16:00:00,Service,Facebook,118.4,16.33,0,New,Basic
+2023-08-13 21:00:00,Product,Facebook,159.51,6.31,0,New,Basic
+2023-12-10 09:00:00,Product,Facebook,166.29,18.95,1,Returning,Discounted
+2023-02-16 11:00:00,Product,Facebook,190.12,4.56,2,Returning,Basic
+2023-01-29 14:00:00,Product,Instagram,98.5,26.18,2,New,Premium
+2023-06-23 11:00:00,Service,Online,40.72,0,0,New,Basic
+2023-11-30 14:00:00,Product,Online,196.82,0,0,New,Premium
+2023-07-30 13:00:00,Service,Online,144.76,0,0,New,Premium
+2023-08-27 19:00:00,Service,Instagram,25.2,17.52,2,New,Basic
+2023-03-19 14:00:00,Service,Instagram,122.04,10.22,2,New,Basic
+2023-04-08 19:00:00,Product,Online,151.04,0,0,Returning,Premium
+2023-12-11 19:00:00,Product,Online,170.11,0,0,New,Premium
+2023-10-26 11:00:00,Service,Google Ads,166.66,29.05,2,Returning,Premium
+2023-09-29 14:00:00,Product,Online,34.11,0,0,Returning,Premium
+2023-03-08 13:00:00,Product,Google Ads,19.54,5.27,0,Returning,Basic
+2023-01-21 09:00:00,Service,Online,30.8,0,0,Returning,Premium
+2023-02-13 08:00:00,Service,Instagram,152.27,7.64,3,New,Basic
+2023-06-15 10:00:00,Product,In-Store,191.1,0,0,Returning,Discounted
+2023-02-28 16:00:00,Service,Facebook,186.26,23.24,3,New,Basic
+2023-06-04 21:00:00,Service,Google Ads,149.18,13.99,2,New,Discounted
+2023-11-14 09:00:00,Product,Facebook,162.21,21.3,2,New,Basic
+2023-11-12 11:00:00,Product,Facebook,128.4,2.39,1,Returning,Premium
+2023-05-24 13:00:00,Product,Google Ads,68.78,1.69,1,New,Basic
+2023-02-20 12:00:00,Service,In-Store,81.31,0,0,New,Discounted
+2023-11-09 08:00:00,Product,In-Store,25.26,0,0,New,Discounted
+2023-12-31 17:00:00,Service,Instagram,24.48,24.91,1,New,Premium
+2023-10-22 08:00:00,Service,Instagram,158,21.56,0,Returning,Premium
+2023-05-12 19:00:00,Service,Instagram,185.3,20.7,2,New,Premium
+2023-08-17 14:00:00,Service,Google Ads,45.68,4,2,New,Discounted
+2023-02-25 16:00:00,Service,Online,12.18,0,0,New,Discounted
+2023-06-07 13:00:00,Product,In-Store,57.56,0,0,New,Premium
+2023-01-08 07:00:00,Service,Facebook,190.38,12.58,0,New,Basic
+2023-02-27 19:00:00,Service,Google Ads,114.83,24,3,Returning,Basic
+2023-05-30 11:00:00,Service,Facebook,182.18,14.17,2,New,Basic
+2023-06-11 12:00:00,Service,Google Ads,125.81,8.46,2,New,Basic
+2023-01-21 14:00:00,Service,Online,161.51,0,0,Returning,Discounted
+2023-02-09 07:00:00,Product,Instagram,120.47,20.68,1,New,Discounted
+2023-01-22 12:00:00,Service,Online,11.89,0,0,New,Premium
+2023-01-31 12:00:00,Product,Online,117.8,0,0,New,Discounted
+2023-02-07 21:00:00,Product,Online,172.36,0,0,Returning,Discounted
+2023-11-05 09:00:00,Product,In-Store,192.7,0,0,New,Basic
+2023-08-28 09:00:00,Service,Instagram,129.61,1.58,0,New,Basic
+2023-08-22 16:00:00,Product,Google Ads,114.67,13.92,2,New,Basic
+2023-12-01 15:00:00,Service,Google Ads,44.87,22.36,2,Returning,Basic
+2023-09-27 08:00:00,Service,Online,87.22,0,0,New,Basic
+2023-05-25 17:00:00,Product,In-Store,30.23,0,0,Returning,Premium
+2023-05-31 11:00:00,Service,Facebook,128.56,5.72,1,New,Basic
+2023-10-15 09:00:00,Service,Online,105.16,0,0,Returning,Discounted
+2023-01-01 18:00:00,Service,In-Store,21.28,0,0,New,Discounted
+2023-03-15 17:00:00,Service,In-Store,189.15,0,0,Returning,Basic
+2023-07-28 09:00:00,Service,Facebook,171.13,21,0,New,Premium
+2023-10-16 17:00:00,Product,Google Ads,185.75,1.63,2,Returning,Basic
+2023-12-15 11:00:00,Service,Instagram,158.33,8.45,3,Returning,Premium
+2023-04-15 15:00:00,Product,Instagram,183.3,16.43,0,New,Premium
+2023-11-06 14:00:00,Service,Google Ads,65.53,28.99,0,Returning,Premium
+2023-11-10 14:00:00,Product,Instagram,37.55,17.29,0,Returning,Basic
+2023-02-07 11:00:00,Product,Instagram,49.33,27.81,2,New,Discounted
+2023-05-16 16:00:00,Service,Google Ads,14.98,27.69,0,Returning,Basic
+2023-09-09 15:00:00,Product,Online,101.38,0,0,New,Basic
+2023-12-28 10:00:00,Service,Facebook,184.49,4.94,2,New,Basic
+2023-03-28 14:00:00,Product,In-Store,190.5,0,0,New,Basic
+2023-02-17 15:00:00,Service,Online,49.02,0,0,Returning,Premium
+2023-10-22 13:00:00,Service,In-Store,41.72,0,0,Returning,Discounted
+2023-05-28 08:00:00,Service,Instagram,115.01,2.15,2,New,Premium
+2023-06-22 19:00:00,Product,In-Store,88.25,0,0,Returning,Premium
+2023-08-16 12:00:00,Service,Instagram,168.28,15.72,0,New,Basic
+2023-11-08 19:00:00,Product,Facebook,149.3,4.29,3,Returning,Premium
+2023-05-01 14:00:00,Service,In-Store,66.5,0,0,New,Premium
+2023-04-12 13:00:00,Service,Online,182.35,0,0,New,Basic
+2023-09-11 20:00:00,Product,Instagram,73.38,13.62,2,New,Basic
+2023-02-18 07:00:00,Service,Online,168.7,0,0,New,Premium
+2023-10-30 09:00:00,Product,Instagram,124.64,26.35,1,New,Basic
+2023-03-10 17:00:00,Service,Online,55.22,0,0,Returning,Discounted
+2023-07-19 10:00:00,Service,Facebook,91.09,13.15,0,Returning,Discounted
+2023-07-08 10:00:00,Product,In-Store,43.79,0,0,New,Premium
+2023-01-22 12:00:00,Product,Google Ads,108.96,26.91,2,Returning,Discounted
+2023-05-05 13:00:00,Product,In-Store,83.42,0,0,New,Basic
+2023-07-28 19:00:00,Product,Facebook,17.65,8.38,1,New,Basic
+2023-08-01 09:00:00,Service,Online,171.76,0,0,Returning,Basic
+2023-05-23 08:00:00,Service,Facebook,113.96,4.37,0,Returning,Discounted
+2023-09-28 11:00:00,Product,Instagram,58.4,9.92,2,New,Basic
+2023-06-13 12:00:00,Product,In-Store,10.2,0,0,New,Premium
+2023-01-05 18:00:00,Service,Instagram,71.58,2.59,0,Returning,Basic
+2023-03-29 10:00:00,Service,Online,90.87,0,0,New,Discounted
+2023-11-24 17:00:00,Service,Instagram,36.93,21.16,0,New,Basic
+2023-10-11 16:00:00,Service,Instagram,18.51,22.47,3,New,Basic
+2023-11-03 09:00:00,Product,Google Ads,90.1,1.31,3,New,Basic
+2023-06-04 20:00:00,Product,Online,105.73,0,0,Returning,Premium
+2023-12-01 08:00:00,Service,In-Store,154.06,0,0,Returning,Basic
+2023-01-06 13:00:00,Service,Online,118.42,0,0,Returning,Premium
+2023-01-24 12:00:00,Service,Online,153.02,0,0,New,Discounted
+2023-06-13 20:00:00,Service,Instagram,30,24.54,2,Returning,Basic
+2023-12-05 15:00:00,Product,Instagram,31.39,5.17,1,New,Basic
+2023-03-04 09:00:00,Service,In-Store,118.78,0,0,New,Basic
+2023-06-25 15:00:00,Service,Online,35.91,0,0,Returning,Premium
+2023-02-04 20:00:00,Service,Google Ads,191.32,15.79,2,Returning,Premium
+2023-04-07 17:00:00,Product,Facebook,177.88,12.74,1,New,Premium
+2023-07-24 14:00:00,Product,Instagram,21.55,15.3,0,Returning,Premium
+2023-05-23 07:00:00,Product,Google Ads,57.44,21.38,1,New,Premium
+2023-07-17 16:00:00,Product,In-Store,165.23,0,0,New,Premium
+2023-10-29 14:00:00,Product,Google Ads,157.98,8.33,0,Returning,Discounted
+2023-12-10 07:00:00,Product,Google Ads,152.4,7.67,2,New,Basic
+2023-01-07 21:00:00,Product,Online,75.54,0,0,New,Basic
+2023-10-05 20:00:00,Product,Online,50.3,0,0,New,Basic
+2023-12-30 08:00:00,Service,Instagram,16.61,8.64,1,New,Discounted
+2023-11-13 20:00:00,Product,Online,27.95,0,0,Returning,Premium
+2023-03-20 17:00:00,Product,Google Ads,58.08,24.2,0,Returning,Basic
+2023-09-02 20:00:00,Service,Online,26.16,0,0,New,Premium
+2023-01-31 19:00:00,Service,In-Store,73.12,0,0,New,Discounted
+2023-05-25 19:00:00,Service,Online,56.38,0,0,New,Basic
+2023-11-04 18:00:00,Service,In-Store,27.22,0,0,New,Premium
+2023-01-19 11:00:00,Service,Google Ads,74.93,15.49,3,Returning,Premium
+2023-12-12 21:00:00,Product,Online,176.94,0,0,Returning,Premium
+2023-10-03 17:00:00,Product,Online,182.01,0,0,Returning,Discounted
+2023-07-13 09:00:00,Service,In-Store,136.28,0,0,Returning,Basic
+2023-03-08 12:00:00,Product,Online,11.44,0,0,New,Discounted
+2023-04-08 08:00:00,Product,Online,178.2,0,0,Returning,Discounted
+2023-12-04 08:00:00,Service,Facebook,93.19,9.91,1,Returning,Discounted
+2023-12-21 17:00:00,Service,Google Ads,54.11,21.58,3,New,Discounted
+2023-01-03 15:00:00,Product,Google Ads,88.83,21.77,2,Returning,Discounted
+2023-05-04 07:00:00,Product,Instagram,155.44,15.36,3,New,Discounted
+2023-07-05 21:00:00,Product,In-Store,27.61,0,0,Returning,Discounted
+2023-02-24 20:00:00,Service,Google Ads,58.59,21.27,2,New,Basic
+2023-08-22 20:00:00,Service,Online,131.95,0,0,New,Premium
+2023-08-31 21:00:00,Product,Online,169.86,0,0,Returning,Discounted
+2023-03-07 17:00:00,Product,Instagram,32.24,7.13,3,New,Premium
+2023-09-20 21:00:00,Service,In-Store,193.33,0,0,New,Basic
+2023-08-15 17:00:00,Product,In-Store,177.49,0,0,Returning,Premium
+2023-12-10 15:00:00,Service,Instagram,33.38,2.52,0,New,Basic
+2023-04-24 12:00:00,Product,In-Store,118.62,0,0,Returning,Basic
+2023-01-06 12:00:00,Product,Online,89,0,0,New,Premium
+2023-02-23 14:00:00,Service,Facebook,90.49,28.03,1,Returning,Discounted
+2023-01-04 14:00:00,Service,In-Store,152.57,0,0,New,Discounted
+2023-07-06 16:00:00,Product,Instagram,187.91,5.84,0,New,Basic
+2023-03-14 09:00:00,Product,Instagram,171.61,17.27,1,New,Basic
+2023-08-11 09:00:00,Product,Instagram,82.98,21.23,1,Returning,Premium
+2023-05-27 17:00:00,Service,Instagram,141.44,6.73,0,Returning,Premium
+2023-08-22 09:00:00,Service,Google Ads,134.98,25.58,3,Returning,Discounted
+2023-03-13 18:00:00,Service,Facebook,62.28,13.23,0,Returning,Basic
+2023-08-31 14:00:00,Service,Online,137.73,0,0,New,Discounted
+2023-08-20 19:00:00,Service,Instagram,155.1,12.13,1,New,Premium
+2023-06-04 15:00:00,Product,Online,125.47,0,0,Returning,Discounted
+2023-08-06 09:00:00,Service,Facebook,143.31,17.13,1,Returning,Discounted
+2023-11-26 08:00:00,Service,In-Store,28.02,0,0,Returning,Basic
+2023-09-30 09:00:00,Product,In-Store,89.61,0,0,New,Discounted
+2023-09-24 13:00:00,Product,Facebook,108.75,23.94,2,New,Basic
+2023-09-08 19:00:00,Product,Online,176.22,0,0,New,Basic
+2023-04-01 11:00:00,Service,Instagram,199.7,21.92,2,New,Basic
+2023-10-14 14:00:00,Service,Facebook,111.26,1.28,2,New,Basic
+2023-03-13 15:00:00,Service,Google Ads,43,28.62,2,New,Discounted
+2023-03-07 10:00:00,Service,Instagram,35.08,5.31,2,New,Discounted
+2023-06-22 09:00:00,Product,Google Ads,134.89,14.46,3,Returning,Premium
+2023-12-09 10:00:00,Product,Online,94.79,0,0,Returning,Premium
+2023-01-03 07:00:00,Product,Facebook,107.05,8.71,2,New,Discounted
+2023-03-05 09:00:00,Service,Facebook,184.57,13.47,3,New,Basic
+2023-11-23 09:00:00,Service,Facebook,150.48,4.82,3,Returning,Basic
+2023-04-01 20:00:00,Product,In-Store,52.69,0,0,Returning,Basic
+2023-03-02 21:00:00,Service,Online,188.79,0,0,Returning,Premium
+2023-03-14 07:00:00,Service,In-Store,52.46,0,0,New,Basic
+2023-01-04 17:00:00,Service,In-Store,17.07,0,0,New,Discounted
+2023-12-24 18:00:00,Product,In-Store,98.56,0,0,New,Discounted
+2023-12-31 21:00:00,Service,Instagram,144.44,8.28,3,New,Premium
+2023-05-10 17:00:00,Product,Google Ads,65.36,22.44,1,Returning,Basic
+2023-08-14 14:00:00,Service,Facebook,73.83,26.94,1,Returning,Basic
+2023-05-28 14:00:00,Service,Facebook,120.43,4.48,3,Returning,Premium
+2023-07-24 21:00:00,Product,Google Ads,71.94,12.91,0,Returning,Premium
+2023-10-22 20:00:00,Product,Online,140.49,0,0,Returning,Basic
+2023-03-22 17:00:00,Service,Google Ads,78.4,8.73,2,Returning,Basic
+2023-10-20 07:00:00,Product,Google Ads,105.12,18.07,0,Returning,Discounted
+2023-04-10 15:00:00,Product,Facebook,110.97,18.04,1,New,Discounted
+2023-10-28 16:00:00,Service,Instagram,100.22,3.09,2,New,Discounted
+2023-06-17 16:00:00,Product,Online,138.28,0,0,New,Basic
+2023-09-15 17:00:00,Service,Facebook,169.8,15.7,1,Returning,Basic
+2023-10-18 13:00:00,Service,Instagram,196.32,23.43,3,Returning,Basic
+2023-02-19 08:00:00,Product,Online,175.8,0,0,New,Discounted
+2023-06-16 17:00:00,Product,Online,76.27,0,0,Returning,Basic
+2023-08-13 20:00:00,Product,Online,95.02,0,0,Returning,Basic
+2023-04-21 17:00:00,Product,Facebook,105.55,7.46,0,New,Basic
+2023-05-14 17:00:00,Product,Instagram,167.75,9.98,2,New,Discounted
+2023-01-16 20:00:00,Product,Instagram,145.45,22.96,2,New,Discounted
+2023-06-30 13:00:00,Product,Online,34.45,0,0,Returning,Basic
+2023-06-30 07:00:00,Product,Google Ads,25.77,8.39,1,Returning,Premium
+2023-05-08 10:00:00,Product,Online,125.58,0,0,New,Premium
+2023-12-22 13:00:00,Service,Instagram,92.79,9.04,1,New,Premium
+2023-03-18 15:00:00,Service,In-Store,87.09,0,0,New,Premium
+2023-12-31 14:00:00,Product,Google Ads,64.77,13.22,0,New,Premium
+2023-09-12 19:00:00,Product,Google Ads,194.03,5.22,0,Returning,Premium
+2023-09-11 10:00:00,Product,In-Store,49.98,0,0,Returning,Premium
+2023-07-25 17:00:00,Service,Online,138.93,0,0,Returning,Discounted
+2023-05-15 21:00:00,Product,In-Store,38.97,0,0,New,Premium
+2023-05-06 19:00:00,Product,Instagram,115.71,26.77,3,New,Premium
+2023-09-30 15:00:00,Service,Facebook,144.03,25.87,3,Returning,Premium
+2023-08-06 07:00:00,Product,Online,56.12,0,0,New,Premium
+2023-05-08 12:00:00,Product,Online,85.02,0,0,New,Basic
+2023-03-13 08:00:00,Product,Facebook,199.23,11.98,0,Returning,Basic
+2023-10-13 18:00:00,Product,Facebook,160.29,26.56,0,Returning,Basic
+2023-01-10 09:00:00,Product,Online,79.96,0,0,Returning,Basic
+2023-09-17 10:00:00,Service,Online,182.6,0,0,New,Premium
+2023-04-18 20:00:00,Service,In-Store,180.57,0,0,New,Premium
+2023-02-08 21:00:00,Service,Google Ads,94.45,0.69,2,Returning,Discounted
+2023-12-14 15:00:00,Product,Facebook,135.99,15.67,3,Returning,Premium
+2023-03-22 07:00:00,Product,In-Store,180.22,0,0,New,Discounted
+2023-05-14 17:00:00,Service,Google Ads,188.46,20.52,2,New,Discounted
+2023-07-01 14:00:00,Service,Google Ads,148.49,29.82,1,New,Discounted
+2023-01-18 11:00:00,Product,Instagram,131.18,19.73,1,Returning,Premium
+2023-12-21 11:00:00,Product,Facebook,70.64,10.57,3,Returning,Basic
+2023-07-23 11:00:00,Product,In-Store,181.08,0,0,Returning,Basic
+2023-02-12 11:00:00,Service,Google Ads,146.12,8.91,2,Returning,Premium
+2023-08-26 08:00:00,Product,In-Store,91.61,0,0,New,Discounted
+2023-12-18 18:00:00,Product,Online,132.81,0,0,Returning,Discounted
+2023-03-09 11:00:00,Service,In-Store,122.7,0,0,Returning,Discounted
+2023-12-27 15:00:00,Product,Online,170.86,0,0,Returning,Premium
+2023-08-28 14:00:00,Product,In-Store,163.02,0,0,Returning,Premium
+2023-08-30 08:00:00,Service,Facebook,18.74,22.33,0,Returning,Premium
+2023-09-06 10:00:00,Service,Instagram,152.74,19.48,2,New,Basic
+2023-07-02 10:00:00,Product,Google Ads,66.5,17.39,1,New,Basic
+2023-11-21 19:00:00,Product,Instagram,191.77,6.49,1,New,Discounted
+2023-08-07 10:00:00,Product,Facebook,10.23,8.21,0,Returning,Discounted
+2023-09-27 08:00:00,Service,Google Ads,14.7,11.1,0,Returning,Discounted
+2023-03-18 08:00:00,Service,Google Ads,66.58,3.95,3,Returning,Basic
+2023-03-27 19:00:00,Service,Online,136.29,0,0,Returning,Discounted
+2023-04-16 21:00:00,Service,In-Store,122.16,0,0,New,Discounted
+2023-12-28 13:00:00,Product,Online,173.35,0,0,Returning,Premium
+2023-12-30 14:00:00,Product,Instagram,40.25,5.99,3,Returning,Premium
+2023-07-17 11:00:00,Service,Instagram,33.04,18.9,1,New,Premium
+2023-04-01 07:00:00,Product,In-Store,54.54,0,0,Returning,Discounted
+2023-09-30 14:00:00,Product,In-Store,185.83,0,0,Returning,Premium
+2023-06-05 15:00:00,Product,Google Ads,185.95,18.66,0,New,Basic
+2023-06-06 17:00:00,Service,In-Store,188.58,0,0,Returning,Basic
+2023-10-31 07:00:00,Product,Instagram,45.8,15.33,1,Returning,Discounted
+2023-12-24 17:00:00,Service,In-Store,148.68,0,0,Returning,Premium
+2023-01-23 11:00:00,Product,Instagram,188.67,13.17,1,Returning,Premium
+2023-05-23 16:00:00,Product,Online,98.73,0,0,Returning,Basic
+2023-10-31 20:00:00,Product,Online,181.84,0,0,Returning,Discounted
+2023-12-23 14:00:00,Service,Online,176.76,0,0,New,Discounted
+2023-12-05 11:00:00,Service,Google Ads,181.61,12.81,3,New,Basic
+2023-08-20 09:00:00,Product,Google Ads,123.04,9.37,0,Returning,Premium
+2023-11-04 12:00:00,Product,Google Ads,118.42,22.69,3,Returning,Basic
+2023-06-09 16:00:00,Product,In-Store,165.67,0,0,New,Basic
+2023-03-15 16:00:00,Service,Google Ads,32.7,23.64,2,Returning,Discounted
+2023-01-21 20:00:00,Product,In-Store,60.12,0,0,New,Discounted
+2023-04-29 18:00:00,Product,Facebook,184.14,6.29,1,Returning,Discounted
+2023-12-11 07:00:00,Product,In-Store,115.98,0,0,New,Discounted
+2023-09-21 09:00:00,Service,Instagram,47.65,15.53,1,New,Discounted
+2023-11-16 12:00:00,Product,In-Store,54.06,0,0,New,Premium
+2023-08-09 18:00:00,Service,Facebook,195.55,26.97,0,New,Basic
+2023-04-03 11:00:00,Service,Facebook,160.66,21.67,3,Returning,Premium
+2023-06-13 18:00:00,Service,Facebook,63.48,4.79,0,New,Basic
+2023-12-29 17:00:00,Product,Facebook,157.03,7.45,0,New,Premium
+2023-04-21 13:00:00,Product,In-Store,149.21,0,0,New,Premium
+2023-12-25 07:00:00,Service,In-Store,77.77,0,0,Returning,Premium
+2023-03-09 10:00:00,Service,Online,14.9,0,0,Returning,Premium
+2023-02-21 15:00:00,Service,In-Store,10.05,0,0,New,Basic
+2023-03-24 15:00:00,Service,Facebook,27.81,4.67,0,Returning,Basic
+2023-01-28 19:00:00,Service,Online,41.9,0,0,New,Basic
+2023-09-25 20:00:00,Product,Facebook,197.5,19.29,1,New,Premium
+2023-08-20 07:00:00,Product,In-Store,157.23,0,0,New,Premium
+2023-12-10 09:00:00,Service,Facebook,36.06,18.02,3,New,Basic
+2023-12-12 18:00:00,Service,In-Store,91.03,0,0,Returning,Premium
+2023-07-08 13:00:00,Product,Online,36.72,0,0,New,Premium
+2023-01-01 16:00:00,Service,Online,110.43,0,0,Returning,Premium
+2023-05-24 07:00:00,Product,In-Store,108.6,0,0,Returning,Basic
+2023-06-10 15:00:00,Product,In-Store,149.59,0,0,New,Basic
+2023-04-21 21:00:00,Service,Instagram,149.5,23.79,0,Returning,Discounted
+2023-11-21 17:00:00,Service,In-Store,135.88,0,0,New,Basic
+2023-08-03 21:00:00,Service,Online,199.98,0,0,Returning,Discounted
+2023-01-16 14:00:00,Service,Google Ads,121.36,14.7,3,Returning,Basic
+2023-06-25 16:00:00,Service,Instagram,68.66,14.73,0,New,Discounted
+2023-07-06 17:00:00,Product,Google Ads,85.73,23.95,2,Returning,Basic
+2023-07-21 20:00:00,Product,Facebook,103.68,8.27,0,New,Basic
+2023-07-16 13:00:00,Product,Online,24.34,0,0,Returning,Basic
+2023-02-06 19:00:00,Product,Google Ads,100.7,21.94,0,Returning,Premium
+2023-02-02 15:00:00,Product,In-Store,103.32,0,0,New,Premium
+2023-10-02 12:00:00,Product,Online,48.08,0,0,Returning,Basic
+2023-03-09 18:00:00,Product,Online,132.87,0,0,New,Premium
+2023-02-24 12:00:00,Product,Instagram,106.94,8.36,1,Returning,Discounted
+2023-06-01 19:00:00,Service,Instagram,134.57,13.2,0,New,Premium
+2023-03-27 17:00:00,Service,In-Store,114.26,0,0,New,Discounted
+2023-12-20 19:00:00,Service,Google Ads,124.37,21.32,3,Returning,Basic
+2023-01-08 16:00:00,Service,Google Ads,95.21,2.95,3,Returning,Discounted
+2023-12-13 10:00:00,Product,In-Store,139.73,0,0,Returning,Premium
+2023-10-01 21:00:00,Product,Online,68.2,0,0,New,Basic
+2023-10-15 18:00:00,Product,Instagram,20.67,28.55,2,New,Discounted
+2023-01-14 16:00:00,Product,Google Ads,93.52,14.92,1,New,Basic
+2023-01-31 19:00:00,Service,Instagram,120.53,9.17,3,Returning,Basic
+2023-09-03 11:00:00,Product,Google Ads,168.47,14.67,3,Returning,Basic
+2023-06-04 09:00:00,Product,Instagram,118.19,14.23,0,Returning,Basic
+2023-05-01 21:00:00,Service,Online,110.03,0,0,Returning,Basic
+2023-05-10 18:00:00,Product,In-Store,46.85,0,0,New,Discounted
+2023-08-28 20:00:00,Service,Online,145.15,0,0,New,Discounted
+2023-09-08 12:00:00,Service,In-Store,198.86,0,0,Returning,Premium
+2023-05-22 18:00:00,Product,Facebook,134.02,2.4,0,New,Premium
+2023-03-22 14:00:00,Service,Facebook,132.35,29.24,3,New,Basic
+2023-01-30 18:00:00,Service,Instagram,104.76,24.98,0,New,Premium
+2023-08-27 13:00:00,Product,Google Ads,20.19,13.9,1,New,Discounted
+2023-11-06 07:00:00,Service,In-Store,81.52,0,0,Returning,Premium
+2023-12-10 15:00:00,Service,In-Store,84.54,0,0,New,Premium
+2023-02-04 07:00:00,Service,In-Store,97.15,0,0,New,Discounted
+2023-01-07 21:00:00,Service,Google Ads,39.83,9.18,3,New,Premium
+2023-09-18 19:00:00,Service,Instagram,10.02,26.49,2,New,Premium
+2023-02-04 13:00:00,Service,Facebook,59.58,18.51,2,Returning,Basic
+2023-08-11 17:00:00,Product,Online,179.86,0,0,New,Basic
+2023-06-17 13:00:00,Service,Google Ads,96.7,0.05,3,Returning,Basic
+2023-11-28 12:00:00,Product,In-Store,132.93,0,0,New,Discounted
+2023-04-03 07:00:00,Product,In-Store,165.59,0,0,New,Basic
+2023-07-18 13:00:00,Product,Facebook,78.14,22.94,0,New,Discounted
+2023-07-13 21:00:00,Product,In-Store,134.66,0,0,Returning,Basic
+2023-09-15 20:00:00,Service,In-Store,46.7,0,0,New,Premium
+2023-01-12 19:00:00,Service,Google Ads,170.2,15.12,3,Returning,Discounted
+2023-06-21 10:00:00,Service,In-Store,63.16,0,0,New,Discounted
+2023-11-25 19:00:00,Product,Google Ads,134.44,11.54,0,New,Basic
+2023-07-03 20:00:00,Product,Online,148.39,0,0,Returning,Basic
+2023-09-02 10:00:00,Service,Online,183.33,0,0,Returning,Discounted
+2023-04-10 08:00:00,Service,In-Store,82.61,0,0,New,Basic
+2023-11-19 11:00:00,Service,Google Ads,74.94,6.79,0,Returning,Premium
+2023-01-24 14:00:00,Product,Google Ads,26.76,0.82,0,Returning,Discounted
+2023-12-06 18:00:00,Product,Online,140.85,0,0,Returning,Discounted
+2023-06-17 18:00:00,Product,Facebook,97.8,5.93,2,New,Discounted
+2023-10-30 09:00:00,Service,Facebook,185.82,13.31,2,New,Premium
+2023-09-30 15:00:00,Product,Instagram,167.12,7.73,1,New,Premium
+2023-07-24 08:00:00,Product,In-Store,72.35,0,0,New,Discounted
+2023-04-23 19:00:00,Product,In-Store,64.7,0,0,New,Discounted
+2023-10-25 15:00:00,Product,Online,193.07,0,0,New,Discounted
+2023-03-05 15:00:00,Product,Facebook,120.28,18.82,2,Returning,Discounted
+2023-01-26 09:00:00,Product,Facebook,115.3,17.45,1,Returning,Premium
+2023-05-31 12:00:00,Product,Instagram,186.97,1.82,2,New,Basic
+2023-01-18 08:00:00,Product,Google Ads,50.67,23.92,3,New,Discounted
+2023-02-20 09:00:00,Service,Google Ads,108.68,16.81,0,New,Premium
+2023-01-13 16:00:00,Product,Instagram,44.84,16.48,2,Returning,Premium
+2023-04-10 09:00:00,Service,Google Ads,120.19,2.05,0,New,Premium
+2023-11-23 12:00:00,Product,Facebook,17.8,28.57,0,New,Discounted
+2023-02-26 09:00:00,Service,Online,195.85,0,0,Returning,Premium
+2023-09-14 21:00:00,Product,Online,159.88,0,0,Returning,Discounted
+2023-04-24 21:00:00,Product,Instagram,198.88,1.22,0,New,Discounted
+2023-01-13 17:00:00,Service,Facebook,56.29,25.95,0,Returning,Premium
+2023-06-15 11:00:00,Service,In-Store,161.71,0,0,New,Discounted
+2023-02-15 10:00:00,Product,Online,196.08,0,0,New,Discounted
+2023-02-10 14:00:00,Product,Google Ads,144.67,9.9,1,New,Premium
+2023-07-17 21:00:00,Service,Facebook,34.06,11.58,1,Returning,Discounted
+2023-05-14 12:00:00,Service,In-Store,147.55,0,0,Returning,Basic
+2023-10-20 10:00:00,Product,In-Store,58.26,0,0,New,Discounted
+2023-06-30 11:00:00,Service,Google Ads,174.18,16.23,0,Returning,Basic
+2023-08-30 09:00:00,Product,In-Store,102.44,0,0,New,Premium
+2023-06-01 16:00:00,Product,Instagram,85.15,12.46,2,Returning,Discounted
+2023-11-12 19:00:00,Service,Online,10.3,0,0,New,Premium
+2023-05-25 12:00:00,Service,Online,104.64,0,0,Returning,Basic
+2023-11-21 17:00:00,Service,In-Store,60.95,0,0,Returning,Premium
+2023-09-02 14:00:00,Service,In-Store,73.37,0,0,New,Discounted
+2023-07-21 15:00:00,Product,Instagram,137.46,18.01,2,New,Basic
+2023-08-07 15:00:00,Product,Google Ads,118.06,7.06,1,Returning,Basic
+2023-05-22 12:00:00,Product,In-Store,154.4,0,0,New,Discounted
+2023-02-26 08:00:00,Product,Facebook,38.18,18.98,1,Returning,Premium
+2023-01-03 21:00:00,Service,Online,134.38,0,0,New,Basic
+2023-03-04 14:00:00,Product,Online,147.34,0,0,Returning,Premium
+2023-04-27 09:00:00,Product,Online,134.28,0,0,New,Premium
+2023-05-31 16:00:00,Product,Facebook,182.77,16.5,0,New,Discounted
+2023-11-02 20:00:00,Service,Google Ads,112.23,16.83,2,New,Discounted
+2023-11-27 12:00:00,Service,Facebook,142.91,16.41,2,New,Discounted
+2023-03-27 16:00:00,Product,Online,158.4,0,0,Returning,Premium
+2023-10-05 21:00:00,Product,In-Store,128.43,0,0,Returning,Discounted
+2023-08-04 17:00:00,Service,Google Ads,13.93,24.92,1,New,Basic
+2023-05-21 13:00:00,Product,Google Ads,170.25,4.38,2,Returning,Basic
+2023-04-06 18:00:00,Service,Google Ads,138.77,18.64,0,Returning,Discounted
+2023-08-19 14:00:00,Product,Instagram,58.83,12.03,2,Returning,Premium
+2023-12-10 08:00:00,Product,In-Store,15.92,0,0,Returning,Premium
+2023-04-24 14:00:00,Service,Google Ads,198.28,2.07,3,New,Premium
+2023-10-17 09:00:00,Service,In-Store,105.02,0,0,New,Discounted
+2023-04-01 07:00:00,Service,Online,40.57,0,0,New,Discounted
+2023-10-17 18:00:00,Product,In-Store,175.33,0,0,New,Premium
+2023-04-19 10:00:00,Product,Facebook,110.66,2.63,1,New,Basic
+2023-08-02 13:00:00,Product,Instagram,22.95,29.61,1,New,Basic
+2023-03-30 16:00:00,Service,Instagram,163.61,1.82,0,New,Discounted
+2023-09-10 20:00:00,Service,Facebook,170.75,14.75,0,Returning,Basic
+2023-02-08 18:00:00,Service,Instagram,21.63,23.06,0,Returning,Basic
+2023-08-13 12:00:00,Service,In-Store,139.82,0,0,Returning,Basic
+2023-10-19 19:00:00,Product,Facebook,131.97,1.88,2,New,Discounted
+2023-02-24 15:00:00,Product,Google Ads,105.01,17.03,2,New,Premium
+2023-04-07 11:00:00,Product,Google Ads,34.57,28.72,0,Returning,Basic
+2023-01-18 08:00:00,Product,In-Store,192.91,0,0,Returning,Premium
+2023-03-13 18:00:00,Service,In-Store,69.86,0,0,Returning,Premium
+2023-11-07 08:00:00,Product,Facebook,194.71,8.79,1,New,Discounted
+2023-05-27 09:00:00,Product,Facebook,116.36,4.62,3,Returning,Discounted
+2023-07-15 07:00:00,Service,Online,53.37,0,0,New,Discounted
+2023-12-14 19:00:00,Service,Facebook,125.43,7.52,0,Returning,Discounted
+2023-10-04 21:00:00,Service,Instagram,43.76,23.23,2,New,Discounted
+2023-01-14 17:00:00,Product,Online,40.48,0,0,Returning,Discounted
+2023-02-09 09:00:00,Service,Google Ads,143.56,21.92,3,Returning,Discounted
+2023-01-23 16:00:00,Product,Online,48.43,0,0,Returning,Premium
+2023-10-19 13:00:00,Product,Facebook,130.81,8.75,2,Returning,Premium
+2023-09-23 09:00:00,Product,Online,56.52,0,0,New,Discounted
+2023-11-23 16:00:00,Product,Facebook,53.06,25.36,3,Returning,Basic
+2023-06-14 13:00:00,Service,Google Ads,97.38,9.1,0,New,Premium
+2023-04-22 21:00:00,Service,Online,59.27,0,0,Returning,Discounted
+2023-08-31 08:00:00,Product,Online,187.02,0,0,Returning,Premium
+2023-11-15 07:00:00,Service,Google Ads,116.17,19.78,1,Returning,Premium
+2023-03-23 11:00:00,Product,Google Ads,197.11,0.4,2,New,Premium
+2023-06-27 13:00:00,Product,Google Ads,124.34,24.72,1,Returning,Discounted
+2023-08-03 11:00:00,Service,Google Ads,16.12,24.23,2,New,Premium
+2023-06-04 07:00:00,Product,Facebook,74.35,13.18,3,Returning,Basic
+2023-07-14 15:00:00,Service,Google Ads,50.61,13.13,2,New,Basic
+2023-09-21 10:00:00,Product,Instagram,73.37,21.35,0,Returning,Discounted
+2023-08-20 07:00:00,Product,Instagram,124.85,10.36,0,Returning,Premium
+2023-07-19 21:00:00,Product,Online,161.47,0,0,Returning,Discounted
+2023-03-06 10:00:00,Product,In-Store,57.28,0,0,New,Discounted
+2023-01-22 16:00:00,Service,Instagram,77.85,24.88,2,Returning,Discounted
+2023-12-12 08:00:00,Service,Facebook,186.53,15.7,0,Returning,Premium
+2023-08-25 08:00:00,Product,Instagram,74.92,7.51,3,New,Discounted
+2023-07-28 16:00:00,Product,Instagram,194.31,10.35,0,New,Basic
+2023-10-19 17:00:00,Service,Facebook,154.32,24.23,2,Returning,Premium
+2023-11-09 11:00:00,Service,Google Ads,65.34,12.34,3,Returning,Discounted
+2023-07-02 18:00:00,Service,In-Store,143.93,0,0,New,Discounted
+2023-01-12 14:00:00,Product,Google Ads,144.51,16.65,3,New,Basic
+2023-11-13 18:00:00,Service,Online,13.15,0,0,Returning,Basic
+2023-09-10 14:00:00,Service,Online,23.83,0,0,New,Basic
+2023-12-23 19:00:00,Product,Google Ads,108.53,2.27,1,New,Discounted
+2023-01-01 09:00:00,Service,Facebook,85.52,20.39,3,Returning,Discounted
+2023-06-03 10:00:00,Service,Facebook,29.34,16.98,0,New,Discounted
+2023-01-20 13:00:00,Service,Online,157.24,0,0,Returning,Basic
+2023-06-15 15:00:00,Product,In-Store,156.97,0,0,Returning,Discounted
+2023-12-01 15:00:00,Product,Instagram,86.7,8.18,3,New,Premium
+2023-11-29 12:00:00,Product,Google Ads,190.48,20.85,3,New,Basic
+2023-10-16 20:00:00,Product,Google Ads,112.42,29.86,3,Returning,Basic
+2023-11-21 08:00:00,Service,In-Store,157.09,0,0,New,Basic
+2023-11-05 13:00:00,Service,Online,100.3,0,0,Returning,Basic
+2023-02-19 20:00:00,Service,In-Store,176.24,0,0,New,Basic
+2023-06-19 11:00:00,Product,Online,125.51,0,0,Returning,Premium
+2023-10-30 07:00:00,Service,Online,31.58,0,0,New,Basic
+2023-11-13 07:00:00,Product,Online,89.05,0,0,New,Discounted
+2023-04-20 15:00:00,Service,Google Ads,198.8,20.08,3,New,Basic
+2023-09-28 11:00:00,Service,Google Ads,83.75,4.68,1,New,Basic
+2023-04-28 11:00:00,Product,Google Ads,82.61,19.87,2,Returning,Discounted
+2023-03-23 17:00:00,Service,Instagram,68.37,14.83,0,Returning,Basic
+2023-10-13 12:00:00,Product,In-Store,92.27,0,0,New,Discounted
+2023-02-13 17:00:00,Service,Instagram,148.56,21.57,2,Returning,Basic
+2023-03-15 13:00:00,Service,Instagram,66.12,17,3,Returning,Premium
+2023-07-27 14:00:00,Product,Instagram,46.37,0.13,0,New,Discounted
+2023-04-15 16:00:00,Service,Facebook,188.34,26.04,3,Returning,Premium
+2023-01-28 16:00:00,Product,Google Ads,104.44,29.61,0,New,Basic
+2023-10-12 19:00:00,Product,Facebook,65.21,5.64,2,New,Premium
+2023-09-09 12:00:00,Service,Online,145.62,0,0,New,Discounted
+2023-04-22 17:00:00,Product,Facebook,151.92,27.08,2,New,Basic
+2023-10-31 21:00:00,Product,Facebook,78.71,17.89,1,New,Discounted
+2023-06-18 18:00:00,Service,Instagram,106,4.15,0,New,Basic
+2023-04-05 20:00:00,Product,Google Ads,72.05,17.53,3,Returning,Premium
+2023-11-07 12:00:00,Product,In-Store,169.41,0,0,Returning,Basic
+2023-11-16 12:00:00,Product,Online,152.3,0,0,Returning,Basic
+2023-02-09 09:00:00,Service,In-Store,107.68,0,0,New,Premium
+2023-02-05 15:00:00,Service,In-Store,115.23,0,0,Returning,Discounted
+2023-10-15 16:00:00,Service,Online,75.77,0,0,Returning,Premium
+2023-08-22 09:00:00,Product,Instagram,70.8,12.71,0,Returning,Discounted
+2023-12-26 09:00:00,Service,In-Store,111.78,0,0,New,Premium
+2023-05-07 13:00:00,Product,Online,82.72,0,0,New,Discounted
+2023-11-24 16:00:00,Product,Instagram,102.81,0.84,0,New,Premium
+2023-07-01 18:00:00,Service,Google Ads,77.5,5.72,1,Returning,Discounted
+2023-11-03 18:00:00,Product,Instagram,36.82,26.11,3,Returning,Discounted
+2023-05-15 09:00:00,Service,In-Store,126.51,0,0,Returning,Discounted
+2023-05-13 15:00:00,Product,Facebook,28.91,4.01,1,New,Basic
+2023-12-30 11:00:00,Product,Google Ads,10.04,6.65,0,New,Basic
+2023-12-15 09:00:00,Service,Google Ads,111.82,15.61,1,New,Basic
+2023-07-27 07:00:00,Service,Instagram,70.84,5.29,0,Returning,Premium
+2023-05-09 12:00:00,Product,Facebook,185.65,14.16,2,Returning,Basic
+2023-04-09 14:00:00,Product,Instagram,158.31,10.43,2,Returning,Basic
+2023-10-24 15:00:00,Product,In-Store,36.72,0,0,New,Basic
+2023-04-07 12:00:00,Product,Facebook,150.69,16.13,3,Returning,Discounted
+2023-07-21 10:00:00,Product,Google Ads,85.22,27.4,2,New,Basic
+2023-11-17 15:00:00,Service,Google Ads,134.91,19.97,1,New,Premium
+2023-03-23 15:00:00,Product,Instagram,103.21,26.33,1,Returning,Premium
+2023-02-07 15:00:00,Product,Online,30.24,0,0,Returning,Discounted
+2023-08-13 19:00:00,Service,Google Ads,50.21,22.38,3,Returning,Premium
+2023-05-26 10:00:00,Product,Online,61.15,0,0,Returning,Premium
+2023-09-06 21:00:00,Service,In-Store,62.28,0,0,New,Premium
+2023-12-28 07:00:00,Service,Online,165.1,0,0,New,Discounted
+2023-11-24 14:00:00,Service,Google Ads,21.61,29.09,1,New,Discounted
+2024-01-01 13:00:00,Service,Online,36.65,0,0,Returning,Premium
+2023-11-21 17:00:00,Service,Online,150.83,0,0,New,Premium
+2023-10-18 11:00:00,Product,Facebook,80.13,29.92,1,Returning,Premium
+2023-06-28 09:00:00,Product,Google Ads,76.08,29.3,3,New,Basic
+2023-03-18 16:00:00,Service,Online,72.85,0,0,Returning,Basic
+2023-06-22 10:00:00,Product,In-Store,181.8,0,0,Returning,Premium
+2023-07-20 20:00:00,Product,Google Ads,191.3,25.22,1,Returning,Basic
+2023-04-21 21:00:00,Service,Google Ads,157.08,24.94,3,New,Discounted
+2023-10-13 17:00:00,Service,Online,15.34,0,0,Returning,Basic
+2023-07-13 11:00:00,Service,Google Ads,48.83,18.1,3,Returning,Premium
+2023-06-12 17:00:00,Product,In-Store,92.89,0,0,New,Premium
+2023-02-19 07:00:00,Service,In-Store,39.06,0,0,Returning,Premium
+2023-01-13 14:00:00,Service,Instagram,90.3,24.8,2,New,Premium
+2023-11-14 18:00:00,Product,Online,184.39,0,0,Returning,Basic
+2023-01-12 18:00:00,Service,Facebook,46.59,7.28,3,New,Premium
+2023-12-15 07:00:00,Service,Online,60.63,0,0,New,Discounted
+2023-10-01 09:00:00,Service,Online,121.36,0,0,Returning,Premium
+2023-07-27 17:00:00,Service,Facebook,197.58,7.11,1,New,Premium
+2023-04-30 18:00:00,Service,Online,108,0,0,New,Discounted
+2023-04-23 20:00:00,Product,Online,76.94,0,0,New,Discounted
+2023-11-25 08:00:00,Service,Facebook,171.99,15.92,1,New,Discounted
+2023-09-20 14:00:00,Service,Online,19.83,0,0,Returning,Discounted
+2023-10-14 21:00:00,Product,Online,23.81,0,0,New,Premium
+2023-04-02 11:00:00,Product,Google Ads,165.17,4.96,3,New,Discounted
+2023-03-09 11:00:00,Product,Online,99.14,0,0,New,Basic
+2023-05-04 08:00:00,Product,Online,46.51,0,0,Returning,Basic
+2023-01-04 15:00:00,Product,Google Ads,73.22,24.12,2,Returning,Basic
+2023-04-04 19:00:00,Service,Online,136.65,0,0,Returning,Basic
+2023-08-22 21:00:00,Service,Instagram,140.57,17,3,New,Discounted
+2023-08-23 20:00:00,Product,Online,17.83,0,0,Returning,Discounted
+2023-10-19 16:00:00,Service,Instagram,180.62,26.86,3,Returning,Basic
+2023-02-18 20:00:00,Product,Online,154.95,0,0,Returning,Premium
+2023-12-27 16:00:00,Service,Google Ads,14.57,10.13,1,Returning,Premium
+2023-03-19 11:00:00,Service,In-Store,84.91,0,0,New,Basic
+2023-05-04 07:00:00,Product,Instagram,158.52,17.86,2,Returning,Discounted
+2023-11-04 14:00:00,Service,Instagram,158,20.06,0,New,Premium
+2023-10-20 18:00:00,Product,Google Ads,39.24,21.7,3,Returning,Basic
+2023-09-08 11:00:00,Product,Instagram,162.72,24.62,0,Returning,Basic
+2023-12-19 15:00:00,Service,Facebook,182.48,20.71,3,New,Premium
+2023-05-14 15:00:00,Product,In-Store,181.24,0,0,Returning,Discounted
+2023-03-31 12:00:00,Product,Facebook,20.27,2.3,0,Returning,Premium
+2023-09-21 12:00:00,Service,Online,127.04,0,0,Returning,Discounted
+2023-06-02 16:00:00,Product,Facebook,126.59,1.79,0,Returning,Basic
+2023-01-24 08:00:00,Service,Online,103.29,0,0,New,Basic
+2023-03-09 07:00:00,Product,In-Store,49.66,0,0,Returning,Premium
+2023-09-20 21:00:00,Product,Online,183.71,0,0,Returning,Basic
+2023-07-07 17:00:00,Product,In-Store,127.85,0,0,Returning,Basic
+2023-11-15 13:00:00,Service,Instagram,84.58,3.19,1,Returning,Discounted
+2023-05-21 12:00:00,Product,Facebook,143.37,3.74,3,New,Basic
+2023-06-11 17:00:00,Product,Google Ads,164.33,10.27,2,Returning,Premium
+2023-12-27 17:00:00,Service,Facebook,92.18,17.05,1,Returning,Basic
+2023-02-21 15:00:00,Service,Google Ads,14.53,20.69,0,New,Premium
+2023-05-14 15:00:00,Product,In-Store,107.29,0,0,New,Discounted
+2023-10-19 11:00:00,Product,Facebook,151.61,1.63,3,Returning,Basic
+2023-01-16 09:00:00,Service,Online,79.54,0,0,New,Basic
+2023-06-03 08:00:00,Product,Google Ads,46.28,22.36,2,New,Discounted
+2023-06-07 21:00:00,Product,In-Store,68.57,0,0,Returning,Basic
+2023-09-17 21:00:00,Service,Instagram,55.42,11.56,2,Returning,Basic
+2023-05-30 08:00:00,Service,Facebook,168.53,8.62,0,Returning,Premium
+2023-02-06 13:00:00,Product,Instagram,15.98,10.12,1,New,Premium
+2023-12-21 10:00:00,Service,Instagram,21.24,14.77,2,Returning,Basic
+2023-04-08 11:00:00,Service,Online,45.56,0,0,Returning,Premium
+2023-10-27 09:00:00,Product,Facebook,164.74,5.09,3,Returning,Discounted
+2023-01-19 16:00:00,Product,Online,93.38,0,0,New,Basic
+2023-03-15 15:00:00,Service,In-Store,106.02,0,0,New,Basic
+2023-05-08 08:00:00,Product,Google Ads,156.28,26.36,0,Returning,Premium
+2023-08-12 13:00:00,Service,Google Ads,136.34,1.83,3,New,Basic
+2023-10-29 16:00:00,Service,Facebook,109.86,14.56,2,Returning,Discounted
+2023-07-14 14:00:00,Product,Online,32.75,0,0,Returning,Premium
+2023-11-15 13:00:00,Product,Online,124.22,0,0,Returning,Premium
+2023-10-05 15:00:00,Product,Facebook,25.71,6.34,3,Returning,Basic
+2023-02-09 18:00:00,Service,In-Store,171.44,0,0,Returning,Basic
+2023-07-16 11:00:00,Service,Google Ads,173.94,28.85,2,New,Premium
+2023-10-16 07:00:00,Service,In-Store,32.07,0,0,Returning,Basic
+2023-03-02 16:00:00,Service,Google Ads,103.85,28.11,0,New,Basic
+2023-11-03 10:00:00,Product,Facebook,106.72,24.68,2,New,Discounted
+2023-02-08 14:00:00,Product,In-Store,165.3,0,0,New,Discounted
+2023-03-10 15:00:00,Service,In-Store,47.71,0,0,New,Basic
+2023-03-07 17:00:00,Product,Google Ads,26.13,25.43,0,Returning,Premium
+2023-11-28 17:00:00,Product,Facebook,91.96,29.73,3,Returning,Premium
+2023-06-02 17:00:00,Service,Online,62.76,0,0,New,Discounted
+2023-07-21 07:00:00,Product,Google Ads,114.03,26.9,3,Returning,Discounted
+2023-04-21 07:00:00,Service,In-Store,43.95,0,0,Returning,Basic
+2023-09-08 11:00:00,Service,In-Store,57.89,0,0,Returning,Discounted
+2023-12-16 21:00:00,Product,Google Ads,107.88,11.73,2,New,Discounted
+2023-05-02 15:00:00,Service,Google Ads,21.78,0.91,3,Returning,Discounted
+2023-04-28 17:00:00,Product,In-Store,79.1,0,0,New,Premium
+2023-03-06 18:00:00,Product,Instagram,33.35,17.93,3,New,Premium
+2023-11-16 19:00:00,Service,Facebook,120.6,18.42,3,New,Premium
+2023-07-17 15:00:00,Product,Online,52.16,0,0,Returning,Discounted
+2023-09-05 20:00:00,Service,Instagram,141.08,5.74,0,New,Discounted
+2023-05-25 10:00:00,Service,Facebook,38.66,7.5,3,Returning,Premium
+2023-03-15 17:00:00,Service,Google Ads,96.25,26.51,3,New,Basic
+2023-01-26 20:00:00,Product,Google Ads,53.92,9.45,0,Returning,Basic
+2023-11-03 08:00:00,Service,Google Ads,182.7,7.06,3,Returning,Basic
+2023-06-12 12:00:00,Product,Google Ads,44.23,11.04,2,New,Discounted
+2023-10-10 11:00:00,Product,Google Ads,190.06,25.23,3,New,Premium
+2023-06-02 07:00:00,Service,In-Store,169.56,0,0,Returning,Basic
+2023-07-24 19:00:00,Service,Google Ads,136.98,14.52,2,New,Premium
+2023-10-21 13:00:00,Service,Google Ads,46.8,7.58,0,New,Premium
+2023-02-14 21:00:00,Product,Google Ads,187.44,15.61,0,Returning,Discounted
+2023-03-17 16:00:00,Product,Online,126.98,0,0,Returning,Discounted
+2023-04-23 20:00:00,Service,Facebook,163.35,7.78,3,Returning,Premium
+2023-10-14 21:00:00,Service,Instagram,197.68,6.46,1,New,Basic
+2023-05-01 10:00:00,Product,Google Ads,103.06,19.61,1,New,Basic
+2023-02-05 17:00:00,Service,Instagram,135.28,24.05,1,New,Basic
+2023-06-03 15:00:00,Product,Online,106.32,0,0,Returning,Premium
+2023-04-06 17:00:00,Product,Instagram,51.84,0.3,3,New,Premium
+2023-02-14 20:00:00,Service,Online,46.98,0,0,New,Premium
+2023-10-16 16:00:00,Service,Google Ads,126.99,22.35,2,New,Basic
+2023-02-03 19:00:00,Product,Google Ads,60.33,19.85,0,Returning,Premium
+2023-05-11 19:00:00,Service,Facebook,118.92,7.19,3,New,Discounted
+2023-06-17 08:00:00,Product,Instagram,11.6,0.23,3,Returning,Premium
+2023-03-20 18:00:00,Product,Google Ads,193.44,16.92,0,New,Basic
+2023-11-08 09:00:00,Service,Google Ads,76.21,6.05,3,New,Premium
+2023-01-21 10:00:00,Service,Online,10.79,0,0,New,Basic
+2023-08-14 12:00:00,Service,Google Ads,151.29,17.92,1,Returning,Premium
+2023-03-02 20:00:00,Product,Online,192.37,0,0,New,Premium
+2023-03-16 17:00:00,Service,Google Ads,45.09,0.59,1,New,Discounted
+2023-12-02 08:00:00,Product,Facebook,40.55,24.72,1,Returning,Basic
+2023-02-05 15:00:00,Service,Facebook,96.67,26.28,2,New,Basic
+2023-05-14 12:00:00,Service,Google Ads,11.05,27.15,1,New,Basic
+2023-12-11 19:00:00,Product,Online,14.29,0,0,Returning,Basic
+2023-03-19 08:00:00,Service,Google Ads,38.08,11.79,3,New,Discounted
+2023-05-09 14:00:00,Service,In-Store,40.28,0,0,New,Basic
+2023-04-06 11:00:00,Product,Online,132.22,0,0,Returning,Discounted
+2023-06-30 11:00:00,Service,Google Ads,161.05,19.39,3,Returning,Basic
+2023-05-19 19:00:00,Product,Google Ads,168.81,18.43,2,New,Basic
+2023-08-01 15:00:00,Service,Instagram,42.72,4.63,0,New,Premium
+2023-10-09 16:00:00,Product,Google Ads,54.06,26.4,3,New,Basic
+2023-05-30 14:00:00,Product,Google Ads,41.79,9.08,2,New,Basic
+2023-04-19 13:00:00,Service,In-Store,35.98,0,0,Returning,Discounted
+2023-04-24 21:00:00,Service,Online,64.49,0,0,Returning,Premium
+2023-05-25 13:00:00,Service,In-Store,191.01,0,0,Returning,Basic
+2023-12-21 21:00:00,Service,Google Ads,192.17,11,3,Returning,Premium
+2023-08-30 19:00:00,Service,Online,68.74,0,0,Returning,Premium
+2023-11-07 07:00:00,Product,Online,109.97,0,0,Returning,Premium
+2023-06-02 14:00:00,Product,Google Ads,11.58,25.58,1,New,Discounted
+2023-08-27 08:00:00,Product,Facebook,168.38,11.93,3,New,Basic
+2023-09-08 08:00:00,Product,Online,65.44,0,0,Returning,Basic
+2023-02-10 20:00:00,Product,Online,59.6,0,0,New,Basic
+2023-01-05 19:00:00,Product,Google Ads,159.46,28.82,3,New,Basic
+2023-04-15 15:00:00,Service,Online,43.4,0,0,Returning,Premium
+2023-11-19 14:00:00,Product,In-Store,165.28,0,0,New,Discounted
+2023-01-30 21:00:00,Product,Facebook,159.42,21.03,0,Returning,Premium
+2023-10-21 20:00:00,Product,Online,37.39,0,0,Returning,Premium
+2023-03-12 10:00:00,Product,Instagram,83.21,27.44,1,Returning,Basic
+2023-02-22 07:00:00,Product,Google Ads,137.85,25.69,1,Returning,Premium
+2023-07-25 11:00:00,Service,In-Store,143.48,0,0,New,Premium
+2023-04-03 19:00:00,Product,In-Store,88.99,0,0,New,Premium
+2023-09-05 16:00:00,Product,Facebook,151.69,11.97,0,New,Premium
+2023-11-14 13:00:00,Service,Instagram,13.28,27.85,3,Returning,Basic
+2023-01-22 19:00:00,Product,Facebook,97.41,10.94,2,Returning,Discounted
+2023-11-06 07:00:00,Service,In-Store,127.84,0,0,Returning,Premium
+2023-01-31 21:00:00,Product,Facebook,176.77,1.91,1,New,Discounted
+2023-11-26 16:00:00,Service,Facebook,171.96,20.1,3,New,Premium
+2023-06-13 14:00:00,Service,Instagram,56.62,17.25,2,Returning,Premium
+2023-08-12 09:00:00,Service,Online,49.82,0,0,New,Discounted
+2023-01-12 07:00:00,Service,Instagram,154.46,6.65,3,New,Basic
+2023-02-25 12:00:00,Product,In-Store,33.22,0,0,New,Basic
+2023-03-09 11:00:00,Service,Facebook,50.58,4.33,2,New,Basic
+2023-12-09 11:00:00,Service,Google Ads,50.8,22.83,2,Returning,Premium
+2023-07-13 13:00:00,Service,In-Store,108.02,0,0,Returning,Premium
+2023-09-09 16:00:00,Service,In-Store,162.6,0,0,Returning,Premium
+2023-01-01 16:00:00,Product,Instagram,124.88,3.85,2,Returning,Discounted
+2023-06-25 17:00:00,Service,Online,66.71,0,0,New,Basic
+2023-07-29 20:00:00,Product,Facebook,114.97,5.53,0,Returning,Basic
+2023-12-10 14:00:00,Product,In-Store,69.31,0,0,New,Discounted
+2023-04-09 21:00:00,Product,Google Ads,196.27,25.87,0,Returning,Premium
+2023-03-16 18:00:00,Service,Google Ads,103.48,26.17,1,New,Premium
+2023-02-07 12:00:00,Service,Google Ads,118.38,11.75,3,New,Basic
+2023-11-25 12:00:00,Service,Online,119.26,0,0,New,Premium
+2023-09-29 19:00:00,Product,Online,149.9,0,0,New,Basic
+2023-02-08 12:00:00,Service,Google Ads,39.22,0.66,3,New,Basic
+2023-08-18 13:00:00,Product,In-Store,67.94,0,0,New,Basic
+2023-03-29 12:00:00,Service,Online,93.92,0,0,New,Premium
+2023-12-16 17:00:00,Service,Online,185.45,0,0,Returning,Basic
+2023-07-23 07:00:00,Product,Facebook,64.33,14.46,2,Returning,Discounted
+2023-02-06 18:00:00,Product,In-Store,185.69,0,0,New,Basic
+2023-06-13 15:00:00,Service,Online,197.6,0,0,New,Discounted
+2023-12-10 19:00:00,Product,Instagram,113.66,7.49,2,Returning,Discounted
+2023-08-30 09:00:00,Product,Facebook,27.91,19.94,1,New,Premium
+2023-05-05 11:00:00,Product,Facebook,152.43,26.66,3,Returning,Basic
+2023-07-06 14:00:00,Product,In-Store,70.23,0,0,Returning,Premium
+2023-09-28 14:00:00,Service,In-Store,83.53,0,0,New,Discounted
+2023-11-17 10:00:00,Product,Facebook,115.01,12.11,2,New,Basic
+2023-01-27 21:00:00,Service,In-Store,182.68,0,0,New,Premium
+2023-12-02 14:00:00,Service,Google Ads,72.68,1.02,0,New,Premium
+2023-05-16 15:00:00,Product,Instagram,154.08,15.64,3,Returning,Discounted
+2023-01-20 10:00:00,Service,In-Store,80.21,0,0,New,Basic
+2023-11-20 11:00:00,Product,Instagram,125.91,17.47,0,Returning,Premium
+2023-07-27 07:00:00,Service,Google Ads,124.47,5.23,3,New,Premium
+2023-12-04 09:00:00,Product,Online,109.97,0,0,Returning,Premium
+2023-07-13 10:00:00,Service,In-Store,167.41,0,0,New,Premium
+2023-03-14 19:00:00,Product,Google Ads,42.25,27.72,1,Returning,Basic
+2023-08-20 15:00:00,Product,Online,97.48,0,0,New,Basic
+2023-08-04 11:00:00,Product,Online,67.68,0,0,Returning,Discounted
+2023-08-16 20:00:00,Service,Facebook,143.86,0.84,0,New,Premium
+2023-06-09 15:00:00,Product,Facebook,46.53,23.54,0,Returning,Discounted
+2023-03-27 21:00:00,Service,Google Ads,97.61,16.85,3,Returning,Premium
+2023-07-10 17:00:00,Product,Online,56.66,0,0,New,Premium
+2023-01-15 10:00:00,Service,Facebook,100.8,4.82,1,New,Discounted
+2023-06-29 17:00:00,Product,Google Ads,82.97,10.1,1,New,Premium
+2023-04-04 10:00:00,Service,Facebook,52.04,21.25,1,Returning,Premium
+2023-05-26 13:00:00,Product,Online,144.71,0,0,Returning,Premium
+2023-02-15 07:00:00,Product,Instagram,80.41,9.56,2,New,Basic
+2023-08-31 21:00:00,Product,Online,63.7,0,0,New,Discounted
+2023-04-19 19:00:00,Service,In-Store,178.43,0,0,Returning,Premium
+2023-07-02 09:00:00,Product,Facebook,111.21,15.82,2,Returning,Basic
+2023-03-01 21:00:00,Service,Facebook,34.87,26.79,2,New,Premium
+2023-05-12 21:00:00,Product,Instagram,82.3,16.3,1,Returning,Basic
+2023-12-16 11:00:00,Product,Instagram,89.06,16.01,3,Returning,Discounted
+2023-09-29 18:00:00,Product,Google Ads,28.46,19.27,1,New,Discounted
+2023-11-06 12:00:00,Service,Facebook,182.03,3.29,3,Returning,Basic
+2023-07-19 13:00:00,Product,Online,37.32,0,0,New,Basic
+2023-07-05 15:00:00,Product,Instagram,93.84,10.97,3,New,Premium
+2023-04-28 18:00:00,Product,Instagram,30.35,11.81,0,Returning,Discounted
+2023-12-04 08:00:00,Service,Instagram,73.62,16.92,0,Returning,Basic
+2023-10-12 16:00:00,Product,Online,55.6,0,0,Returning,Premium
+2023-06-08 18:00:00,Product,Facebook,199.97,16.58,2,New,Discounted
+2023-01-19 21:00:00,Service,In-Store,46.19,0,0,Returning,Discounted
+2023-08-20 16:00:00,Service,Online,109.16,0,0,New,Discounted
+2023-10-23 17:00:00,Service,In-Store,42.84,0,0,Returning,Premium
+2023-08-24 10:00:00,Product,Instagram,159.69,12.44,0,Returning,Basic
+2023-11-19 08:00:00,Product,Google Ads,43.32,8.69,2,New,Basic
+2023-08-15 12:00:00,Product,Instagram,171.42,13.9,1,New,Premium
+2023-07-09 20:00:00,Service,Instagram,80.25,25.47,1,Returning,Basic
+2023-02-27 20:00:00,Product,In-Store,149.61,0,0,Returning,Basic
+2023-03-28 15:00:00,Product,Online,168.1,0,0,Returning,Discounted
+2023-08-06 11:00:00,Product,In-Store,91.69,0,0,Returning,Premium
+2023-01-06 14:00:00,Service,Facebook,57.22,11.47,1,Returning,Basic
+2023-06-08 17:00:00,Service,Facebook,123.59,15.71,1,New,Discounted
+2023-12-06 13:00:00,Service,Facebook,84.42,26.38,3,New,Discounted
+2023-05-08 18:00:00,Service,Instagram,164.81,16.84,0,New,Discounted
+2023-06-27 16:00:00,Product,Online,182.32,0,0,Returning,Discounted
+2023-09-13 10:00:00,Service,Facebook,69.47,23.54,2,Returning,Discounted
+2023-02-11 21:00:00,Service,Instagram,154.17,23.89,0,New,Discounted
+2023-05-31 21:00:00,Service,In-Store,89.87,0,0,New,Discounted
+2023-03-16 18:00:00,Service,Instagram,124.02,23.71,3,Returning,Premium
+2023-08-02 07:00:00,Service,Instagram,16.23,25.48,2,Returning,Basic
+2023-12-18 21:00:00,Service,Instagram,136.69,15.07,0,Returning,Basic
+2023-10-30 15:00:00,Service,Instagram,74.45,22.41,1,New,Premium
+2023-09-25 13:00:00,Service,Facebook,11.4,4.67,0,Returning,Premium
+2023-09-25 14:00:00,Product,In-Store,98.51,0,0,Returning,Premium
+2023-04-19 08:00:00,Service,In-Store,69.48,0,0,New,Basic
+2023-11-15 15:00:00,Service,Instagram,160.23,25.74,3,New,Premium
+2023-01-16 20:00:00,Service,Google Ads,69.65,1.64,2,New,Basic
+2023-05-07 10:00:00,Product,Google Ads,37.17,20.1,1,Returning,Premium
+2023-02-23 14:00:00,Service,Online,132.19,0,0,Returning,Discounted
+2023-03-27 09:00:00,Product,Online,80.79,0,0,Returning,Discounted
+2023-01-25 15:00:00,Service,Facebook,188.3,7.89,2,Returning,Basic
+2023-01-22 08:00:00,Service,Google Ads,21.96,2.53,1,New,Basic
+2023-10-22 12:00:00,Product,Facebook,139.89,5.18,2,Returning,Premium
+2023-05-19 08:00:00,Product,Facebook,165.76,22.09,3,New,Discounted
+2023-07-25 07:00:00,Product,Online,123.14,0,0,New,Premium
+2023-10-29 10:00:00,Service,Online,93.06,0,0,Returning,Premium
+2023-07-03 07:00:00,Service,In-Store,46.66,0,0,New,Discounted
+2023-09-10 07:00:00,Product,Instagram,81.85,12.43,2,New,Premium
+2023-09-12 15:00:00,Product,Google Ads,50.18,29.94,1,New,Basic
+2023-04-05 21:00:00,Service,In-Store,187.8,0,0,Returning,Discounted
+2023-01-30 15:00:00,Product,Facebook,175.39,7.57,2,New,Discounted
+2023-11-15 16:00:00,Product,Facebook,130.53,2.89,0,Returning,Discounted
+2023-08-24 15:00:00,Product,Google Ads,34.13,5.95,3,New,Basic
+2023-05-24 21:00:00,Product,Facebook,14.74,7.77,1,Returning,Basic
+2023-02-06 15:00:00,Service,Online,14.7,0,0,New,Basic
+2023-08-22 15:00:00,Product,Google Ads,51.18,2.53,0,Returning,Premium
+2023-07-12 07:00:00,Product,Online,172.51,0,0,New,Discounted
+2023-05-30 21:00:00,Service,Google Ads,172.95,23.1,2,New,Discounted
+2023-01-19 14:00:00,Service,In-Store,27.83,0,0,Returning,Basic
+2023-04-05 11:00:00,Product,In-Store,184.6,0,0,New,Basic
+2023-03-27 12:00:00,Service,Instagram,68.6,0.96,3,New,Basic
+2023-04-05 14:00:00,Service,Online,79.7,0,0,Returning,Premium
+2023-10-03 07:00:00,Service,Facebook,172.73,10.38,0,Returning,Basic
+2023-06-04 13:00:00,Service,Online,150.06,0,0,New,Basic
+2023-08-22 13:00:00,Product,Google Ads,121.62,6.98,2,Returning,Basic
+2023-12-31 09:00:00,Product,Google Ads,54.86,5.68,0,Returning,Basic
+2023-06-19 16:00:00,Service,Instagram,53.49,27.22,2,New,Premium
+2023-04-29 21:00:00,Product,Google Ads,134.52,0.36,1,Returning,Discounted
+2023-02-28 10:00:00,Service,Google Ads,161.71,4.66,0,Returning,Premium
+2024-01-01 12:00:00,Product,Google Ads,37.42,28.05,1,Returning,Premium
+2023-04-03 13:00:00,Product,Instagram,196.41,7.13,1,New,Premium
+2023-05-17 19:00:00,Service,Google Ads,127.32,7.07,2,New,Premium
+2023-11-17 08:00:00,Product,Instagram,144.8,7.7,1,Returning,Basic
+2023-03-17 19:00:00,Service,In-Store,55.87,0,0,Returning,Discounted
+2023-12-26 17:00:00,Service,Online,95.23,0,0,New,Basic
+2023-10-11 09:00:00,Service,Instagram,73.09,15.38,0,Returning,Discounted
+2023-10-17 13:00:00,Service,In-Store,32.01,0,0,Returning,Discounted
+2023-05-03 13:00:00,Product,In-Store,191.69,0,0,Returning,Premium
+2023-06-21 10:00:00,Product,Facebook,137.57,6.56,0,New,Basic
+2023-10-14 11:00:00,Product,Facebook,13.33,2.2,3,Returning,Discounted
+2023-09-26 11:00:00,Product,In-Store,150.04,0,0,New,Premium
+2023-01-17 16:00:00,Product,In-Store,18.52,0,0,New,Basic
+2023-10-01 14:00:00,Service,Google Ads,116.95,2.91,1,Returning,Discounted
+2023-08-24 09:00:00,Service,In-Store,136.64,0,0,Returning,Premium
+2023-09-26 10:00:00,Service,Instagram,88.9,22.72,1,Returning,Basic
+2023-05-21 08:00:00,Product,Online,140.41,0,0,New,Premium
+2023-10-04 12:00:00,Service,Facebook,172,24.35,3,New,Basic
+2023-07-11 12:00:00,Service,Instagram,26.91,11.65,2,Returning,Basic
+2023-03-25 13:00:00,Product,Instagram,126.22,28.95,2,New,Premium
+2023-09-14 21:00:00,Service,In-Store,121.28,0,0,New,Discounted
+2023-05-29 17:00:00,Service,In-Store,108.13,0,0,New,Basic
+2023-11-13 13:00:00,Service,Instagram,68.31,1.85,2,New,Basic
+2023-02-24 11:00:00,Product,In-Store,90.09,0,0,Returning,Discounted
+2023-11-24 18:00:00,Service,Online,169.31,0,0,Returning,Discounted
+2023-11-01 16:00:00,Service,Online,120.89,0,0,Returning,Discounted
+2023-10-11 15:00:00,Service,Google Ads,157.85,8.05,3,New,Premium
+2023-02-09 16:00:00,Service,Online,189.6,0,0,New,Discounted
+2023-09-26 19:00:00,Service,Facebook,62.39,13.14,2,Returning,Basic
+2023-09-01 10:00:00,Service,Online,145.8,0,0,New,Basic
+2023-06-14 09:00:00,Product,Facebook,84.55,18.74,1,Returning,Discounted
+2023-10-27 14:00:00,Service,Online,188.34,0,0,Returning,Discounted
+2023-03-29 13:00:00,Product,Google Ads,142.49,21.71,3,New,Premium
+2023-02-20 20:00:00,Product,In-Store,175.29,0,0,New,Basic
+2023-12-04 19:00:00,Service,Google Ads,15.71,8.35,2,New,Discounted
+2023-11-17 17:00:00,Service,Online,178.54,0,0,New,Premium
+2023-07-09 12:00:00,Service,Instagram,158.98,15.57,0,New,Premium
+2023-09-23 11:00:00,Service,Online,77.75,0,0,New,Basic
+2023-06-10 17:00:00,Product,Google Ads,58.76,2.16,1,Returning,Basic
+2023-11-25 19:00:00,Product,Instagram,111.16,19.82,0,New,Basic
+2023-05-12 17:00:00,Product,Instagram,91.87,18.44,2,Returning,Discounted
+2023-08-10 13:00:00,Service,Google Ads,100.63,5.24,1,New,Premium
+2023-09-18 16:00:00,Product,Instagram,50,16.16,3,New,Discounted
+2023-05-31 14:00:00,Service,In-Store,91.95,0,0,New,Discounted
+2023-11-29 16:00:00,Service,Google Ads,189.02,6.02,3,Returning,Basic
+2023-09-01 11:00:00,Product,Instagram,188.42,21.39,3,Returning,Discounted
+2023-03-07 20:00:00,Service,Facebook,69.94,11.56,3,New,Premium
+2023-09-30 12:00:00,Product,Online,104.8,0,0,Returning,Premium
+2023-07-12 18:00:00,Service,Online,58.53,0,0,Returning,Discounted
+2023-01-07 17:00:00,Product,Instagram,107.96,6.98,0,Returning,Premium
+2023-11-19 18:00:00,Product,Facebook,147.6,22.8,0,New,Discounted
+2023-02-23 11:00:00,Service,Google Ads,84.99,28.23,3,Returning,Basic
+2023-03-06 18:00:00,Product,Google Ads,67.85,27.09,0,Returning,Premium
+2023-02-18 07:00:00,Product,Google Ads,134,9.15,1,New,Premium
+2023-06-28 10:00:00,Service,Facebook,33.58,26.2,0,Returning,Basic
+2023-03-01 10:00:00,Product,Instagram,181.99,27.2,2,Returning,Premium
+2023-11-06 11:00:00,Service,In-Store,10.87,0,0,New,Basic
+2023-08-31 07:00:00,Product,In-Store,155.28,0,0,Returning,Premium
+2023-01-08 07:00:00,Service,Online,56.85,0,0,New,Discounted
+2023-11-18 12:00:00,Product,Google Ads,47.65,16.43,3,New,Discounted
+2023-07-25 19:00:00,Product,In-Store,125.42,0,0,Returning,Discounted
+2023-09-01 20:00:00,Service,Facebook,199.01,7.33,2,New,Discounted
+2023-06-30 12:00:00,Product,Google Ads,63.22,7.25,2,New,Basic
+2023-11-03 16:00:00,Product,Facebook,191.42,2.35,1,New,Premium
+2023-10-11 20:00:00,Service,Facebook,183.08,7.8,2,Returning,Discounted
+2023-09-28 13:00:00,Service,Facebook,27.78,14.42,0,New,Basic
+2023-12-19 07:00:00,Service,Google Ads,87.11,13.21,3,Returning,Basic
+2023-09-15 10:00:00,Service,Facebook,83.01,6.11,0,Returning,Premium
+2023-06-15 18:00:00,Product,Google Ads,147.46,5.92,0,Returning,Discounted
+2023-01-07 16:00:00,Service,Online,31.57,0,0,New,Premium
+2023-04-04 07:00:00,Product,Instagram,98.57,1.04,3,Returning,Discounted
+2023-06-29 09:00:00,Product,Online,146.76,0,0,New,Discounted
+2023-02-14 10:00:00,Product,Google Ads,63.15,27.29,0,New,Discounted
+2023-11-15 18:00:00,Service,Instagram,184.77,4.34,3,Returning,Discounted
+2023-07-15 10:00:00,Product,Online,113.84,0,0,New,Premium
+2023-08-14 19:00:00,Service,Google Ads,116.58,14.74,1,New,Basic
+2023-07-31 18:00:00,Service,Facebook,149.38,23.6,2,New,Premium
+2023-06-05 20:00:00,Product,Online,47.73,0,0,New,Basic
+2023-03-30 11:00:00,Service,In-Store,171.79,0,0,Returning,Basic
+2023-10-21 09:00:00,Service,Instagram,49.83,0.28,1,Returning,Discounted
+2023-03-30 17:00:00,Product,In-Store,27.17,0,0,Returning,Premium
+2023-12-13 08:00:00,Product,Online,75.77,0,0,Returning,Basic
+2023-08-06 11:00:00,Product,In-Store,101.7,0,0,Returning,Premium
+2023-03-01 16:00:00,Product,Online,153.04,0,0,Returning,Discounted
+2023-02-07 18:00:00,Product,Online,184.42,0,0,New,Discounted
+2023-11-06 13:00:00,Service,Google Ads,181.16,23.83,3,New,Discounted
+2023-01-05 11:00:00,Service,Facebook,48.37,20.28,0,New,Premium
+2023-10-29 18:00:00,Product,Facebook,127.64,26.48,3,New,Basic
+2023-02-27 16:00:00,Service,Instagram,120.11,22.08,1,New,Premium
+2023-11-18 17:00:00,Product,Google Ads,90.06,0.34,3,Returning,Basic
+2024-01-01 21:00:00,Product,Online,192.18,0,0,New,Discounted
+2023-02-20 15:00:00,Service,In-Store,22.72,0,0,Returning,Basic
+2023-11-29 08:00:00,Product,In-Store,180.99,0,0,New,Discounted
+2023-06-29 19:00:00,Service,In-Store,184.84,0,0,Returning,Premium
+2023-03-11 10:00:00,Product,Instagram,93.89,3.62,0,New,Discounted
+2023-02-12 15:00:00,Product,Instagram,51.56,24.87,1,New,Basic
+2023-01-08 12:00:00,Product,In-Store,16,0,0,Returning,Premium
+2023-12-30 14:00:00,Service,In-Store,180.66,0,0,Returning,Discounted
+2023-09-24 11:00:00,Product,In-Store,57.51,0,0,New,Discounted
+2023-02-12 19:00:00,Product,Google Ads,112.25,0.84,1,New,Premium
+2023-02-26 14:00:00,Product,Instagram,36.68,19.46,2,New,Premium
+2023-08-18 19:00:00,Service,Facebook,150.43,21.14,1,Returning,Premium
+2023-05-01 17:00:00,Service,Online,131.19,0,0,Returning,Basic
+2023-09-19 12:00:00,Product,Facebook,59.76,21.06,0,New,Discounted
+2023-08-10 13:00:00,Service,Facebook,76.22,20.64,3,Returning,Basic
+2023-07-01 09:00:00,Product,Google Ads,196.56,27.82,0,New,Premium
+2023-04-29 18:00:00,Service,In-Store,36.39,0,0,Returning,Premium
+2023-09-14 21:00:00,Product,Online,185.91,0,0,Returning,Basic
+2023-08-06 10:00:00,Service,Online,62.3,0,0,New,Premium
+2023-11-07 17:00:00,Service,Facebook,199.85,2.84,3,New,Discounted
+2023-07-28 11:00:00,Service,Google Ads,73.86,4.41,3,New,Discounted
+2023-02-05 19:00:00,Service,Online,95.48,0,0,Returning,Discounted
+2023-06-25 13:00:00,Service,Google Ads,100.64,19.62,2,New,Premium
+2023-11-14 08:00:00,Product,In-Store,157.69,0,0,Returning,Premium
+2023-03-16 13:00:00,Service,Google Ads,153.4,2.71,0,New,Premium
+2023-04-19 08:00:00,Product,In-Store,60.86,0,0,New,Basic
+2023-12-11 08:00:00,Service,Instagram,117.59,3.98,0,New,Premium
+2023-10-31 16:00:00,Product,In-Store,24.63,0,0,New,Discounted
+2023-12-01 15:00:00,Product,Facebook,185.82,14.07,2,Returning,Basic
+2023-09-01 21:00:00,Service,Online,186.26,0,0,Returning,Discounted
+2023-08-13 15:00:00,Product,Google Ads,97.57,17.16,2,New,Basic
+2023-11-24 14:00:00,Service,Facebook,76.12,2.21,1,New,Basic
+2023-06-06 21:00:00,Service,Instagram,134.7,24.87,0,Returning,Basic
+2023-05-22 11:00:00,Service,Google Ads,181.65,6.66,1,Returning,Basic
+2023-12-31 18:00:00,Service,In-Store,61.43,0,0,Returning,Premium
+2023-02-14 21:00:00,Product,Instagram,199.13,23.21,1,Returning,Premium
+2023-09-22 10:00:00,Service,Instagram,127.55,26.61,2,Returning,Basic
+2023-11-16 21:00:00,Product,Google Ads,157.23,1.96,3,Returning,Premium
+2023-06-12 14:00:00,Product,In-Store,123.24,0,0,Returning,Basic
+2023-10-23 20:00:00,Service,Facebook,84.3,20.06,2,Returning,Discounted
+2023-02-12 09:00:00,Product,Facebook,63.39,2.41,0,New,Basic
+2023-01-29 16:00:00,Service,Google Ads,140.48,27.15,1,Returning,Discounted
+2023-01-02 17:00:00,Service,Google Ads,139.54,4.51,1,Returning,Basic
+2023-08-25 20:00:00,Service,Instagram,163.52,26.64,2,Returning,Premium
+2023-01-17 21:00:00,Product,Google Ads,98.18,24.43,1,Returning,Premium
+2023-08-05 15:00:00,Service,In-Store,108.57,0,0,New,Premium
+2023-08-30 09:00:00,Product,Online,77.07,0,0,Returning,Discounted
+2023-08-20 17:00:00,Service,Facebook,108.28,10.71,0,Returning,Discounted
+2023-01-08 20:00:00,Service,Facebook,119.97,26.65,3,New,Premium
+2023-10-05 16:00:00,Service,In-Store,74.4,0,0,Returning,Premium
+2023-06-20 15:00:00,Service,Instagram,52.67,21.58,1,Returning,Basic
+2023-12-22 11:00:00,Product,Google Ads,188.42,10.05,3,New,Discounted
+2023-09-23 08:00:00,Service,In-Store,97.12,0,0,New,Discounted
+2023-01-23 20:00:00,Service,In-Store,154.54,0,0,New,Basic
+2023-12-07 07:00:00,Product,Online,150.86,0,0,Returning,Basic
+2023-04-15 16:00:00,Product,Online,82.81,0,0,Returning,Basic
+2023-01-09 15:00:00,Service,In-Store,81.1,0,0,New,Premium
+2023-06-06 11:00:00,Service,Online,168.32,0,0,Returning,Premium
+2023-05-30 09:00:00,Product,Instagram,138.42,14.2,3,New,Discounted
+2023-10-29 11:00:00,Service,Google Ads,154.67,19.9,2,New,Premium
+2023-07-11 15:00:00,Service,In-Store,85.31,0,0,Returning,Premium
+2023-04-12 20:00:00,Product,Google Ads,37.54,2.18,0,Returning,Basic
+2023-04-13 17:00:00,Service,Instagram,135.34,1.46,0,New,Basic
+2023-06-16 10:00:00,Service,Facebook,93.57,17.35,2,Returning,Premium
+2023-03-19 11:00:00,Service,Google Ads,137.29,19.53,2,Returning,Discounted
+2023-01-22 09:00:00,Service,Online,124.07,0,0,New,Discounted
+2023-07-20 18:00:00,Product,Google Ads,184.27,25.56,3,New,Premium
+2023-11-01 18:00:00,Service,In-Store,49.42,0,0,New,Premium
+2023-06-08 08:00:00,Service,In-Store,69.67,0,0,New,Premium
+2023-08-16 12:00:00,Product,Facebook,32.34,21.33,2,Returning,Basic
+2023-08-13 10:00:00,Product,Online,115.85,0,0,Returning,Premium
+2023-06-21 15:00:00,Product,Google Ads,173.56,2.06,3,Returning,Premium
+2023-07-10 15:00:00,Product,In-Store,41.74,0,0,New,Basic
+2023-09-03 07:00:00,Product,Facebook,174.72,18.64,2,New,Discounted
+2023-04-24 21:00:00,Product,In-Store,166.17,0,0,Returning,Basic
+2023-04-12 14:00:00,Service,Facebook,32.89,6.68,1,New,Basic
+2023-05-18 13:00:00,Service,Online,156.86,0,0,New,Discounted
+2023-12-17 16:00:00,Product,Google Ads,111.14,1.17,0,Returning,Discounted
+2023-12-04 13:00:00,Product,Facebook,46.08,13.89,0,New,Premium
+2023-08-29 13:00:00,Product,Instagram,91.59,11.84,3,New,Basic
+2023-12-24 21:00:00,Service,Online,141.57,0,0,Returning,Discounted
+2023-10-26 21:00:00,Service,Facebook,52.02,13.63,2,New,Premium
+2023-09-13 19:00:00,Product,Facebook,68.45,0.43,0,Returning,Basic
+2023-09-08 16:00:00,Product,Facebook,134.66,13.39,3,New,Basic
+2023-11-20 15:00:00,Service,Facebook,195.46,15.09,1,Returning,Basic
+2023-11-15 16:00:00,Service,Facebook,165.61,22.61,1,New,Premium
+2023-07-03 11:00:00,Service,Instagram,58.02,10.97,2,Returning,Premium
+2023-05-01 12:00:00,Service,In-Store,160.93,0,0,New,Discounted
+2023-05-05 16:00:00,Service,In-Store,130.24,0,0,New,Premium
+2023-02-04 20:00:00,Service,Facebook,33.24,12.75,2,Returning,Basic
+2023-02-21 11:00:00,Service,Instagram,53.72,10.81,3,Returning,Discounted
+2023-02-15 18:00:00,Product,Online,113.26,0,0,New,Discounted
+2023-12-03 20:00:00,Service,Google Ads,140.31,14.44,3,Returning,Discounted
+2023-05-04 10:00:00,Service,Instagram,125.54,29.77,2,New,Basic
+2023-03-20 12:00:00,Product,Instagram,156.03,10.53,3,Returning,Premium
+2023-06-03 15:00:00,Service,Google Ads,11.46,8.99,1,New,Basic
+2023-11-11 21:00:00,Service,Online,103.05,0,0,New,Basic
+2023-05-14 17:00:00,Service,Facebook,50.7,7.03,0,New,Basic
+2023-02-19 16:00:00,Service,Online,15.16,0,0,Returning,Basic
+2023-01-09 17:00:00,Product,In-Store,76.21,0,0,Returning,Premium
+2023-12-08 11:00:00,Product,Facebook,141.97,27.79,3,New,Discounted
+2023-12-15 21:00:00,Service,Facebook,198.33,22.8,0,New,Premium
+2023-09-22 11:00:00,Service,In-Store,77.18,0,0,New,Premium
+2023-04-17 17:00:00,Product,Instagram,67.53,7.22,0,New,Discounted
+2023-10-30 11:00:00,Service,In-Store,76.07,0,0,Returning,Discounted
+2023-04-27 20:00:00,Service,Google Ads,60.25,2.11,1,Returning,Basic
+2023-08-20 07:00:00,Product,In-Store,100.88,0,0,New,Basic
+2023-09-16 15:00:00,Service,In-Store,85.18,0,0,Returning,Basic
+2023-03-09 07:00:00,Service,In-Store,181.31,0,0,New,Basic
+2023-02-11 18:00:00,Service,Google Ads,85.6,10.87,2,Returning,Discounted
+2023-08-19 10:00:00,Product,In-Store,186.72,0,0,Returning,Discounted
+2023-04-21 09:00:00,Service,In-Store,44.13,0,0,New,Basic
+2023-02-25 07:00:00,Service,Online,72.95,0,0,Returning,Premium
+2023-06-13 12:00:00,Product,Online,154.46,0,0,New,Premium
+2023-11-30 14:00:00,Product,In-Store,172.93,0,0,New,Discounted
+2023-03-02 12:00:00,Product,Online,136.88,0,0,New,Discounted
+2023-01-27 14:00:00,Product,In-Store,127.61,0,0,New,Discounted
+2023-12-30 11:00:00,Product,In-Store,107.49,0,0,New,Discounted
+2023-02-25 18:00:00,Product,In-Store,28.73,0,0,New,Basic
+2023-03-20 21:00:00,Product,Google Ads,67.17,6.68,0,Returning,Basic
+2023-08-10 20:00:00,Service,Online,16.92,0,0,Returning,Premium
+2023-02-12 11:00:00,Product,In-Store,151.27,0,0,Returning,Premium
+2023-04-11 21:00:00,Product,Instagram,145.18,17.65,2,Returning,Discounted
+2023-11-26 08:00:00,Product,Instagram,56.23,16.81,2,Returning,Basic
+2023-02-01 17:00:00,Service,Google Ads,33.63,19.78,1,Returning,Premium
+2023-05-01 11:00:00,Service,Google Ads,21.69,4.25,2,Returning,Basic
+2023-04-02 21:00:00,Product,Google Ads,101.84,1.85,3,New,Discounted
+2023-05-10 18:00:00,Product,Instagram,129.31,5.61,1,Returning,Premium
+2023-11-28 09:00:00,Service,In-Store,192.84,0,0,Returning,Basic
+2023-06-12 10:00:00,Product,Online,190.88,0,0,Returning,Discounted
+2023-02-25 10:00:00,Service,Google Ads,98.2,25.35,2,Returning,Basic
+2023-01-20 19:00:00,Service,Instagram,49.42,11.84,2,New,Basic
+2023-04-15 19:00:00,Product,Instagram,192,9.94,3,Returning,Premium
+2023-08-02 17:00:00,Service,Google Ads,21.29,3.69,3,New,Basic
+2023-11-12 21:00:00,Service,Google Ads,193.08,14.08,1,New,Discounted
+2023-09-14 07:00:00,Service,Online,138.66,0,0,Returning,Basic
+2023-03-24 12:00:00,Product,In-Store,42.22,0,0,Returning,Premium
+2023-09-26 15:00:00,Product,Facebook,148.02,17.56,2,New,Discounted
+2023-10-28 15:00:00,Service,Instagram,15.02,6.02,1,Returning,Discounted
+2023-02-06 13:00:00,Product,Facebook,195.87,26.83,0,New,Premium
+2023-04-05 14:00:00,Product,Instagram,178.4,11.97,2,Returning,Discounted
+2023-04-14 20:00:00,Service,In-Store,53.71,0,0,New,Premium
+2023-11-03 07:00:00,Service,Facebook,189.38,6,3,New,Basic
+2023-04-24 14:00:00,Product,In-Store,63.15,0,0,New,Premium
+2023-06-04 11:00:00,Product,Facebook,66.69,15.38,3,New,Discounted
+2023-03-11 21:00:00,Product,Google Ads,77.98,9.6,2,Returning,Basic
+2023-04-12 18:00:00,Service,Online,144.64,0,0,New,Premium
+2023-01-09 09:00:00,Product,Online,115.27,0,0,Returning,Premium
+2023-04-12 17:00:00,Product,Facebook,74.82,18.33,1,Returning,Discounted
+2023-09-19 11:00:00,Service,Facebook,24.39,18.25,0,New,Discounted
+2023-04-12 08:00:00,Product,Facebook,120.74,3.92,2,Returning,Premium
+2023-01-18 13:00:00,Product,Facebook,168.89,2.38,3,New,Discounted
+2023-07-18 21:00:00,Service,Facebook,134.88,15.9,3,New,Basic
+2023-10-25 12:00:00,Service,Facebook,94.07,16.47,1,Returning,Basic
+2023-09-29 08:00:00,Service,Facebook,47.79,15.84,0,New,Premium
