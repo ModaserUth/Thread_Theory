@@ -1,0 +1,1834 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Business Intelligence Dashboard</title>
+
+<!-- Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+
+<style>
+:root {
+    --bg: #f4f6fa;
+    --surface: #ffffff;
+    --text: #172033;
+    --muted: #7b8498;
+    --primary: #315efb;
+    --border: #e7eaf1;
+    --green: #16a36a;
+    --red: #dc5353;
+    --shadow: 0 4px 18px rgba(30, 45, 80, .05);
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button, select, input { font: inherit; }
+
+.header {
+    background: #17233d;
+    color: white;
+    padding: 24px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.header h1 {
+    font-size: 23px;
+    margin: 0 0 7px;
+}
+
+.header p {
+    color: #b9c4dc;
+    margin: 0;
+    font-size: 13px;
+}
+
+.header-actions {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container {
+    width: 92%;
+    max-width: 1600px;
+    margin: 25px auto 50px;
+}
+
+.btn {
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: white;
+}
+
+.btn-light {
+    background: white;
+    color: #17233d;
+}
+
+.btn:hover { opacity: .88; }
+
+.section-title {
+    font-size: 17px;
+    margin: 28px 0 14px;
+}
+
+.section-description {
+    color: var(--muted);
+    font-size: 13px;
+    margin: -7px 0 16px;
+}
+
+.filters {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+    display: grid;
+    grid-template-columns: repeat(6, minmax(120px, 1fr));
+    gap: 12px;
+    box-shadow: var(--shadow);
+}
+
+.filter-item label {
+    display: block;
+    color: var(--muted);
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 7px;
+}
+
+.filter-item select,
+.filter-item input {
+    width: 100%;
+    min-width: 0;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: white;
+    color: var(--text);
+    outline: none;
+}
+
+.filter-item select:focus,
+.filter-item input:focus {
+    border-color: var(--primary);
+}
+
+.filter-actions {
+    display: flex;
+    align-items: end;
+    gap: 8px;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 15px;
+}
+
+.kpi {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 19px;
+    box-shadow: var(--shadow);
+    min-height: 115px;
+}
+
+.kpi-label {
+    color: var(--muted);
+    font-size: 12px;
+    margin-bottom: 13px;
+}
+
+.kpi-value {
+    font-size: 25px;
+    font-weight: 750;
+    letter-spacing: -.5px;
+}
+
+.kpi-note {
+    color: var(--muted);
+    font-size: 11px;
+    margin-top: 8px;
+}
+
+.chart-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.chart-card, .panel {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px;
+    box-shadow: var(--shadow);
+    min-width: 0;
+}
+
+.chart-card h3, .panel h3 {
+    margin: 0 0 4px;
+    font-size: 14px;
+}
+
+.chart-card p, .panel-subtitle {
+    margin: 0 0 15px;
+    font-size: 11px;
+    color: var(--muted);
+}
+
+.chart-wrap {
+    height: 270px;
+    position: relative;
+}
+
+.chart-wrap.large { height: 320px; }
+
+.table-wrap {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+th {
+    color: var(--muted);
+    font-weight: 700;
+    background: #f8f9fc;
+    text-align: left;
+}
+
+th, td {
+    padding: 12px 13px;
+    border-bottom: 1px solid var(--border);
+}
+
+tbody tr:hover { background: #f8faff; }
+
+.recommendations {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+}
+
+.recommendation {
+    background: white;
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--primary);
+    border-radius: 9px;
+    padding: 16px;
+}
+
+.recommendation h4 {
+    margin: 0 0 8px;
+    font-size: 13px;
+}
+
+.recommendation p {
+    color: #626d82;
+    font-size: 12px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.tag {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 20px;
+    background: #edf1ff;
+    color: #315efb;
+    font-size: 10px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.status {
+    padding: 6px 9px;
+    border-radius: 6px;
+    border: 1px solid var(--border);
+    background: white;
+    font-size: 11px;
+}
+
+.status-select {
+    border: 1px solid var(--border);
+    padding: 7px;
+    border-radius: 6px;
+    background: white;
+}
+
+.message {
+    background: white;
+    border: 1px solid var(--border);
+    padding: 18px;
+    border-radius: 10px;
+    margin-bottom: 18px;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.message.error {
+    color: var(--red);
+    border-color: #f2caca;
+}
+
+.positive { color: var(--green); }
+.negative { color: var(--red); }
+
+.footer {
+    text-align: center;
+    color: var(--muted);
+    font-size: 11px;
+    padding: 30px 0;
+}
+
+@media(max-width: 1100px) {
+    .filters { grid-template-columns: repeat(3, 1fr); }
+    .kpi-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media(max-width: 700px) {
+    .container { width: 94%; }
+    .filters { grid-template-columns: repeat(2, 1fr); }
+    .chart-grid, .recommendations { grid-template-columns: 1fr; }
+    .kpi-value { font-size: 21px; }
+}
+
+@media(max-width: 430px) {
+    .filters { grid-template-columns: 1fr; }
+    .kpi-grid { grid-template-columns: 1fr 1fr; }
+    .kpi { padding: 13px; }
+    .kpi-value { font-size: 18px; }
+}
+
+@media print {
+    body { background: white; }
+    .header-actions, .filters, .action-controls, .no-print { display: none !important; }
+    .container { width: 100%; margin: 10px auto; }
+    .chart-card, .panel, .kpi { break-inside: avoid; box-shadow: none; }
+}
+</style>
+</head>
+
+<body>
+
+<header class="header">
+    <div>
+        <h1>Business Intelligence Dashboard</h1>
+        <p>Sales Performance, Marketing Analytics & Business Recommendations</p>
+    </div>
+
+    <div class="header-actions">
+        <button class="btn btn-light" onclick="exportCSV()">Export Filtered Data</button>
+        <button class="btn btn-light" onclick="window.print()">Export PDF</button>
+    </div>
+</header>
+
+<main class="container">
+
+    <div id="loadingMessage" class="message">
+        Loading dashboard data...
+    </div>
+
+    <div id="errorMessage" class="message error" style="display:none"></div>
+
+    <!-- Filters -->
+    <h2 class="section-title">Dashboard Filters</h2>
+
+    <section class="filters">
+        <div class="filter-item">
+            <label>Start Date</label>
+            <input type="date" id="startDate">
+        </div>
+
+        <div class="filter-item">
+            <label>End Date</label>
+            <input type="date" id="endDate">
+        </div>
+
+        <div class="filter-item">
+            <label>Sales Channel</label>
+            <select id="channelFilter">
+                <option value="all">All Channels</option>
+            </select>
+        </div>
+
+        <div class="filter-item">
+            <label>Service Type</label>
+            <select id="serviceFilter">
+                <option value="all">All Services</option>
+            </select>
+        </div>
+
+        <div class="filter-item">
+            <label>Customer Type</label>
+            <select id="customerFilter">
+                <option value="all">All Customers</option>
+            </select>
+        </div>
+
+        <div class="filter-item">
+            <label>Region</label>
+            <select id="regionFilter">
+                <option value="all">All Regions</option>
+            </select>
+        </div>
+
+        <div class="filter-item">
+            <label>Day Type</label>
+            <select id="dayFilter">
+                <option value="all">All Days</option>
+                <option value="Weekday">Weekday</option>
+                <option value="Weekend">Weekend</option>
+            </select>
+        </div>
+
+        <div class="filter-actions">
+            <button class="btn btn-primary" onclick="applyFilters()">Apply</button>
+            <button class="btn btn-light" onclick="resetFilters()">Reset</button>
+        </div>
+    </section>
+
+    <!-- Executive Overview -->
+    <h2 class="section-title">1. Executive Overview</h2>
+    <p class="section-description">Key business performance indicators based on the selected filters.</p>
+
+    <section class="kpi-grid">
+        <div class="kpi">
+            <div class="kpi-label">Total Revenue</div>
+            <div class="kpi-value" id="totalRevenue">—</div>
+            <div class="kpi-note">Total sales revenue</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Transactions</div>
+            <div class="kpi-value" id="transactions">—</div>
+            <div class="kpi-note">Number of records / transactions</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Average Revenue per Transaction</div>
+            <div class="kpi-value" id="averageRevenue">—</div>
+            <div class="kpi-note">Revenue divided by transactions</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Marketing ROAS Proxy</div>
+            <div class="kpi-value" id="roas">—</div>
+            <div class="kpi-note">Revenue divided by advertising spend</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Advertising Spend</div>
+            <div class="kpi-value" id="adSpend">—</div>
+            <div class="kpi-note">Total marketing expenditure</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Conversions</div>
+            <div class="kpi-value" id="conversions">—</div>
+            <div class="kpi-note">Total recorded conversions</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Revenue per Conversion</div>
+            <div class="kpi-value" id="revenuePerConversion">—</div>
+            <div class="kpi-note">Revenue divided by conversions</div>
+        </div>
+
+        <div class="kpi">
+            <div class="kpi-label">Cost per Conversion</div>
+            <div class="kpi-value" id="costPerConversion">—</div>
+            <div class="kpi-note">Advertising spend divided by conversions</div>
+        </div>
+    </section>
+
+    <!-- Period Comparison -->
+    <h2 class="section-title">2. Period-over-Period Performance</h2>
+    <p class="section-description">Comparison between the selected period and the previous period of equal length.</p>
+
+    <section class="panel">
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Metric</th>
+                        <th>Current Period</th>
+                        <th>Previous Period</th>
+                        <th>Change</th>
+                    </tr>
+                </thead>
+                <tbody id="periodTable"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Sales Analysis -->
+    <h2 class="section-title">3. Sales Performance Analysis</h2>
+    <p class="section-description">Revenue trends and sales distribution across channels and time.</p>
+
+    <section class="chart-grid">
+        <div class="chart-card">
+            <h3>Revenue by Sales Channel</h3>
+            <p>Revenue generated by each channel.</p>
+            <div class="chart-wrap"><canvas id="channelChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Monthly Revenue Trend</h3>
+            <p>Monthly sales revenue over time.</p>
+            <div class="chart-wrap"><canvas id="monthlyChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Daily Revenue</h3>
+            <p>Revenue distribution by day of the week.</p>
+            <div class="chart-wrap"><canvas id="dailyChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Revenue by Region</h3>
+            <p>Compare sales performance across regions.</p>
+            <div class="chart-wrap"><canvas id="regionChart"></canvas></div>
+        </div>
+    </section>
+
+    <!-- Service Analysis -->
+    <h2 class="section-title">4. Service Analysis</h2>
+    <p class="section-description">Understand which services contribute most to business revenue.</p>
+
+    <section class="chart-grid">
+        <div class="chart-card">
+            <h3>Revenue by Service Type</h3>
+            <p>Total revenue generated by each service.</p>
+            <div class="chart-wrap"><canvas id="serviceChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Service Revenue Contribution</h3>
+            <p>Percentage contribution of each service to total revenue.</p>
+            <div class="chart-wrap"><canvas id="serviceShareChart"></canvas></div>
+        </div>
+    </section>
+
+    <section class="panel" style="margin-top:16px">
+        <h3>Service Performance Details</h3>
+        <p class="panel-subtitle">Revenue, transactions, average revenue, and revenue contribution.</p>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Service Type</th>
+                        <th>Revenue</th>
+                        <th>Transactions</th>
+                        <th>Average Revenue</th>
+                        <th>Revenue Share</th>
+                    </tr>
+                </thead>
+                <tbody id="serviceTable"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Customer Analysis -->
+    <h2 class="section-title">5. Customer Analysis</h2>
+    <p class="section-description">Compare new and returning customers.</p>
+
+    <section class="chart-grid">
+        <div class="chart-card">
+            <h3>Revenue by Customer Type</h3>
+            <p>Revenue contribution from each customer segment.</p>
+            <div class="chart-wrap"><canvas id="customerChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Customer Revenue Contribution</h3>
+            <p>Percentage contribution by customer type.</p>
+            <div class="chart-wrap"><canvas id="customerShareChart"></canvas></div>
+        </div>
+    </section>
+
+    <!-- Day Analysis -->
+    <h2 class="section-title">6. Weekday vs Weekend Analysis</h2>
+    <p class="section-description">Compare business performance between weekdays and weekends.</p>
+
+    <section class="chart-grid">
+        <div class="chart-card">
+            <h3>Total Revenue</h3>
+            <div class="chart-wrap"><canvas id="weekendRevenueChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Average Revenue per Transaction</h3>
+            <div class="chart-wrap"><canvas id="weekendAverageChart"></canvas></div>
+        </div>
+    </section>
+
+    <!-- Marketing Analysis -->
+    <h2 class="section-title">7. Marketing Performance</h2>
+    <p class="section-description">Evaluate advertising expenditure, conversions, and estimated return.</p>
+
+    <section class="chart-grid">
+        <div class="chart-card">
+            <h3>ROAS Proxy by Channel</h3>
+            <p>Revenue divided by advertising spend for each channel.</p>
+            <div class="chart-wrap"><canvas id="marketingRoasChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Advertising Spend by Channel</h3>
+            <p>Compare advertising expenditure.</p>
+            <div class="chart-wrap"><canvas id="marketingSpendChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Conversions by Channel</h3>
+            <p>Recorded conversions across marketing channels.</p>
+            <div class="chart-wrap"><canvas id="marketingConversionsChart"></canvas></div>
+        </div>
+
+        <div class="chart-card">
+            <h3>Cost per Conversion</h3>
+            <p>Advertising spend divided by conversions.</p>
+            <div class="chart-wrap"><canvas id="marketingCpaChart"></canvas></div>
+        </div>
+    </section>
+
+    <section class="panel" style="margin-top:16px">
+        <h3>Marketing Channel Performance</h3>
+        <p class="panel-subtitle">Detailed comparison of advertising performance.</p>
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Channel</th>
+                        <th>Revenue</th>
+                        <th>Ad Spend</th>
+                        <th>Conversions</th>
+                        <th>ROAS Proxy</th>
+                        <th>Cost per Conversion</th>
+                    </tr>
+                </thead>
+                <tbody id="marketingTable"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Recommendations -->
+    <h2 class="section-title">8. Business Recommendation Engine</h2>
+    <p class="section-description">Rule-based recommendations generated dynamically from the filtered data.</p>
+
+    <section class="recommendations" id="recommendations"></section>
+
+    <!-- Action Tracking -->
+    <h2 class="section-title">9. Action Tracking</h2>
+    <p class="section-description">Track the implementation status of the business recommendations on this browser.</p>
+
+    <section class="panel">
+        <div class="table-wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Recommendation</th>
+                        <th>Action Status</th>
+                    </tr>
+                </thead>
+                <tbody id="actionTable"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Data Table -->
+    <h2 class="section-title">10. Filtered Data Preview</h2>
+    <p class="section-description">First 100 rows from the filtered dataset. Export Filtered Data to download all matching rows.</p>
+
+    <section class="panel">
+        <div class="table-wrap">
+            <table>
+                <thead id="dataTableHead"></thead>
+                <tbody id="dataTableBody"></tbody>
+            </table>
+        </div>
+    </section>
+
+    <div class="footer">
+        Business Intelligence & Rule-Based Recommendation Engine
+    </div>
+</main>
+
+<script>
+/* =========================================================
+   CONFIGURATION
+========================================================= */
+
+// Keep the CSV file at this relative path in your project.
+const DATA_URL = "data/processed/thread_theory_cleaned.csv";
+
+// Expected dataset columns:
+// Date, Revenue, Ad Spend, Conversions,
+// Service Type, Customer Type, Channel, Region
+
+let originalData = [];
+let filteredData = [];
+let charts = {};
+let allColumns = [];
+let initialDateMin = "";
+let initialDateMax = "";
+
+
+/* =========================================================
+   HELPERS
+========================================================= */
+
+const $ = id => document.getElementById(id);
+
+function number(value) {
+    if (value === null || value === undefined || value === "") return 0;
+    const result = Number(String(value).replace(/,/g, ""));
+    return Number.isFinite(result) ? result : 0;
+}
+
+function sum(data, field) {
+    return data.reduce((total, row) => total + number(row[field]), 0);
+}
+
+function average(data, field) {
+    return data.length ? sum(data, field) / data.length : 0;
+}
+
+function money(value) {
+    return new Intl.NumberFormat("en-US", {
+        maximumFractionDigits: 2,
+        minimumFractionDigits: 2
+    }).format(value || 0);
+}
+
+function integer(value) {
+    return new Intl.NumberFormat("en-US", {
+        maximumFractionDigits: 0
+    }).format(value || 0);
+}
+
+function percent(value) {
+    return `${number(value).toFixed(2)}%`;
+}
+
+function escapeHTML(value) {
+    return String(value ?? "").replace(/[&<>"']/g, char => ({
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#039;"
+    })[char]);
+}
+
+function groupBy(data, field) {
+    const result = {};
+
+    data.forEach(row => {
+        const key = String(row[field] ?? "Unknown").trim() || "Unknown";
+
+        if (!result[key]) {
+            result[key] = {
+                name: key,
+                revenue: 0,
+                adSpend: 0,
+                conversions: 0,
+                transactions: 0
+            };
+        }
+
+        result[key].revenue += number(row.Revenue);
+        result[key].adSpend += number(row["Ad Spend"]);
+        result[key].conversions += number(row.Conversions);
+        result[key].transactions += 1;
+    });
+
+    return Object.values(result);
+}
+
+function dateString(date) {
+    if (!date || Number.isNaN(date.getTime())) return "";
+    return [
+        date.getFullYear(),
+        String(date.getMonth() + 1).padStart(2, "0"),
+        String(date.getDate()).padStart(2, "0")
+    ].join("-");
+}
+
+function parseDate(value) {
+    if (!value) return null;
+
+    // Supports ISO dates and common date strings.
+    const d = new Date(value);
+    if (!Number.isNaN(d.getTime())) return d;
+
+    return null;
+}
+
+function formatMonth(date) {
+    return date.toLocaleDateString("en-US", {
+        year: "numeric",
+        month: "short"
+    });
+}
+
+function chartColors(count) {
+    const palette = [
+        "#315efb", "#16a36a", "#f3a638",
+        "#8b5cf6", "#e15b64", "#13a6b8",
+        "#68758c", "#e78ac3", "#7c9c42"
+    ];
+
+    return Array.from({ length: count }, (_, i) => palette[i % palette.length]);
+}
+
+function setOptions(id, values, allLabel) {
+    const select = $(id);
+    const previous = select.value;
+
+    select.innerHTML = `<option value="all">${allLabel}</option>`;
+
+    [...new Set(values)]
+        .filter(value => value !== "" && value !== "Unknown")
+        .sort()
+        .forEach(value => {
+            const option = document.createElement("option");
+            option.value = value;
+            option.textContent = value;
+            select.appendChild(option);
+        });
+
+    if ([...select.options].some(option => option.value === previous)) {
+        select.value = previous;
+    }
+}
+
+function showError(message) {
+    $("loadingMessage").style.display = "none";
+    $("errorMessage").style.display = "block";
+    $("errorMessage").textContent = message;
+}
+
+
+/* =========================================================
+   LOAD DATA
+========================================================= */
+
+async function loadData() {
+    try {
+        const response = await fetch(DATA_URL);
+
+        if (!response.ok) {
+            throw new Error(
+                `Could not load CSV file. HTTP status: ${response.status}. Check DATA_URL.`
+            );
+        }
+
+        const csvText = await response.text();
+
+        const parsed = Papa.parse(csvText, {
+            header: true,
+            skipEmptyLines: true,
+            dynamicTyping: false
+        });
+
+        if (parsed.errors.length && parsed.data.length === 0) {
+            throw new Error("The CSV file could not be parsed.");
+        }
+
+        originalData = parsed.data.map(row => {
+            const clean = {};
+
+            Object.keys(row).forEach(key => {
+                clean[key.trim()] = typeof row[key] === "string"
+                    ? row[key].trim()
+                    : row[key];
+            });
+
+            return clean;
+        });
+
+        if (!originalData.length) {
+            throw new Error("The CSV file contains no data.");
+        }
+
+        validateColumns();
+        prepareData();
+        initializeFilters();
+
+        $("loadingMessage").style.display = "none";
+        applyFilters();
+
+    } catch (error) {
+        showError(
+            error.message +
+            " If you are opening index.html directly, run it through a static web server or publish it on GitHub Pages."
+        );
+    }
+}
+
+
+/* =========================================================
+   DATA VALIDATION & PREPARATION
+========================================================= */
+
+function validateColumns() {
+    allColumns = Object.keys(originalData[0]);
+
+    const required = [
+        "Revenue",
+        "Ad Spend",
+        "Conversions",
+        "Service Type",
+        "Customer Type",
+        "Channel",
+        "Region"
+    ];
+
+    const missing = required.filter(col => !allColumns.includes(col));
+
+    if (missing.length) {
+        throw new Error(
+            "Missing required CSV columns: " + missing.join(", ") +
+            ". Check the column names in your CSV file."
+        );
+    }
+
+    if (!allColumns.includes("Date") && !allColumns.includes("Timestamp")) {
+        throw new Error("The dataset must contain a Date or Timestamp column.");
+    }
+}
+
+function prepareData() {
+    const dateColumn = allColumns.includes("Date") ? "Date" : "Timestamp";
+
+    originalData = originalData.map(row => {
+        const date = parseDate(row[dateColumn]);
+
+        return {
+            ...row,
+            DateObject: date,
+            Revenue: number(row.Revenue),
+            "Ad Spend": number(row["Ad Spend"]),
+            Conversions: number(row.Conversions)
+        };
+    }).filter(row => row.DateObject !== null);
+
+    originalData.sort((a, b) => a.DateObject - b.DateObject);
+
+    if (!originalData.length) {
+        throw new Error("No valid dates were found in the dataset.");
+    }
+
+    originalData = originalData.map(row => {
+        const day = row.DateObject.getDay();
+
+        return {
+            ...row,
+            Day_Type: (day === 5 || day === 6) ? "Weekend" : "Weekday",
+            Month_Period:
+                `${row.DateObject.getFullYear()}-${String(row.DateObject.getMonth() + 1).padStart(2, "0")}`
+        };
+    });
+
+    const dates = originalData.map(row => dateString(row.DateObject));
+
+    initialDateMin = dates[0];
+    initialDateMax = dates[dates.length - 1];
+}
+
+
+/* =========================================================
+   FILTERS
+========================================================= */
+
+function initializeFilters() {
+    $("startDate").min = initialDateMin;
+    $("startDate").max = initialDateMax;
+    $("endDate").min = initialDateMin;
+    $("endDate").max = initialDateMax;
+
+    $("startDate").value = initialDateMin;
+    $("endDate").value = initialDateMax;
+
+    setOptions("channelFilter", originalData.map(r => r.Channel), "All Channels");
+    setOptions("serviceFilter", originalData.map(r => r["Service Type"]), "All Services");
+    setOptions("customerFilter", originalData.map(r => r["Customer Type"]), "All Customers");
+    setOptions("regionFilter", originalData.map(r => r.Region), "All Regions");
+}
+
+function getFilteredData(data) {
+    const start = $("startDate").value;
+    const end = $("endDate").value;
+    const channel = $("channelFilter").value;
+    const service = $("serviceFilter").value;
+    const customer = $("customerFilter").value;
+    const region = $("regionFilter").value;
+    const dayType = $("dayFilter").value;
+
+    return data.filter(row => {
+        const date = dateString(row.DateObject);
+
+        if (start && date < start) return false;
+        if (end && date > end) return false;
+
+        if (channel !== "all" && row.Channel !== channel) return false;
+        if (service !== "all" && row["Service Type"] !== service) return false;
+        if (customer !== "all" && row["Customer Type"] !== customer) return false;
+        if (region !== "all" && row.Region !== region) return false;
+        if (dayType !== "all" && row.Day_Type !== dayType) return false;
+
+        return true;
+    });
+}
+
+function applyFilters() {
+    filteredData = getFilteredData(originalData);
+
+    renderDashboard();
+}
+
+function resetFilters() {
+    $("startDate").value = initialDateMin;
+    $("endDate").value = initialDateMax;
+    $("channelFilter").value = "all";
+    $("serviceFilter").value = "all";
+    $("customerFilter").value = "all";
+    $("regionFilter").value = "all";
+    $("dayFilter").value = "all";
+
+    applyFilters();
+}
+
+
+/* =========================================================
+   DASHBOARD RENDERER
+========================================================= */
+
+function renderDashboard() {
+    renderKPIs();
+    renderPeriodComparison();
+    renderSalesCharts();
+    renderServiceAnalysis();
+    renderCustomerAnalysis();
+    renderDayAnalysis();
+    renderMarketingAnalysis();
+    renderRecommendations();
+    renderActionTracking();
+    renderDataTable();
+}
+
+
+/* =========================================================
+   1. KPIs
+========================================================= */
+
+function renderKPIs() {
+    const revenue = sum(filteredData, "Revenue");
+    const spend = sum(filteredData, "Ad Spend");
+    const conversions = sum(filteredData, "Conversions");
+    const transactions = filteredData.length;
+
+    const roas = spend > 0 ? revenue / spend : 0;
+    const avgRevenue = transactions ? revenue / transactions : 0;
+    const revenuePerConversion = conversions ? revenue / conversions : 0;
+    const costPerConversion = conversions ? spend / conversions : 0;
+
+    $("totalRevenue").textContent = money(revenue);
+    $("transactions").textContent = integer(transactions);
+    $("averageRevenue").textContent = money(avgRevenue);
+    $("roas").textContent = spend > 0 ? `${roas.toFixed(2)}x` : "N/A";
+    $("adSpend").textContent = money(spend);
+    $("conversions").textContent = integer(conversions);
+    $("revenuePerConversion").textContent = money(revenuePerConversion);
+    $("costPerConversion").textContent = money(costPerConversion);
+}
+
+
+/* =========================================================
+   2. PERIOD COMPARISON
+========================================================= */
+
+function renderPeriodComparison() {
+    if (!filteredData.length) {
+        $("periodTable").innerHTML =
+            `<tr><td colspan="4">No data available for this period.</td></tr>`;
+        return;
+    }
+
+    const start = new Date($("startDate").value + "T00:00:00");
+    const end = new Date($("endDate").value + "T00:00:00");
+
+    if (Number.isNaN(start.getTime()) || Number.isNaN(end.getTime())) {
+        $("periodTable").innerHTML = "";
+        return;
+    }
+
+    const duration = Math.round((end - start) / 86400000) + 1;
+
+    const previousEnd = new Date(start);
+    previousEnd.setDate(previousEnd.getDate() - 1);
+
+    const previousStart = new Date(previousEnd);
+    previousStart.setDate(previousStart.getDate() - duration + 1);
+
+    const previousRows = originalData.filter(row => {
+        const date = dateString(row.DateObject);
+
+        if (date < dateString(previousStart) || date > dateString(previousEnd)) {
+            return false;
+        }
+
+        // Keep the same non-date filters for a fair comparison.
+        if ($("channelFilter").value !== "all" &&
+            row.Channel !== $("channelFilter").value) return false;
+
+        if ($("serviceFilter").value !== "all" &&
+            row["Service Type"] !== $("serviceFilter").value) return false;
+
+        if ($("customerFilter").value !== "all" &&
+            row["Customer Type"] !== $("customerFilter").value) return false;
+
+        if ($("regionFilter").value !== "all" &&
+            row.Region !== $("regionFilter").value) return false;
+
+        if ($("dayFilter").value !== "all" &&
+            row.Day_Type !== $("dayFilter").value) return false;
+
+        return true;
+    });
+
+    const currentRevenue = sum(filteredData, "Revenue");
+    const previousRevenue = sum(previousRows, "Revenue");
+
+    const currentTransactions = filteredData.length;
+    const previousTransactions = previousRows.length;
+
+    const currentAverage = currentTransactions
+        ? currentRevenue / currentTransactions : 0;
+
+    const previousAverage = previousTransactions
+        ? previousRevenue / previousTransactions : 0;
+
+    const currentSpend = sum(filteredData, "Ad Spend");
+    const previousSpend = sum(previousRows, "Ad Spend");
+
+    const metrics = [
+        {
+            name: "Revenue",
+            current: currentRevenue,
+            previous: previousRevenue,
+            format: money
+        },
+        {
+            name: "Transactions",
+            current: currentTransactions,
+            previous: previousTransactions,
+            format: integer
+        },
+        {
+            name: "Average Revenue",
+            current: currentAverage,
+            previous: previousAverage,
+            format: money
+        },
+        {
+            name: "Advertising Spend",
+            current: currentSpend,
+            previous: previousSpend,
+            format: money
+        }
+    ];
+
+    $("periodTable").innerHTML = metrics.map(metric => {
+        let change = "N/A";
+        let css = "";
+
+        if (metric.previous !== 0) {
+            const difference =
+                ((metric.current - metric.previous) / Math.abs(metric.previous)) * 100;
+
+            change = `${difference > 0 ? "+" : ""}${difference.toFixed(2)}%`;
+            css = difference > 0 ? "positive" : difference < 0 ? "negative" : "";
+        } else if (metric.current > 0) {
+            change = "New";
+        }
+
+        return `
+            <tr>
+                <td>${metric.name}</td>
+                <td>${metric.format(metric.current)}</td>
+                <td>${metric.previousRows === 0 && metric.previous === 0 ? "N/A" : metric.format(metric.previous)}</td>
+                <td class="${css}">${change}</td>
+            </tr>
+        `;
+    }).join("");
+}
+
+
+/* =========================================================
+   CHART ENGINE
+========================================================= */
+
+function drawChart(id, type, labels, datasets, extraOptions = {}) {
+    if (charts[id]) {
+        charts[id].destroy();
+    }
+
+    const ctx = $(id).getContext("2d");
+
+    charts[id] = new Chart(ctx, {
+        type,
+        data: {
+            labels,
+            datasets: datasets.map((dataset, index) => ({
+                borderWidth: 2,
+                borderRadius: type === "bar" ? 5 : 0,
+                tension: .3,
+                ...dataset,
+                backgroundColor: dataset.backgroundColor ||
+                    (type === "line" ? "#315efb" : chartColors(labels.length)),
+                borderColor: dataset.borderColor ||
+                    (type === "line" ? "#315efb" : undefined)
+            }))
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+                legend: {
+                    display: datasets.length > 1 || type === "doughnut",
+                    position: "bottom"
+                }
+            },
+            scales: type === "doughnut" || type === "pie" ? {} : {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: value => Number(value).toLocaleString()
+                    }
+                }
+            },
+            ...extraOptions
+        }
+    });
+}
+
+
+/* =========================================================
+   3. SALES ANALYSIS
+========================================================= */
+
+function renderSalesCharts() {
+    const channels = groupBy(filteredData, "Channel");
+
+    drawChart(
+        "channelChart",
+        "bar",
+        channels.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: channels.map(x => x.revenue),
+            backgroundColor: "#315efb"
+        }]
+    );
+
+    const months = {};
+
+    filteredData.forEach(row => {
+        const key = row.Month_Period;
+        months[key] = (months[key] || 0) + row.Revenue;
+    });
+
+    const monthKeys = Object.keys(months).sort();
+
+    drawChart(
+        "monthlyChart",
+        "line",
+        monthKeys.map(key => {
+            const [year, month] = key.split("-").map(Number);
+            return formatMonth(new Date(year, month - 1, 1));
+        }),
+        [{
+            label: "Revenue",
+            data: monthKeys.map(key => months[key]),
+            fill: true,
+            backgroundColor: "rgba(49,94,251,.10)",
+            borderColor: "#315efb"
+        }]
+    );
+
+    const daysOrder = [
+        "Sunday", "Monday", "Tuesday", "Wednesday",
+        "Thursday", "Friday", "Saturday"
+    ];
+
+    const daily = daysOrder.map((name, index) => ({
+        name,
+        revenue: filteredData
+            .filter(row => row.DateObject.getDay() === index)
+            .reduce((total, row) => total + row.Revenue, 0)
+    }));
+
+    drawChart(
+        "dailyChart",
+        "bar",
+        daily.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: daily.map(x => x.revenue),
+            backgroundColor: "#16a36a"
+        }]
+    );
+
+    const regions = groupBy(filteredData, "Region");
+
+    drawChart(
+        "regionChart",
+        "bar",
+        regions.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: regions.map(x => x.revenue),
+            backgroundColor: "#8b5cf6"
+        }],
+        {
+            indexAxis: "y"
+        }
+    );
+}
+
+
+/* =========================================================
+   4. SERVICE ANALYSIS
+========================================================= */
+
+function renderServiceAnalysis() {
+    const services = groupBy(filteredData, "Service Type");
+    const totalRevenue = sum(filteredData, "Revenue");
+
+    drawChart(
+        "serviceChart",
+        "bar",
+        services.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: services.map(x => x.revenue),
+            backgroundColor: "#315efb"
+        }]
+    );
+
+    drawChart(
+        "serviceShareChart",
+        "doughnut",
+        services.map(x => x.name),
+        [{
+            label: "Revenue Share",
+            data: services.map(x => x.revenue),
+            backgroundColor: chartColors(services.length)
+        }]
+    );
+
+    $("serviceTable").innerHTML = services
+        .sort((a, b) => b.revenue - a.revenue)
+        .map(service => {
+            const share = totalRevenue
+                ? service.revenue / totalRevenue * 100
+                : 0;
+
+            const avg = service.transactions
+                ? service.revenue / service.transactions
+                : 0;
+
+            return `
+                <tr>
+                    <td>${escapeHTML(service.name)}</td>
+                    <td>${money(service.revenue)}</td>
+                    <td>${integer(service.transactions)}</td>
+                    <td>${money(avg)}</td>
+                    <td>${percent(share)}</td>
+                </tr>
+            `;
+        }).join("");
+}
+
+
+/* =========================================================
+   5. CUSTOMER ANALYSIS
+========================================================= */
+
+function renderCustomerAnalysis() {
+    const customers = groupBy(filteredData, "Customer Type");
+
+    drawChart(
+        "customerChart",
+        "bar",
+        customers.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: customers.map(x => x.revenue),
+            backgroundColor: "#16a36a"
+        }]
+    );
+
+    drawChart(
+        "customerShareChart",
+        "doughnut",
+        customers.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: customers.map(x => x.revenue),
+            backgroundColor: chartColors(customers.length)
+        }]
+    );
+}
+
+
+/* =========================================================
+   6. WEEKDAY VS WEEKEND
+========================================================= */
+
+function renderDayAnalysis() {
+    const types = ["Weekday", "Weekend"];
+
+    const results = types.map(type => {
+        const rows = filteredData.filter(row => row.Day_Type === type);
+        const revenue = sum(rows, "Revenue");
+
+        return {
+            name: type,
+            revenue,
+            transactions: rows.length,
+            average: rows.length ? revenue / rows.length : 0
+        };
+    });
+
+    drawChart(
+        "weekendRevenueChart",
+        "bar",
+        results.map(x => x.name),
+        [{
+            label: "Revenue",
+            data: results.map(x => x.revenue),
+            backgroundColor: ["#315efb", "#f3a638"]
+        }]
+    );
+
+    drawChart(
+        "weekendAverageChart",
+        "bar",
+        results.map(x => x.name),
+        [{
+            label: "Average Revenue",
+            data: results.map(x => x.average),
+            backgroundColor: ["#315efb", "#f3a638"]
+        }]
+    );
+}
+
+
+/* =========================================================
+   7. MARKETING ANALYSIS
+========================================================= */
+
+function renderMarketingAnalysis() {
+    const channels = groupBy(filteredData, "Channel");
+
+    const roas = channels.map(x =>
+        x.adSpend > 0 ? x.revenue / x.adSpend : 0
+    );
+
+    const cpa = channels.map(x =>
+        x.conversions > 0 ? x.adSpend / x.conversions : 0
+    );
+
+    drawChart(
+        "marketingRoasChart",
+        "bar",
+        channels.map(x => x.name),
+        [{
+            label: "ROAS Proxy",
+            data: roas,
+            backgroundColor: "#16a36a"
+        }]
+    );
+
+    drawChart(
+        "marketingSpendChart",
+        "bar",
+        channels.map(x => x.name),
+        [{
+            label: "Ad Spend",
+            data: channels.map(x => x.adSpend),
+            backgroundColor: "#f3a638"
+        }]
+    );
+
+    drawChart(
+        "marketingConversionsChart",
+        "bar",
+        channels.map(x => x.name),
+        [{
+            label: "Conversions",
+            data: channels.map(x => x.conversions),
+            backgroundColor: "#8b5cf6"
+        }]
+    );
+
+    drawChart(
+        "marketingCpaChart",
+        "bar",
+        channels.map(x => x.name),
+        [{
+            label: "Cost per Conversion",
+            data: cpa,
+            backgroundColor: "#e15b64"
+        }]
+    );
+
+    $("marketingTable").innerHTML = channels
+        .sort((a, b) => {
+            const aRoas = a.adSpend > 0 ? a.revenue / a.adSpend : 0;
+            const bRoas = b.adSpend > 0 ? b.revenue / b.adSpend : 0;
+            return bRoas - aRoas;
+        })
+        .map(x => {
+            const channelRoas = x.adSpend > 0 ? x.revenue / x.adSpend : null;
+            const channelCpa = x.conversions > 0
+                ? x.adSpend / x.conversions : null;
+
+            return `
+                <tr>
+                    <td>${escapeHTML(x.name)}</td>
+                    <td>${money(x.revenue)}</td>
+                    <td>${money(x.adSpend)}</td>
+                    <td>${integer(x.conversions)}</td>
+                    <td>${channelRoas === null ? "N/A" : channelRoas.toFixed(2) + "x"}</td>
+                    <td>${channelCpa === null ? "N/A" : money(channelCpa)}</td>
+                </tr>
+            `;
+        }).join("");
+}
+
+
+/* =========================================================
+   8. RECOMMENDATION ENGINE
+========================================================= */
+
+function createRecommendations() {
+    const recommendations = [];
+
+    const channels = groupBy(filteredData, "Channel");
+    const services = groupBy(filteredData, "Service Type");
+    const customers = groupBy(filteredData, "Customer Type");
+
+    const totalRevenue = sum(filteredData, "Revenue");
+    const totalSpend = sum(filteredData, "Ad Spend");
+
+    // Recommendation 1: Best sales channel
+    if (channels.length > 1) {
+        const sorted = [...channels].sort((a, b) =>
+            (b.transactions ? b.revenue / b.transactions : 0) -
+            (a.transactions ? a.revenue / a.transactions : 0)
+        );
+
+        const best = sorted[0];
+
+        recommendations.push({
+            title: "Optimize Sales Channel Performance",
+            priority: "Sales Strategy",
+            text:
+                `${best.name} has the highest average revenue per transaction ` +
+                `(${money(best.revenue / best.transactions)}). ` +
+                `Analyze what makes this channel effective and consider applying ` +
+                `the same practices to other channels.`
+        });
+    }
+
+    // Recommendation 2: Weekend vs weekday
+    const weekday = filteredData.filter(x => x.Day_Type === "Weekday");
+    const weekend = filteredData.filter(x => x.Day_Type === "Weekend");
+
+    if (weekday.length && weekend.length) {
+        const weekdayAvg = sum(weekday, "Revenue") / weekday.length;
+        const weekendAvg = sum(weekend, "Revenue") / weekend.length;
+
+        const better = weekendAvg > weekdayAvg ? "Weekend" : "Weekday";
+        const difference = Math.abs(weekendAvg - weekdayAvg);
+
+        recommendations.push({
+            title: "Improve Day-Based Sales Strategy",
+            priority: "Sales Optimization",
+            text:
+                `${better} has the higher average revenue per transaction. ` +
+                `The difference is ${money(difference)}. ` +
+                `Consider adjusting offers, staffing, and campaign timing accordingly.`
+        });
+    }
+
+    // Recommendation 3: Customer retention
+    if (customers.length > 1) {
+        const returning = customers.find(x =>
+            x.name.toLowerCase().includes("return")
+        );
+
+        const newCustomers = customers.find(x =>
+            x.name.toLowerCase() === "new"
+        );
+
+        if (returning && newCustomers) {
+            const returningShare = totalRevenue
+                ? returning.revenue / totalRevenue * 100
+                : 0;
+
+            recommendations.push({
+                title: "Strengthen Customer Retention",
+                priority: "Customer Strategy",
+                text:
+                    `Returning customers contribute ${percent(returningShare)} ` +
+                    `of total revenue. Consider loyalty programs, personalized ` +
+                    `offers, and follow-up campaigns to improve repeat purchases.`
+            });
+        }
+    }
+
+    // Recommendation 4: Marketing efficiency
+    const marketingChannels = channels.filter(x => x.adSpend > 0);
+
+    if (marketingChannels.length) {
+        const sorted = [...marketingChannels].sort((a, b) =>
+            (b.revenue / b.adSpend) - (a.revenue / a.adSpend)
+        );
+
+        const best = sorted[0];
+        const bestRoas = best.revenue / best.adSpend;
+
+        recommendations.push({
+            title: "Prioritize Efficient Marketing Channels",
+            priority: "Marketing Strategy",
+            text:
+                `${best.name} has the highest ROAS proxy (${bestRoas.toFixed(2)}x). ` +
+                `Review its campaign characteristics and test reallocating a ` +
+                `portion of the budget toward similar high-performing campaigns.`
+        });
+    }
+
+    // Recommendation 5: Service performance
+    if (services.length > 1) {
+        const best = [...services].sort((a, b) => b.revenue - a.revenue)[0];
+        const share = totalRevenue ? best.revenue / totalRevenue * 100 : 0;
+
+        recommendations.push({
+            title: "Focus on High-Contribution Services",
+            priority: "Service Strategy",
+            text:
+                `${best.name} contributes ${percent(share)} of total revenue. ` +
+                `Evaluate opportunities to improve its availability, promotion, ` +
+                `and customer experience while monitoring service profitability.`
+        });
+    }
+
+    // Recommendation 6: Low or zero conversions
+    const zeroConversionRows = filteredData.filter(x => x.Conversions <= 0);
+    const zeroConversionRevenue = sum(zeroConversionRows, "Revenue");
+
+    if (zeroConversionRows.length && zeroConversionRevenue > 0) {
+        recommendations.push({
+            title: "Investigate Conversion Tracking",
+            priority: "Data Quality",
+            text:
+                `${money(zeroConversionRevenue)} in revenue is associated with ` +
+                `records showing zero conversions. Verify conversion tracking ` +
+                `and confirm that marketing and sales records are aligned.`
+        });
+    }
+
+    // Recommendation 7: Overall marketing efficiency
+    if (totalSpend > 0) {
+        const overallRoas = totalRevenue / totalSpend;
+
+        recommendations.push({
+            title: "Monitor Overall Marketing Return",
+            priority: "Performance Monitoring",
+            text:
+                `The overall ROAS proxy is ${overallRoas.toFixed(2)}x. ` +
+                `Track this metric over time and compare it with campaign costs ` +
+                `and actual profit margins before increasing advertising budgets.`
+        });
+    }
+
+    return recommendations;
+}
+
+function renderRecommendations() {
+    const recommendations = createRecommendations();
+
+    if (!recommendations.length) {
+        $("recommendations").innerHTML =
+            `<div class="message">Not enough data to generate recommendations.</div>`;
+        return;
+    }
+
+    $("recommendations").innerHTML = recommendations.map((item, index) => `
+        <article class="recommendation">
+            <span class="tag">${escapeHTML(item.priority)}</span>
+            <h4>${index + 1}. ${escapeHTML(item.title)}</h4>
+            <p>${escapeHTML(item.text)}</p>
+        </article>
+    `).join("");
+}
+
+
+/* =========================================================
+   9. ACTION TRACKING
+========================================================= */
+
+function getSavedActions() {
+    try {
+        return JSON.parse(localStorage.getItem("bi_action_tracking") || "{}");
+    } catch {
+        return {};
+    }
+}
+
+function saveAction(title, status) {
+    const actions = getSavedActions();
+    actions[title] = status;
+    localStorage.setItem("bi_action_tracking", JSON.stringify(actions));
+}
+
+function renderActionTracking() {
+    const recommendations = createRecommendations();
+    const actions = getSavedActions();
+
+    $("actionTable").innerHTML = recommendations.map(item => {
+        const status = actions[item.title] || "Not Started";
+
+        return `
+            <tr>
+                <td>${escapeHTML(item.title)}</td>
+                <td>
+                    <select class="status-select action-controls"
+                        onchange="saveAction('${escapeHTML(item.title).replace(/'/g, "\\'")}', this.value)">
+                        <option ${status === "Not Started" ? "selected" : ""}>Not Started</option>
+                        <option ${status === "In Progress" ? "selected" : ""}>In Progress</option>
+                        <option ${status === "Completed" ? "selected" : ""}>Completed</option>
+                    </select>
+                </td>
+            </tr>
+        `;
+    }).join("");
+}
+
+
+/* =========================================================
+   10. DATA TABLE
+========================================================= */
+
+function renderDataTable() {
+    const columns = allColumns.filter(col => col !== "DateObject");
+
+    $("dataTableHead").innerHTML = `
+        <tr>${columns.map(col => `<th>${escapeHTML(col)}</th>`).join("")}</tr>
+    `;
+
+    const preview = filteredData.slice(0, 100);
+
+    $("dataTableBody").innerHTML = preview.map(row => `
+        <tr>
+            ${columns.map(col => {
+                let value = row[col];
+
+                if (value instanceof Date) {
+                    value = dateString(value);
+                }
+
+                return `<td>${escapeHTML(value ?? "")}</td>`;
+            }).join("")}
+        </tr>
+    `).join("");
+
+    if (!preview.length) {
+        $("dataTableBody").innerHTML =
+            `<tr><td colspan="${columns.length}">No records match the selected filters.</td></tr>`;
+    }
+}
+
+
+/* =========================================================
+   EXPORT FILTERED CSV
+========================================================= */
+
+function exportCSV() {
+    if (!filteredData.length) {
+        alert("There is no data to export.");
+        return;
+    }
+
+    const columns = allColumns;
+
+    const rows = filteredData.map(row => {
+        const output = {};
+
+        columns.forEach(col => {
+            output[col] = row[col] ?? "";
+        });
+
+        return output;
+    });
+
+    const csv = Papa.unparse(rows);
+    const blob = new Blob(["\uFEFF" + csv], {
+        type: "text/csv;charset=utf-8;"
+    });
+
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+
+    link.href = url;
+    link.download = "filtered_business_data.csv";
+    link.click();
+
+    URL.revokeObjectURL(url);
+}
+
+
+/* =========================================================
+   START APPLICATION
+========================================================= */
+
+loadData();
+
+</script>
+</body>
+</html>
