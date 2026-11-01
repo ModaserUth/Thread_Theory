@@ -374,33 +374,33 @@ tbody tr:hover { background: #f8faff; }
             <input type="date" id="endDate">
         </div>
 
-        <div class="filter-item">
-            <label>Sales Channel</label>
-            <select id="channelFilter">
-                <option value="all">All Channels</option>
-            </select>
-        </div>
+       <div class="filter-item">
+    <label>Sales Channel</label>
+    <select id="channelFilter">
+        <option value="all">All Channels</option>
+    </select>
+</div>
 
-        <div class="filter-item">
-            <label>Service Type</label>
-            <select id="serviceFilter">
-                <option value="all">All Services</option>
-            </select>
-        </div>
+<div class="filter-item">
+    <label>Marketing Channel</label>
+    <select id="marketingFilter">
+        <option value="all">All Marketing Channels</option>
+    </select>
+</div>
 
-        <div class="filter-item">
-            <label>Customer Type</label>
-            <select id="customerFilter">
-                <option value="all">All Customers</option>
-            </select>
-        </div>
+<div class="filter-item">
+    <label>Category</label>
+    <select id="categoryFilter">
+        <option value="all">All Categories</option>
+    </select>
+</div>
 
-        <div class="filter-item">
-            <label>Region</label>
-            <select id="regionFilter">
-                <option value="all">All Regions</option>
-            </select>
-        </div>
+<div class="filter-item">
+    <label>Customer Type</label>
+    <select id="customerFilter">
+        <option value="all">All Customers</option>
+    </select>
+</div>
 
         <div class="filter-item">
             <label>Day Type</label>
@@ -906,28 +906,29 @@ function validateColumns() {
     allColumns = Object.keys(originalData[0]);
 
     const required = [
+        "Timestamp",
+        "Channel",
+        "Category",
+        "Customer Type",
         "Revenue",
         "Ad Spend",
         "Conversions",
-        "Service Type",
-        "Customer Type",
-        "Channel",
-        "Region"
+        "Channel_Type"
     ];
 
     const missing = required.filter(col => !allColumns.includes(col));
 
     if (missing.length) {
         throw new Error(
-            "Missing required CSV columns: " + missing.join(", ") +
-            ". Check the column names in your CSV file."
+            "Missing required CSV columns: " + missing.join(", ")
         );
     }
-
-    if (!allColumns.includes("Date") && !allColumns.includes("Timestamp")) {
-        throw new Error("The dataset must contain a Date or Timestamp column.");
-    }
 }
+
+    //if (!allColumns.includes("Date") && !allColumns.includes("Timestamp")) {
+      //  throw new Error("The dataset must contain a Date or Timestamp column.");
+    //}
+
 
 function prepareData() {
     const dateColumn = allColumns.includes("Date") ? "Date" : "Timestamp";
@@ -981,19 +982,43 @@ function initializeFilters() {
     $("startDate").value = initialDateMin;
     $("endDate").value = initialDateMax;
 
-    setOptions("channelFilter", originalData.map(r => r.Channel), "All Channels");
-    setOptions("serviceFilter", originalData.map(r => r["Service Type"]), "All Services");
-    setOptions("customerFilter", originalData.map(r => r["Customer Type"]), "All Customers");
-    setOptions("regionFilter", originalData.map(r => r.Region), "All Regions");
+    setOptions(
+        "channelFilter",
+        originalData
+            .filter(r => r.Channel_Type === "Sales Channel")
+            .map(r => r.Channel),
+        "All Sales Channels"
+    );
+
+    setOptions(
+        "marketingFilter",
+        originalData
+            .filter(r => r.Channel_Type === "Marketing Channel")
+            .map(r => r.Channel),
+        "All Marketing Channels"
+    );
+
+    setOptions(
+        "categoryFilter",
+        originalData.map(r => r.Category),
+        "All Categories"
+    );
+
+    setOptions(
+        "customerFilter",
+        originalData.map(r => r["Customer Type"]),
+        "All Customers"
+    );
 }
 
 function getFilteredData(data) {
     const start = $("startDate").value;
     const end = $("endDate").value;
-    const channel = $("channelFilter").value;
-    const service = $("serviceFilter").value;
+
+    const salesChannel = $("channelFilter").value;
+    const marketingChannel = $("marketingFilter").value;
+    const category = $("categoryFilter").value;
     const customer = $("customerFilter").value;
-    const region = $("regionFilter").value;
     const dayType = $("dayFilter").value;
 
     return data.filter(row => {
@@ -1002,16 +1027,30 @@ function getFilteredData(data) {
         if (start && date < start) return false;
         if (end && date > end) return false;
 
-        if (channel !== "all" && row.Channel !== channel) return false;
-        if (service !== "all" && row["Service Type"] !== service) return false;
-        if (customer !== "all" && row["Customer Type"] !== customer) return false;
-        if (region !== "all" && row.Region !== region) return false;
+        if (
+            row.Channel_Type === "Sales Channel" &&
+            salesChannel !== "all" &&
+            row.Channel !== salesChannel
+        ) return false;
+
+        if (
+            row.Channel_Type === "Marketing Channel" &&
+            marketingChannel !== "all" &&
+            row.Channel !== marketingChannel
+        ) return false;
+
+        if (category !== "all" && row.Category !== category) return false;
+
+        if (
+            customer !== "all" &&
+            row["Customer Type"] !== customer
+        ) return false;
+
         if (dayType !== "all" && row.Day_Type !== dayType) return false;
 
         return true;
     });
 }
-
 function applyFilters() {
     filteredData = getFilteredData(originalData);
 
@@ -1021,15 +1060,15 @@ function applyFilters() {
 function resetFilters() {
     $("startDate").value = initialDateMin;
     $("endDate").value = initialDateMax;
+
     $("channelFilter").value = "all";
-    $("serviceFilter").value = "all";
+    $("marketingFilter").value = "all";
+    $("categoryFilter").value = "all";
     $("customerFilter").value = "all";
-    $("regionFilter").value = "all";
     $("dayFilter").value = "all";
 
     applyFilters();
 }
-
 
 /* =========================================================
    DASHBOARD RENDERER
@@ -1250,7 +1289,11 @@ function drawChart(id, type, labels, datasets, extraOptions = {}) {
 ========================================================= */
 
 function renderSalesCharts() {
-    const channels = groupBy(filteredData, "Channel");
+   const salesData = filteredData.filter(
+    row => row.Channel_Type === "Sales Channel"
+);
+
+const channels = groupBy(salesData, "Channel");
 
     drawChart(
         "channelChart",
@@ -1334,7 +1377,7 @@ function renderSalesCharts() {
 ========================================================= */
 
 function renderServiceAnalysis() {
-    const services = groupBy(filteredData, "Service Type");
+const services = groupBy(filteredData, "Category");
     const totalRevenue = sum(filteredData, "Revenue");
 
     drawChart(
@@ -1462,7 +1505,11 @@ function renderDayAnalysis() {
 ========================================================= */
 
 function renderMarketingAnalysis() {
-    const channels = groupBy(filteredData, "Channel");
+    const marketingData = filteredData.filter(
+    row => row.Channel_Type === "Marketing Channel"
+);
+
+const channels = groupBy(marketingData, "Channel");
 
     const roas = channels.map(x =>
         x.adSpend > 0 ? x.revenue / x.adSpend : 0
